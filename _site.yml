@@ -1,4 +1,5 @@
 name: "BIOSC 1120: Biostatistics"
+output_dir: "docs"
 navbar:
   title: "BIOSC 1120: Biostatistics"
   type: inverse
