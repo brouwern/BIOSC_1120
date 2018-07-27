@@ -1,0 +1,23 @@
+---
+title: "About This Class"
+---
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = TRUE)
+```
+
+This is the websiteas for BIOSC 1120 - BIOSTATISTICS, taught at the University of Pittsburgh Department of Biological Sciences.
+
+### Official Course Description
+This course provides students the knowledge on applications of statistical technique to biological problems. The data fit, regression analysis, significance of correlation coefficient and of standard error of estimate will be discussed. The binomial, normal, and Poisson distributions, the student's t-distribution and the chi-squared distribution will be introduced. Hypothesis testing, significance levels, confidence limits for large and small samples and non-para metric statistics will be covered. Basic computer programming (use of BMDP and statview) will be introduced.
+
+Class Number: 30894
+
+### Prerequisites Requirements
+
+* BIOSC 0160 or 0716 or 0191 or 0180 or BIOL 0102 or 0120
+* 1 advanced biology course (BIOSC 0350, 0355, 0370, 0371, 1000, 1810, 0203, 0350, 1430, 1515()
+* Intro stats: STAT 1000
+* MIN GRADE 'C' for all courses

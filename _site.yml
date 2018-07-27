@@ -1,0 +1,28 @@
+name: "BIOSC 1120: Biostatistics"
+navbar:
+  title: "BIOSC 1120: Biostatistics"
+  type: inverse
+  left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "About this class"
+      icon: fa-info
+      href: about.html
+    - text: "More"
+      icon: fa-gear
+      menu:
+        - text: "Heading 1"
+        - text: "Page A"
+          href: page-a.html
+        - text: "Page B"
+          href: page-b.html
+        - text: "---------"
+        - text: "Heading 2"
+        - text: "Page C"
+          href: page-c.html
+        - text: "Page D"
+          href: page-d.html
+  right:
+    - icon: fa-question fa-lg
+      href: https://example.com
