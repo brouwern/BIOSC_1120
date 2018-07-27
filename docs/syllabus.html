@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Syllabus BIOSC 1120: Biostatistics</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
+<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
+<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">BIOSC 1120: Biostatistics</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Home
+  </a>
+</li>
+<li>
+  <a href="syllabus.html">
+    <span class="fa fa-file"></span>
+     
+    Syllabus
+  </a>
+</li>
+<li>
+  <a href="bibliography.html">
+    <span class="fa fa-newspaper"></span>
+     
+    Bibliography
+  </a>
+</li>
+<li>
+  <a href="about.html">
+    <span class="fa fa-info"></span>
+     
+    About this class
+  </a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fa fa-gear"></span>
+     
+    More
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li class="dropdown-header">Heading 1</li>
+    <li>
+      <a href="page-a.html">Page A</a>
+    </li>
+    <li>
+      <a href="page-b.html">Page B</a>
+    </li>
+    <li class="divider"></li>
+    <li class="dropdown-header">Heading 2</li>
+    <li>
+      <a href="page-c.html">Page C</a>
+    </li>
+    <li>
+      <a href="page-d.html">Page D</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://example.com">
+    <span class="fa fa-question fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Syllabus BIOSC 1120: Biostatistics</h1>
+
+</div>
+
+
+<div id="biosc-1120-biostatistics---fall-2017" class="section level2">
+<h2>BIOSC 1120: Biostatistics - Fall 2017</h2>
+<div id="instructor" class="section level3">
+<h3>Instructor</h3>
+<p>Dr. Nathan Brouwer<br />
+Office: Frich Hall 208<br />
+E-mail: <a href="mailto:nlb24@pitt.edu">nlb24@pitt.edu</a> Website: Twitter: <span class="citation">@lobrowR</span></p>
+</div>
+<div id="office-hours" class="section level3">
+<h3>Office Hours</h3>
+<p>TBD OR email me at <a href="mailto:nlb24@pitt.edu">nlb24@pitt.edu</a> to request an appointment</p>
+</div>
+<div id="class-meeting-times-location" class="section level3">
+<h3>Class Meeting Times &amp; Location</h3>
+<p>Thursdays 9:30AM - 12:00PM 08/27/2018 - 12/07/2018</p>
+<p>170 Crawford Hall</p>
+<ul>
+<li>Completion of the 2nd semester of Foundation of Biology, eg BIOSC 0160 (Foundations of Bio. 2), 0716 (Foundations 2 - Honors), 0191, 0180, BIOL 0102 or 0120 (General Biology 2)</li>
+<li>1 advanced biology course, eg BIOSC 0350-Genetics, 0355, 0370-Ecology, 0371, 1000-Biochem, 1810-Macromolecular Structure &amp; Function, 0203, 1430-Ecophysiology, 1515.</li>
+<li>Intro stats: STAT 1000</li>
+<li>Minimum of a “C” for all courses</li>
+</ul>
+</div>
+<div id="catalog-description" class="section level3">
+<h3>Catalog Description</h3>
+<p>Biostatistics is the application of statistical principals to the design and analysis of biological studies. This course covers the methods, software, theory, and philosophy used in contemporary biostatistics. Examples will be drawn from across biological disciplines, including ecology, physiology, genomics cell, and molecular biology. Topics covered include basic data science and visualization, hypothesis testing and model building, analysis of variance (ANOVA), linear regression, multivariate statistics, power analysis, and experimental design. Emphasis is placed on actively using the software R to apply these methods to real biological data. (Class Number: 30894)</p>
+</div>
+<div id="course-description" class="section level3">
+<h3>Course description</h3>
+<p>The purpose of this course will be to provide advanced undergraduate and graduates students a solid background in the core concepts of applied biological statistics, the use of the software R for data analysis and the use of RMarkdown for documenting reproducible analyses. The course will review basic statistical concepts, thoroughly cover contemporary linear regression and analysis of variance (ANOVA), and introduce the advanced concepts of generalized linear models (GLMs) such as logistic regression and mixed effect models. Students will develop an independnet project to practice these methods or to begin using more advanced appraoches.</p>
+<p>R is the current lingua franca of many users and developers of statistical techniques and its use will therefore play a central role in the course from the first day of class. Basic statistical concepts will be reviewed by carrying out mathematical calculations step-by-step both visually in Excel and using code R. Moreover, the application and interpretation of all techniques will be presented with direct reference to the necessary R code and the resulting R output. Each class will be a mix of lecture, discussion and guided R exercises. Throughout the course important aspects of experimental design will be emphasized, such as true replication vs. pseudoreplication, random sampling, and blocking. The course will also teach the skills necessary to manage, summarize, and graphically display data.</p>
+</div>
+<div id="course-objectives" class="section level3">
+<h3>Course Objectives</h3>
+<ol style="list-style-type: decimal">
+<li>To apply the scientific method and hypothesis testing to experimental design</li>
+<li>To implement appropriate experimental designs to biological investigation</li>
+<li>To assess experimental results with appropriate statistical tests</li>
+<li>To interpret statistical output, both biologically and statistically</li>
+<li>To present results of experimental designs using computer software packages</li>
+<li>To differentiate among the variety of experimental designs and successfully apply an appropriate statistical test</li>
+<li>Data science &amp; reproducible research</li>
+</ol>
+</div>
+<div id="texts-readings" class="section level3">
+<h3>Texts &amp; Readings</h3>
+<div id="required-textbook" class="section level4">
+<h4>Required Textbook</h4>
+<p><strong>Motulsky, H. 2010.</strong> Intuitive biostatistics: a nonmathematical guide to statistical thinking. 4th edition. Oxford, New York, NY.</p>
+<ul>
+<li>The required text can be purchased through the campus bookstore or from a variety of sources online.</li>
+</ul>
+</div>
+<div id="required-papers" class="section level4">
+<h4>Required papers</h4>
+<p>Additional reading materials used for the course will be posted on online. A bibliography containing many of these papers appears at the end of the syllabus.</p>
+</div>
+<div id="supplemental-text-books" class="section level4">
+<h4>Supplemental text books</h4>
+<p>The following books will be referred to at times in the course or are highly recommended supplements. These resources will be available from the library, scans will be passed out, or available for free online.</p>
+<p><strong>Whitlock, C. &amp; Schluter, D. 2014.</strong> The analysis of biological data, 2nd Edition. Roberts and Company Publishers. ISBN 978-1936221486</p>
+<ul>
+<li>I will be using some sections from this is an excellent undergraduate text. A copy will be on reserve in the library. Used copies of the 1st edition can be found on amazon.com for &lt;$40.</li>
+</ul>
+<p><strong>Beckerman, Childs &amp; Petchey 2017.</strong> <a href="https://global.oup.com/academic/product/getting-started-with-r-9780198787846?cc=us&amp;lang=en&amp;">Getting started with R: An introduction for biologists, 2nd ed</a>.</p>
+<ul>
+<li>This is a highly readable guide to the basics for R which emphasizes the use of ggplot2 and dplyr. I would use this for the course if it was longer. The 1st edition is available online via the library and I am trying to get the 2nd edition. Available on amazon.com for $30. Don’t get the 1st edition - its outdated.</li>
+</ul>
+<p><strong>Crawley, M.</strong>* The R Book 2nd Edition.</p>
+<ul>
+<li>This is probably the most comprehensive R book out there (also probably the biggest). Crawley is an ecologist and uses many biological examples. I wish I had bought this when I first started learning R. However, the book is not up to date with regards to graphcs. You should be able to find the pdf online. (Don’t buy/print the pdf of the 1st edition – its layout is supposed to be horrible!)</li>
+</ul>
+<p><strong>Gelman &amp; Hill.</strong> Data Analysis Using Regression and Multilevel/Hierarchical Models</p>
+<ul>
+<li>Excellent intro chapters on regression, logistic regression, and mixed effects models. This book is where many people learn how to use mixed models, especially Bayesian models.</li>
+</ul>
+</div>
+<div id="supplemental-papers" class="section level4">
+<h4>Supplemental papers</h4>
+<p>Optional readings that highlight or expand upon course concepts will occasionally be referenced or handed out. These readings may be useful for review but understanding of their content will not be explicitly assessed. I will make it clear if the content of a reading is required or optional. A bibliography containing many of these papers appears at the end of the syllabus.</p>
+</div>
+</div>
+<div id="methods-of-evaluation-assessment" class="section level3">
+<h3>Methods of Evaluation &amp; Assessment</h3>
+<p><strong>NOTE: Method of evaluation and points are subject to revision.</strong> Students will be notified verbally and via email if there are any changes to the syllabus.</p>
+<p>Students will be evaluated through participation, weekly pre-class assignments, problem sets, and an independent project related to their own work.</p>
+<div id="participation" class="section level4">
+<h4>Participation</h4>
+<p>Attendance is required for all class sessions and students are required to stay for the entire session. If you cannot attend a class or must leave early due to special circumstances please contact me in advance if possible so we can make plans for you to complete the necessary work.</p>
+</div>
+<div id="weekly-pre-class-assignments" class="section level4">
+<h4>Weekly pre-class assignments</h4>
+<p>Coming prepared is essential for making class time as productive as possible. Students must read all assigned readings. Additinally, two types of pre-class assignments will typically be assigned. Assignments will be typically be based on chapters from the assigned text, Intuitive Biostatistics.</p>
+<div id="weekly-reading-assignments" class="section level5">
+<h5>Weekly reading assignments</h5>
+<p>Most weeks students will be required to complete an assignment to help you engage with and extend the concepts discussed in the course text <em>Intutive Biostatistics</em>. These assignments will include</p>
+<ul>
+<li><p>Writing quiz questions related to the chapter</p></li>
+<li>“All of this has happend before, and all of this will happen again” assignment: Finding a short paper which extends the</li>
+<li>Google sheets assignment: Create Google sheets version of the computation walkthrough.</li>
+<li><p>Data parasite assignment: Find a paper which uses the method discussed in the chapter and has open acces data or which can have the data “stolen”</p></li>
+</ul>
+</div>
+<div id="weekly-computation-exercise" class="section level5">
+<h5>Weekly computation exercise</h5>
+<p>For each chapter of <em>Intuitive Biostatistics</em> I will create a walthrough which demonstrates how to carry out the major computations in a spreadsheet program. I will also create a short spreadsheet-based computation exercise similar to the example in the book. These computation examples and exercises</p>
+</div>
+<div id="weekly-r-prelab-exercises" class="section level5">
+<h5>Weekly R prelab exercises</h5>
+<p>Occassinaly I will assign short “prelab” exercises which emphasize R code and the interpretation of R output.</p>
+</div>
+</div>
+<div id="problem-sets" class="section level4">
+<h4>Problem sets</h4>
+<p>Most weeks a focal problem or set of problems will be assigned that reinforces or extends what has been done in class. Frequently there will be time in class to begin work on these problems, and students will have at least 2 weeks to complete the problem(s).</p>
+<p>Examples: Bycatch sex ratio problem</p>
+<p>T-test based on published data Regression based on published data</p>
+</div>
+<div id="social-media-assignment" class="section level4">
+<h4>Social media assignment</h4>
+</div>
+<div id="independent-project" class="section level4">
+<h4>Independent project</h4>
+<p>Each student will identify a dataset and carry out an independent investigation, culminating in a draft of short scientific paper focused on the methods and results section, and appropriate graphs, tables and appendices. The project will be split into 3 parts. Early in the semester students will be required to submit a proposal outlining the dataset they wish to use and the scientific question of interest. By mid-term students will submit an outline of the introduction, a methods section, and initial descriptive statistics and exploratory graphs of their data. The final paper will consists of a complete scientific manuscript, though the introduction and discussion need only to briefly outline the biological questions and conclusions. Students are encouraged to use data from their own research or obtain data from their advisor. I can also discuss with students data sets that I have from my forest ecology and avian ecology work. Students are encouraged to work collaboratively in determining the appropriate analysis approaches and to help each other with their R code, but each student must analyze a separate data set.</p>
+<p>Key to this assignment will be that students work on dataset that allows them to use the focal methods of this class and can be completed. I will work with students to determine if their datasets are approprorpiate and if necessary we will focus the analysis or datset to facilitate this. For example, if your dataset only requries a t-test to complete then we will likely find a way to extend or augment the data, question, or analaysi (HOW??). In contrast, if the data requires a generalized linear mixed model with repated measures, we wilwel likley find a way to simplify it.</p>
+</div>
+</div>
+<div id="grade-scale" class="section level3">
+<h3>Grade scale</h3>
+<ul>
+<li>A = 93% and above</li>
+<li>A- = 90-92.9%</li>
+<li>B+ = 87-89.9%</li>
+<li>B = 83-86.9%</li>
+<li>B- = 80-82.9%</li>
+<li>C+ = 77-79.9%</li>
+<li>C = 73-76.9%</li>
+<li>C- = 70-72.9%</li>
+<li>D = 60-69.9%</li>
+<li>F = 59.9% and below</li>
+</ul>
+</div>
+<div id="course-policies" class="section level3">
+<h3>Course policies</h3>
+<div id="email" class="section level4">
+<h4>Email:</h4>
+<p>Email will be the primary, official form of communication outside of class.</p>
+<ul>
+<li>Email from me to you: You must check your email regularly. If you use a personal email address please arrange to have your univeristy emails forwarded there. For example, I have my University email forwarded to my main email address, <a href="mailto:brouwern@gmail.com">brouwern@gmail.com</a>. I will try to include “BIOSTATS” in the subject.</li>
+<li>Email from you to me: In the subject line please remember to include “BIOSTASTS-[your name]-[what it’s about]”. For example “BIOSTAT-Jude Brouwer-birthweight outliers”. During the week I will try to answer emails the day they are received. On weekends my responses may be delayed.</li>
+</ul>
+</div>
+<div id="course-social-media-accounts" class="section level4">
+<h4>Course Social Media Accounts:</h4>
+<p>I will maintain a Facebook group and course twitter account. Participation in these is optional but highly recommended since they are rapid forms of communication.</p>
+</div>
+<div id="late-work" class="section level4">
+<h4>Late work:</h4>
+<p>Late homework and assignments will be penalized 10% per day. Assignments are due when class starts and points will be deducted for any assignments handed in after class/lab begins.</p>
+</div>
+<div id="missed-exams" class="section level4">
+<h4>Missed exams:</h4>
+<p>If an exam is missed it is the responsibility of the student to notify the instructor. If extenuating circumstances exist, exams can be made up at a later date chosen at the instructor’s discretion.</p>
+</div>
+<div id="academic-integrity" class="section level4">
+<h4>Academic Integrity</h4>
+<p>Cheating and/or plagiarism will not be tolerated in this course. The minimum penalty will be a failing grade on the exam/homework/assignment/lab. You may also be barred from completing the course with a passing grade, and referred to the university administration for further disciplinary measures. In addition, your major department will be notified of the offense. Cheating takes many forms, including:</p>
+<ol style="list-style-type: decimal">
+<li>Any attempt to gain improper advantage in an academic evaluation (exam)</li>
+<li>Academic impersonation (taking a test or doing an assignment for another person)</li>
+<li>Plagiarism, including failing to properly cite previously published materials, including websites.</li>
+<li>Improper research practices</li>
+<li>Dishonesty in publication</li>
+</ol>
+</div>
+<div id="grading" class="section level4">
+<h4>Grading</h4>
+<p>For each major category of assignment your lowest score will be dropped.</p>
+</div>
+<div id="extra-credit-make-up-assignments" class="section level4">
+<h4>Extra credit &amp; Make up assignments</h4>
+<p>There will be no extra credit offered in this class and now make-up assignemnts. If you did poorly on assignment you can improve your grade by doing better on subsequent ones, which will replace your poor scores since you lowest scores will be dropped.</p>
+</div>
+<div id="extra-credit" class="section level4">
+<h4>Extra credit</h4>
+<p>There will be no extra credit offered in this class.</p>
+</div>
+<div id="collaboration-among-students" class="section level4">
+<h4>Collaboration among students</h4>
+<p>Science is a collaborative effort and students are encouraged to discuss all assignments and to work together. However, all assignments must reflect your own work and contain your own articulation of answers and/or computations. Copying homework answers will be considered plagiarism and cheating.</p>
+</div>
+<div id="submitting-assignments-via-email" class="section level4">
+<h4>Submitting assignments via email</h4>
+<p>Unless approved in advance all homework and other assignments must be submitted as a hard copy and uploaded to the course management site.</p>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

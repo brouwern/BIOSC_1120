@@ -7,6 +7,12 @@ navbar:
     - text: "Home"
       icon: fa-home
       href: index.html
+    - text: "Syllabus"
+      icon: fa-file
+      href: syllabus.html
+    - text: "Bibliography"
+      icon: fa-newspaper
+      href: bibliography.html
     - text: "About this class"
       icon: fa-info
       href: about.html

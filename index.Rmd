@@ -6,7 +6,7 @@ title: "BIOSC 1120 - BIOSTATISTICS"
 knitr::opts_chunk$set(cache = TRUE)
 ```
 
-## Biostistics Meeting times
+## Biostatistics Meeting times
 Thursdays 9:30AM - 12:00PM
 08/27/2018 - 12/07/2018
 

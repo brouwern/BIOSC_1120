@@ -10,14 +10,14 @@ knitr::opts_chunk$set(cache = TRUE)
 
 This is the websiteas for BIOSC 1120 - BIOSTATISTICS, taught at the University of Pittsburgh Department of Biological Sciences.
 
-### Official Course Description
-This course provides students the knowledge on applications of statistical technique to biological problems. The data fit, regression analysis, significance of correlation coefficient and of standard error of estimate will be discussed. The binomial, normal, and Poisson distributions, the student's t-distribution and the chi-squared distribution will be introduced. Hypothesis testing, significance levels, confidence limits for large and small samples and non-para metric statistics will be covered. Basic computer programming (use of BMDP and statview) will be introduced.
+### Course Catalog Description
+Biostatistics is the application of statistical principals to the design and analysis of biological studies.  This course covers the methods, software, theory, and philosophy used in contemporary biostatistics.  Examples will be drawn from across biological disciplines, including ecology, physiology, genomics cell, and molecular biology.  Topics covered include basic data science and visualization, hypothesis testing and model building, analysis of variance (ANOVA), linear regression, multivariate statistics, power analysis, and experimental design.  Emphasis is placed on actively using the software R to apply these methods to real biological data.
 
 Class Number: 30894
 
 ### Prerequisites Requirements
 
-* BIOSC 0160 or 0716 or 0191 or 0180 or BIOL 0102 or 0120
-* 1 advanced biology course (BIOSC 0350, 0355, 0370, 0371, 1000, 1810, 0203, 0350, 1430, 1515()
+* Completion of the 2nd semester of Foundation of Biology, eg BIOSC 0160 (Foundations of Bio. 2), 0716 (Foundations 2 - Honors), 0191, 0180, BIOL 0102 or 0120 (General Biology 2)
+* 1 advanced biology course, eg BIOSC 0350-Genetics, 0355, 0370-Ecology, 0371, 1000-Biochem, 1810-Macromolecular Structure & Function, 0203, 1430-Ecophysiology, 1515.
 * Intro stats: STAT 1000
 * MIN GRADE 'C' for all courses

@@ -1,0 +1,214 @@
+---
+title: 'Syllabus BIOSC 1120: Biostatistics'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## BIOSC 1120: Biostatistics - Fall 2017
+
+
+### Instructor 						
+Dr. Nathan Brouwer					
+Office: Frich Hall 208					
+E-mail: nlb24@pitt.edu
+Website: 
+Twitter: @lobrowR
+
+### Office Hours
+TBD
+OR email me at nlb24@pitt.edu to request an appointment
+
+### Class Meeting Times & Location
+Thursdays 9:30AM - 12:00PM
+08/27/2018 - 12/07/2018
+
+170 Crawford Hall
+
+* Completion of the 2nd semester of Foundation of Biology, eg BIOSC 0160 (Foundations of Bio. 2), 0716 (Foundations 2 - Honors), 0191, 0180, BIOL 0102 or 0120 (General Biology 2)
+* 1 advanced biology course, eg BIOSC 0350-Genetics, 0355, 0370-Ecology, 0371, 1000-Biochem, 1810-Macromolecular Structure & Function, 0203, 1430-Ecophysiology, 1515.
+* Intro stats: STAT 1000
+* Minimum of a "C" for all courses
+
+### Catalog Description
+
+Biostatistics is the application of statistical principals to the design and analysis of biological studies.  This course covers the methods, software, theory, and philosophy used in contemporary biostatistics.  Examples will be drawn from across biological disciplines, including ecology, physiology, genomics cell, and molecular biology.  Topics covered include basic data science and visualization, hypothesis testing and model building, analysis of variance (ANOVA), linear regression, multivariate statistics, power analysis, and experimental design.  Emphasis is placed on actively using the software R to apply these methods to real biological data.  (Class Number: 30894)
+
+### Course description 
+
+The purpose of this course will be to provide advanced undergraduate and graduates students a solid background in the core concepts of applied biological statistics, the use of the software R for data analysis and the use of RMarkdown for documenting reproducible analyses.  The course will review basic statistical concepts, thoroughly cover contemporary linear regression and analysis of variance (ANOVA), and introduce the advanced concepts of generalized linear models (GLMs) such as logistic regression and mixed effect models.  Students will develop an independnet project to practice these methods or to begin using more advanced appraoches.
+
+R is the current lingua franca of many users and developers of statistical techniques and its use will therefore play a central role in the course from the first day of class.  Basic statistical concepts will be reviewed by carrying out mathematical calculations step-by-step both visually in Excel and using code R.  Moreover, the application and interpretation of all techniques will be presented with direct reference to the necessary R code and the resulting R output.  Each class will be a mix of lecture, discussion and guided R exercises.  Throughout the course important aspects of experimental design will be emphasized, such as true replication vs. pseudoreplication, random sampling, and blocking.  The course will also teach the skills necessary to manage, summarize, and graphically display data.  
+
+### Course Objectives
+
+1.	To apply the scientific method and hypothesis testing to experimental design
+1.	To implement appropriate experimental designs to biological investigation
+1.	To assess experimental results with appropriate statistical tests
+1.	To interpret statistical output, both biologically and statistically
+1.	To present results of experimental designs using computer software packages
+1.	To differentiate among the variety of experimental designs and successfully apply an appropriate statistical test
+1. Data science & reproducible research
+
+### Texts & Readings
+
+#### Required Textbook
+
+**Motulsky, H.  2010.**  Intuitive biostatistics: a nonmathematical guide to statistical thinking. 4th edition. Oxford, New York, NY.
+
+* The required text can be purchased through the campus bookstore or from a variety of sources online. 
+
+
+#### Required papers
+
+Additional reading materials used for the course will be posted on online.  A bibliography containing many of these papers appears at the end of the syllabus.
+
+#### Supplemental text books
+
+The following books will be referred to at times in the course or are highly recommended supplements.  These resources will be available from the library, scans will be passed out, or available for free online.
+
+**Whitlock, C. & Schluter, D. 2014.** The analysis of biological data, 2nd Edition. Roberts and Company Publishers. ISBN 978-1936221486
+
+* I will be using some sections from this is an excellent undergraduate text.  A copy will be on reserve in the library.  Used copies of the 1st edition can be found on amazon.com for <$40.
+
+
+**Beckerman, Childs & Petchey 2017.** [Getting started with R: An introduction for biologists, 2nd ed](https://global.oup.com/academic/product/getting-started-with-r-9780198787846?cc=us&lang=en&).  
+
+* This is a highly readable guide to the basics for R which emphasizes the use of ggplot2 and dplyr.  I would use this for the course if it was longer.  The 1st edition is available online via the library and I am trying to get the 2nd edition.    Available on amazon.com for $30.  Don't get the 1st edition - its outdated.
+
+**Crawley, M.*** The R Book 2nd Edition.  
+
+* This is probably the most comprehensive R book out there (also probably the biggest).  Crawley is an ecologist and uses many biological examples.  I wish I had bought this when I first started learning R.  However, the book is not up to date with regards to graphcs.  You should be able to find the pdf online. (Don’t buy/print the pdf of the 1st edition – its layout is supposed to be horrible!)  
+
+
+**Gelman & Hill.** Data Analysis Using Regression and Multilevel/Hierarchical Models 
+
+* Excellent intro chapters on regression, logistic regression, and mixed effects models.  This book is where many people learn how to use mixed models, especially Bayesian models.
+
+
+#### Supplemental papers
+
+Optional readings that highlight or expand upon course concepts will occasionally be referenced or handed out.  These readings may be useful for review but understanding of their content will not be explicitly assessed.  I will make it clear if the content of a reading is required or optional.   A bibliography containing many of these papers appears at the end of the syllabus.
+
+
+### Methods of Evaluation & Assessment
+
+**NOTE: Method of evaluation and points are subject to revision.**  Students will be notified verbally and via email if there are any changes to the syllabus.
+
+Students will be evaluated through participation, weekly pre-class assignments, problem sets, and an independent project related to their own work.
+
+#### Participation
+
+Attendance is required for all class sessions and students are required to stay for the entire session.  If you cannot attend a class or must leave early due to special circumstances please contact me in advance if possible so we can make plans for you to complete the necessary work.
+
+#### Weekly pre-class assignments
+
+Coming prepared is essential for making class time as productive as possible.  Students must read all assigned readings.  Additinally, two types of pre-class assignments will typically be assigned.  Assignments will be typically be based on chapters from the assigned text, Intuitive Biostatistics.
+
+##### Weekly reading assignments
+
+Most weeks students will be required to complete an assignment to help you engage with and extend the concepts discussed in the course text *Intutive Biostatistics*.  These assignments will include
+
+
+* Writing quiz questions related to the chapter
+
+* "All of this has happend before, and all of this will happen again" assignment: Finding a short paper which extends the 
+* Google sheets assignment: Create Google sheets version of the computation walkthrough.
+* Data parasite assignment: Find a paper which uses the method discussed in the chapter and has open acces data or which can have the data "stolen"
+
+##### Weekly computation exercise
+
+For each chapter of *Intuitive Biostatistics* I will create a walthrough which demonstrates how to carry out the major computations in a spreadsheet program.  I will also create a short spreadsheet-based computation exercise similar to the example in the book.  These computation examples and exercises
+
+##### Weekly R prelab exercises
+
+Occassinaly I will assign short "prelab" exercises which emphasize R code and the interpretation of R output.
+
+#### Problem sets
+
+Most weeks a focal problem or set of problems will be assigned that reinforces or extends what has been done in class.  Frequently there will be time in class to begin work on these problems, and students will have at least 2 weeks to complete the problem(s).  
+
+Examples:
+Bycatch sex ratio problem
+
+T-test based on published data
+Regression based on published data
+
+#### Social media assignment
+
+#### Independent project
+
+Each student will identify a dataset and carry out an independent investigation, culminating in a draft of short scientific paper focused on the methods and results section, and appropriate graphs, tables and appendices.  The project will be split into 3 parts.  Early in the semester students will be required to submit a proposal outlining the dataset they wish to use and the scientific question of interest.  By mid-term students will submit an outline of the introduction, a methods section, and initial descriptive statistics and exploratory graphs of their data.  The final paper will consists of a complete scientific manuscript, though the introduction and discussion need only to briefly outline the biological questions and conclusions.  Students are encouraged to use data from their own research or obtain data from their advisor.  I can also discuss with students data sets that I have from my forest ecology and avian ecology work.  Students are encouraged to work collaboratively in determining the appropriate analysis approaches and to help each other with their R code, but each student must analyze a separate data set.
+
+Key to this assignment will be that students work on dataset that allows them to use the focal methods of this class and can be completed.  I will work with students to determine if their datasets are approprorpiate and if necessary we will focus the analysis or datset to facilitate this.  For example, if your dataset only requries a t-test to complete then we will likely find a way to extend or augment the data, question, or analaysi (HOW??).  In contrast, if the data requires a generalized linear mixed model with repated measures, we wilwel likley find a way to simplify it.
+
+
+
+
+### Grade scale
+
+* A = 93% and above	
+* A- = 90-92.9%
+* B+ = 87-89.9%
+* B = 83-86.9%
+* B- = 80-82.9%
+* C+ = 77-79.9%
+* C = 73-76.9%
+* C- = 70-72.9%
+* D = 60-69.9%
+* F = 59.9% and below
+
+###  Course policies
+
+#### Email:  
+
+Email will be the primary, official form of communication outside of class.
+
+* Email from me to you:  You must check your email regularly.  If you use a personal email address please arrange to have your univeristy emails forwarded there.  For example, I have my University email forwarded to my main email address, brouwern@gmail.com.  I will try to include “BIOSTATS” in the subject.
+* Email from you to me:  In the subject line please remember to include “BIOSTASTS-[your name]-[what it’s about]”.  For example “BIOSTAT-Jude Brouwer-birthweight outliers”.  During the week I will try to answer emails the day they are received.  On weekends my responses may be delayed.
+
+#### Course Social Media Accounts:
+
+I will maintain a Facebook group and course twitter account.  Participation in these is optional but highly recommended since they are rapid forms of communication.
+
+#### Late work:
+
+Late homework and assignments will be penalized 10% per day.  Assignments are due when class starts and points will be deducted for any assignments handed in after class/lab begins.  
+
+#### Missed exams:
+
+If an exam is missed it is the responsibility of the student to notify the instructor. If extenuating circumstances exist, exams can be made up at a later date chosen at the instructor’s discretion.   
+
+#### Academic Integrity
+
+Cheating and/or plagiarism will not be tolerated in this course. The minimum penalty will be a failing grade on the exam/homework/assignment/lab. You may also be barred from completing the course with a passing grade, and referred to the university administration for further disciplinary measures. In addition, your major department will be notified of the offense. Cheating takes many forms, including:
+
+1.	Any attempt to gain improper advantage in an academic evaluation (exam)
+1.	Academic impersonation (taking a test or doing an assignment for another person)
+1.	Plagiarism, including failing to properly cite previously published materials, including websites.
+1.	Improper research practices
+1.	Dishonesty in publication
+
+#### Grading
+
+For each major category of assignment your lowest score will be dropped.
+
+#### Extra credit & Make up assignments  
+
+There will be no extra credit offered in this class and now make-up assignemnts.  If you did poorly on assignment you can improve your grade by doing better on subsequent ones, which will replace your poor scores since you lowest scores will be dropped.
+
+#### Extra credit
+
+There will be no extra credit offered in this class.
+
+
+#### Collaboration among students  
+
+Science is a collaborative effort and students are encouraged to discuss all assignments and to work together.  However, all assignments must reflect your own work and contain your own articulation of answers and/or computations.  Copying homework answers will be considered plagiarism and cheating.
+
+#### Submitting assignments via email  
+
+Unless approved in advance all homework and other assignments must be submitted as a hard copy and uploaded to the course management site.
+
