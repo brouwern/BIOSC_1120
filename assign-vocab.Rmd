@@ -1,0 +1,37 @@
+---
+title: "Statistical Vocabulary Assignment"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Most statistical assignments are complex and layered, with subtlties and implications that sometime can take decades for the scientific community to fully appreciate.  For example, definition of a p-value has a precise mathematical definition that is complex even for statisticaians to put into words, and the full implications of using p-values in science are still becoming apparent.
+
+For the **Statistical vocabulary assignment** you will pick out three important vocab terms from an assigned reading and identify another source that provides a defintion for that term or that expounds on the meaning of the term.
+
+## Goals & Objectives
+
+### Learn goals
+
+The overall goal of this assignment is for students to see how statistical concepts can be unpacked verbally in different ways.
+
+
+## Assignment details
+
+**First**, identify 3 vocab terms from the readings for the current week.  They do not all have to be from the same chapter or reading.  I highlight the most important terms in the reading guide and you should pick from these.  If there is a term you think I missed or that you think is appropriate contact me for approval.
+
+Write out Motulsky's definitions for the terms as they are given as well as any associated explanation.   Provide the chapter and page number.
+
+**Second**, locate a definition for, commentary on, illustration of, or even cartoon about the terms from a resource such as another stats book, a science text book, a website or even a blog post.  Write our their definition or provide a relevant picture, any associated commentary and the full reference.
+
+**Thirds**, write a sentence or two indicating comparing the two defintions or reflecting on them.  For example, you could say "Motulsky's defintion of p-values is exactly the same as that on Wikipedia" or "I totally didn't understand what Motulsky meant, but this defintion from Gotelli & Ellison makes it clearer" or even "These two definitions are different, and I don't understand either."
+
+## Suitable types of "definition"
+
+You can locate your "defintions"" from a variety of sources; you can also be very broad in what you use as a defintion.  You could use a 
+
+* formal defintion from a glossary or text book.  
+* You could also fine a more general comment, quote, quip or even joke
+* A concise graphical illustration of the concept (a classic is [accuracy vs. precision](https://en.wikipedia.org/wiki/Accuracy_and_precision) wikipedia.org/wiki/Accuracy_and_precision).
+* A cartoon, such as from XKCD or PhD comics; I there's a book called the "Cartoon Guide to Statistics" that could be a great source.

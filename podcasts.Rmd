@@ -1,0 +1,59 @@
+---
+title: "Recomended Podcasts"
+---
+
+
+## Recomended G/PG Podcasts
+
+The Effort Report, 
+
+[Not So Standard Deviations](http://nssdeviations.com/)
+
+Stats+Stories
+
+crediblycurious
+
+Rationally Speaking
+
+Data Skeptic
+
+The Bayes Factor
+
+The Skeptics Guide
+
+* The Skeptics Guide to the Universe covers a wide range of topics in each episode, and only occassinally do they touch upon issues related to statistics.  They do however frequently critique the evidence and logic of studies that are being discussed in the media.
+
+
+
+## Recomended PG-13 Podcasts
+Two Psychologists Four Beers
+
+The Black Goat
+
+Everything Hertz
+
+* Note: this podcast is sometimes PG-13 and the host's humore at times juvenille.
+
+## Recommended R-rated podcasts
+
+Very Bad Wizards
+
+* Note: this podcast is generally R-rated and many people are likely to find the host's humor juvenille at best, offensive at worst.  That said, these are are very very smart and very funny.
+
+
+
+## Potentially interesting
+
+Data Science Imposters
+
+I have not vetted these
+
+Ologies
+
+Adversarial learning
+
+The R-podcast
+
+Data Science Storytime
+
+

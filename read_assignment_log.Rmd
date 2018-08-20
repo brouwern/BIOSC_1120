@@ -1,0 +1,49 @@
+---
+title: "Reading reinforcement assignments checklist (RRAs)"
+author: "Nathan Brouwer"
+date: "August 10, 2018"
+output:
+  pdf_document: default
+  html_document: default
+editor_options:
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Name: ____________________
+
+Use this table to keep track of the 10 **Reading reinforcement assignments** you must complete over the course of the semester.  To be counted for full credit a **draft** of the assignment must be turned in the week the reading was assigned.  
+
+
+```{r, echo = F}
+library(knitr)
+library(kableExtra)
+```
+
+```{r echo = F}
+dt <- 
+rbind(c("","Type",          "Assignment title",                      "Chapter num. & title","Draft","Final"),
+      c("\n1\n","Mini-project", "Annotated biblio - web resource","________________","_____","_____"),
+      c("2","Mini-project", "Annotated biblio. - journal    ","________________","_____","_____"),
+      c("1","Reading notes","Vocab & Definitions ",           "________________","_____","_____"),
+      c("2","Reading notes","Quiz questions",                 "________________","_____","_____"),
+      c("3","Reading notes","                              ", "________________","_____","_____"),
+      c("4","Reading notes","                              ", "________________","_____","_____"),
+      c("5","Reading notes","                              ", "________________","_____","_____"),
+      c("6","Reading notes","                              ", "________________","_____","_____"),
+      c("7","Reading notes","                              ", "________________","_____","_____"),
+      c("8","Reading notes","                              ", "________________","_____","_____"))
+```
+
+
+
+```{r echo=FALSE}
+df <- data.frame(dt)
+kable(dt[-1,],
+      col.names = dt[1,])%>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+```
+

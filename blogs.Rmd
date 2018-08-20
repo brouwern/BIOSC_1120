@@ -1,0 +1,16 @@
+---
+title: "Page C"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = TRUE)
+```
+
+There are a large number of blogs about statistics (or which frequently discuss statistics) that you can scan or search, such as
+
+* http://andrewgelman.com/
+* https://medium.com/@jamesheathers
+* http://datacolada.org/
+* https://medium.com/@dsquintana
+
+There are also podcasts, such as

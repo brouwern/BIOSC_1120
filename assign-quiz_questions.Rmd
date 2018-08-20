@@ -1,0 +1,11 @@
+---
+title: 'Reading assignment: write quiz questions'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Quiz questions
+
+Write out potential quiz questions

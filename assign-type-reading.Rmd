@@ -1,0 +1,62 @@
+---
+title: "Pre-class preparation: readings, videos & tutorials"
+---
+
+In-class time for this course will be focused on actively engaging with data. This will invovle writing and executing R code to carry out analysis, and also applying statistical concepts and theory to assess the structure of the data and implications and interpretation of the output.  
+
+Class instructional time will be heavily biased towards the intricacies of R; it is therefore extermely important that students come to class primed to think conceptually about what they will be producing in R.  Actively enaging each week with the assigned readings will therefore be essential in order for class time to be most productive.
+
+Depending on the week preparation will occur through a combination of four things:
+
+1. Reading the **assigned textbook chapters** and/or papers
+1. Engaging with the readings through **Reading Reinforcement Assignments**
+1. Watching any **Assigned video lectures**
+1. Working through any **Computational tutorials** and starting **computational challenges**
+
+## Weekly readings
+
+Each week one or more of the chapters of Motulsky's *Intutivie Biostatistcs* will be assigned.  Additional papers or scanned book chapters may also be assigned; optional supplemental readings may also be provided.  The conceptual content of these readings will be the basis for the **Reading Reinforcement Assignments**, and the datasets and analyses will be the basis for the **Computational tutorials**.
+
+## Reading reinforcement assignments (RRAs)
+
+Readings will be assigned weekly.  Over the course of the semester each student must complete 10 **Reading Reinforcement Assignments (RRAs)**.  The goal of the RRAs is to i) motivate the completion of the reading, ii) facilitate active engagement with the readings, and iii) help students see connections to other topics in the course.  
+
+There will be 2 types of RRAs: 
+
+1. Reading engagement notes (8)
+1. Mini writing projects (2)
+
+
+Each week students will have the choice of whether and what type of RRA to complete, **and it is each students responsiblity to actively keep track of track what they have completed**.  
+
+### Engagement notes (8)
+
+Engagement notes are meant to be short assignments you can complete on a piece of notebook paper while reading the book.  There are 2 *required* engagement note types that must be completed some time over the course of the semester.
+
+1. Vocab & Definitions assignment
+1. Quiz question assignment
+
+For the remaining six engagement notes students can pick from a menu of choices.  The easiest is probably to complete the **"I don't get it" journal entry assignment.**  You can do this assignment up to 6 times, and it is basically what it sounds like: read the chapter, indicate something you don't understand, and write a 1/2 page summary about what it is (eg a defintion or graph), what you find confusing, why you find it confusing, what could make it clearer, or the point at which you get lost.  See the handout on the **"I don't get it" journal entry assignment.** handout for more details.
+
+Alternatively, you can do an additional one of the other assignments:
+
+* Complete an additional Vocab & Definitions assignemnt
+* Complete an additional  Quiz Question assignment
+* Complete and additional mini-writing project
+
+You can also pick from this additional list of assignments:
+
+* Print out and proof-read the reading guide for the assigned chapter, indicating any typos, mistakes, or elements you think should be added
+* Data parasite assignment: Find a published example of the type of analysis, plot or table being discussed in the chapter which has an open access dataset.  Write up the reference and obtain the data.  (In principle you must be able to replicate what was done in the paper, though you don't actually have to)
+* Write a short tutorial for the analysis done in the chapter for an analysis software other than R or Excel, including: GoogleSheets, OpenOffice, JASP, Jamovi, or SPSS.
+* Identify and write out the a relevant equation that has been left out of the book and provide a reference
+* Print out a Wikipedia entry related to the chapter (eg t-test, regression, normal distribution).  Annotate it to note which aspects are similar to Motulsky's treatment and which sections are not covered.
+
+
+### Mini-writing projects (2)
+
+Over the course of the semester students must complete two **mini-writing projecT** (about 150-200 words).  Each assignment amounts to an annotated bibliography entry about a resource the complements or extends an assigned readings.  The assignment will briefly introduce the resource and discuss how it relates to the chapter.  One mini-writing assignment must be written on a paper that appears in an academic journal (though it doesn't have to be a research article) and the other must be written on a web-based resource.  Seperate handouts providing details each assignment will be provided.
+
+A key part of this assignment is that it is worked on *the week of an assigned reading**; it cannot be completed retrospectively on a previous chapter.  The goal is for students to dig a bit deeper into a current reading.  A draft of the assignment will be due in-class the week of the assigned reading, and the final draft the following week.
+
+

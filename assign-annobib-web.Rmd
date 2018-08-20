@@ -1,0 +1,114 @@
+---
+title: "Annotated Bibliography Assignment - Web Resource Edition"
+---
+
+## Assignment Introduction
+
+Statistics is a dynamic and complicated topic, with new techniques constantly being developed and almost ubiquitous debate on the nuances of different procedures.  Learning about statistics is much easier when it draws on examples that are personally interesting.  Like most textbooks, *Intutitive Biostatistics* points readers to techniques that are generally considered most useful and for which there is consensus that they work, using a few focal example to demonstate them.  Usually these examples are medically related.
+
+The goal of this assignment is to expand upon the book's content by identifying and briefly summarizing web-based content that discuss statistical ideas from a different perspective.  The output of this assignment will be an **annotated bibilography entry** which summarizes your selected resources so that others can determine if they will find it useful (or if it might be over their head).
+
+**Frequently in the reading guide I will indicate if a topic is debated, if there are other methods available, etc, and may even provide links.  This is low-hanging fruit for completing the assignment.**  
+
+## Assignment objectives
+
+### Learning goals
+
+After completing this assignment students should have a firm understanding of the assigned chapter in *Intutitive Biostatistics*  and be able to identify, evaluate, and summarize related content on the internet.  Students should also gain an appreciation for the types of statistical resources and commentary available on the internet.
+
+
+
+### Learning outcomes
+
+Students will be able to 
+* identify the most important ideas and topics in their textbook and briefly summarize a main idea or topic from the textbook
+* identify other resources related to the same topic and summarize them
+* describe how the book chapter and an external resources are related, similar, and different.
+
+
+## Suitable online resources
+
+For a topic or method in a given chapter this could include resources such as
+
+* Online articles by journalists or commentators (eg from slate.com)
+* Blog posts by scientists (eg from rapidecology.com, dynamicecology.com, Roger Peng, etc)
+* Podcasts by journalists or scientists (eg Rationally Speaking)
+* Video tutorials or lectures by qualified people
+* Web apps that use animation or simulation
+* Or something else cool online!
+
+See the coursewebist for lists of recommended bloggers, podcasts and websites.
+
+Because the barrier of publication for online material is much lower than for peer-reviewed material, please email me with a proposed resource before completing the full assignment.  
+
+## Suitable resources
+
+The resources selected to complete the assignment should do at least *one* of the following:
+
+* Show how use R, Excel, Googlesheets, JASP, or Jamovi to solve a problem similar to what is presented in the assigned reading from Intuitive Biostatistics.
+* Provide a conceptual or computational tutorial of the method oriented towards a different field than medicine (eg ecology, cell biology)
+* Further explain, justify, or discuss the history of the method (eg, the history of P-values)
+* Present an alternative to or extension of the method (eg, a Bayesian version of the method)
+* Critiques the method Motulsky uses (eg why Bonferonni corrections are silly)
+* Otherwise add new context or additional nuance to a topic (eg the roll of p-values in the replication crisis in Psychology)
+
+The resource should **not** be
+
+* A wikipedia entry
+* Another online encylepedia or academic journal entry of some kind
+
+Again, please contact me before completing the assignment
+
+## Assignment Tasks
+
+To complete this assignment, carry out the following steps:
+
+* [ ] Read the chapter in Intutive Biostatistics
+* [ ] Identify a particular topic or method in  the assigned chapter (eg, multiple comparisons or 2-sample t-tests)
+* [ ] Find a web-based resource that you find interesting and readable related to the topic.
+* [ ] Write out the full reference information for the resource, including title, author (if known), and URL
+* [ ] Write a 150-200 word annotated bibliography entry which
+  * [ ] Briefly summarizes the method or topic as presented by Motulsky in the chapter
+  * [ ] Summarizes the topic as presented by resource you found
+  * [ ] Points out any differences between them, or how the reference you selected is an extension.
+  * [ ] Indicates who might find this resource most useful, eg "Someone struggling with R" or "Cell biologists confused by P-values."
+  * [ ] Indicate if this resource would be useful for future students in this class or would be more appropriate for more advanced students.
+  
+  
+Please submit the assignment and -- if possible -- a printed copy of the resource y and via email by the beginning of class.  
+
+## Characteristics of the selected resource
+
+There are no restrictions on the resource you can use for your annotated bibliography entry.  However, in general the goal is to provide additional, **accesible** resources which expands upon the content of the chapter.  The resource should ideally be by a named, professional source or at least a graduate student.  In some cases I may allow an additional reource, eg, something written by a student.
+
+## How to find a resource
+
+Googleing the topic you are working on will likely return something interesting.  For example, I searched for "p-value podcast" and found several interesting looking results
+
+* "Misunderstanding p-values by Everything Hertz Podcast"
+* "Learn Statistics | Audio - What is a P-Value?"
+* "P-value: the test that makes or breaks scientific research - Stat"
+* "The P-Value Civil War - Partially Derivative."
+
+Similarly, if you Google "p-value controversy debate" the first entry is "What a nerdy debate about p-values shows about science — and how to fix it" from Vox.com, which I know is a good article (and whose author was featured on a podcast, though I can't remembe which one...).  A little below that is "It's Time To Stop Misusing P-Values" from fivethirtyeight.com  (The second entry google returns is actually from an academic journal, which you could use for completing the sibling assignment to this one).
+
+I maintain lists of interesting web-based resources on the course website.  If you look through these list you will probably find a good place to start.
+
+
+## Examples of completed assignments
+
+Examples of completed bibliography entries can be found in the reading guide to *Intutive Biostatistics.*
+
+## Learning Objectives
+
+Students who complete this assignment should
+
+* Be able to articulate the basic details of a statistical method or topic as presented in the book Intuitive Biostatistics
+* Be able to highlight an alternative perspective on the on the topic as presented in a paper they have identified.
+
+## Notes
+
+* This assignment is intended to be completed by graduate students after reading an assigned chapter but prior to class discussion of the topic.  
+* Undergraduates should be able to complete this assignment after a topic has been further elaborated on in class.
+
+

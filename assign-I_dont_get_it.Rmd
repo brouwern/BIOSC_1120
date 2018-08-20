@@ -1,0 +1,23 @@
+---
+title: "Reading assignment: I don't get it"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## "I don't get it" Journal Entry
+
+This could be somewhat like a journal entry
+
+Write out aspect/issue/topic you don't get and a focused on questio
+"What does it mean..."
+"Does this apply to..."
+"Doesn't this contradict..."
+"Does this apply to a biological situation such as ..."
+"This seems totally impractical if..."
+"I though x mean y, but then it says z, now I'm totally confused."
+"In another course I remember my professor saying z, but the book sayz q; what's up?"
+"The book says x, but everyone I know does z; what's up?"
+"The book say x is bad, but eveyrone does it; what's up?"

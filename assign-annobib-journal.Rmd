@@ -1,0 +1,93 @@
+---
+title: "Annotated Bibliography Assignment - Journal Tutorial Edition"
+---
+
+## Assignment Introduction
+
+Statistics is a dynamic and complicated topic, with new techniques constantly being developed and almost ubiquitous debate on the nuances of different procedures.  Learning about statistics also is much easier when it draws on examples that are personally interesting  Like most textbooks, *Intutitive Biostatistics* points readers to techniques that are generally considered most useful and for which there is consensus that they work, using a few focal example to demonstate them.  Usually these examples are medical-related.
+
+The goal of this assignment is to expand upon the book's content by identifying and summarizing **peer-reviewed papers** or similar content from an academic journal that discuss statistical ideas from a different perspective.  For a topic or method in a given chapter this could include papers which
+
+* Provide a tutorial of the method oriented towards a different field (eg ecology, cell biology)
+* Further explain, justify, or discuss the history of the method 
+* Present an alternative or extension of the method
+* Critiques the method Motulsky uses
+* Otherwise add new context or additional nuance to a topic
+
+## Assignment objectives
+
+### Learning goals
+
+After completing this assignment students should have a firm understanding of the assignment chapter in *Intutitive Biostatistics*  and be able to identify, evaluate, and summarize related content published in journals or books.
+
+### Learning outcomes
+
+Students will be able to 
+* identify the most important ideas and topics in their textbook and briefly summarize one of the main ideas or topics
+* identify another published resources related to the same topic and summarize it
+* describe how the book chapter and their selected resources are related, similar, and different.
+
+
+## Assignment Tasks
+
+To complete this assignment, carry out the following steps:
+
+* Read the chapter
+* Identify a particular topic or method in single chapter (eg, multiple comparisons or 2-sample t-tests)
+* Find a paper that you find interesting and readable related to the topic.
+* Write out the reference information for the paper.
+* Provide the URL for where the paper is posted.
+* Write a 150-200 word annotated bibliography entry which
+  * Briefly summarizes the method or topic as presented by Motulsky in the chapter
+  * Summarizes the topic as presented by paper you found
+  * Discusses how the presentations are related or similar
+  * Points out any differences between them, or how the paper you selected is an extension.
+
+Note that a key part of assignment is demonstrating actual understanding of the material - at least enough to be able to summarize what is said in the book and how it compares to another source.
+  
+Please submit the completed assignment and the focal paper in hard copy and via email by the beginning of class.
+
+## Characteristics of selected paper
+
+There are no restrictions on the article you can use for your annotated bibliography entry.  However, in general the goal is to provide an additional, short-ish (3-7 page) resources which expands upon the content of the chapter.  (One reason for the paper to be short is so that its easy for you to read and digest for the assignment).  Many journals publish tutorials and commentary on statistical and methodologial issues.  I find these often in medical-related journals because many medical doctors (MD) get invovled in research, but usually their statistical training is poor (these folks are in many ways the target audience for Motulsky's book!).  I also see them frequently in ecology and psychology journals.
+
+## How to find a paper
+
+I will provide a reference list for the course that will contain papers that could be used for this assignment.  If you through this list (or search the pdf version for keywords) you will probably find something relevant.
+
+Frequently in the reading guide I will indicate if a topic is debated, if there are other methods available, etc.  This is low-hanging fruit for completing the assignment because when things are debated, people publish papers saying why its controversial, explianing the controversy, explainign why its not actually controversial, saying why the people who said it wasn't controversial are wrong, etc.
+
+For example, searching Google Scholar for "p-value controversy debate" immediately yields two results:
+"Toward evidence-based medical statistics. 1: The P value fallacy" in the Annals of internal medicine, and "p Values, Hypothesis Tests, and Likelihood: Implications for Epidemiology of a Neglected Historical Debate" in the American Journal of Epidemiology.
+
+Also, if you use google scholar and search for the name of method and add key words such as "tutorial", "guide", "confused","idiot", "practical", "doctor", "medical" etc you'll probably find something.  Restricting just to the keywords being in the title will help.
+
+For example the Google Scholar search "allintitle:t-test guide" shows some interesting possibilites:
+"A user's guide to the T-test" in The Journal of Urology, "Wilderness Survival Guide to the T-Test" in Journal of Therapeutic Schools and Programs. The search "allintitle:t-test medical" turns up
+"Statistics in medical research--IV. Sampling distribution, statistical testing of hypothesis and student's t-test." in the Journal of postgraduate medicine.  
+
+Alternatively, you can search a particular journal and use keywords like "statistics" or "statistical" and often papers on basic stats topics will pop up.  
+
+If you don't find something in about 15 minutes of searching, though, contact me and I can either help you find something or proide recommendations.
+
+## Alternatives to papers
+
+The focus of this assignment is on published papers because they are generally easily and freely accessible to anyone associated with a university.  However, if you know of a book (eg, a stats book from a previous class) with a relevant chapter or section we can adapt the assignment.
+
+If you find another resource such as a blog or web app, you can probably use it for the sibling assignment to this one; see "Appendix B: Annotated Bibliography Assignment - Online Tutorial Edition"
+
+## Examples of completed assignments
+
+Examples of completed bibliography entries are throughout the book.
+
+## Learning Objectives
+
+Students who complete this assignment should
+
+* Be able to articulate the basic details of a statistical method or topic as presented in the book Intuitive Biostatistics
+* Be able to highlight an alternative perspective on the on the topic as presented in a paper they have identified.
+
+## Notes
+
+* This assignment is intended to be completed by graduate students after reading an assigned chapter but prior to class discussion of the topic.  
+* Undergraduates should be able to complete this assignment after a topic has been further elaborated on in class.

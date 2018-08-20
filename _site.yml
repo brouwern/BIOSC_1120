@@ -16,20 +16,33 @@ navbar:
     - text: "About this class"
       icon: fa-info
       href: about.html
-    - text: "More"
+    - text: "Assignments"
       icon: fa-gear
       menu:
-        - text: "Heading 1"
-        - text: "Page A"
+        - text: "READING ASSIGNMENTS"
+        - text: "`I dont get it get`"
+          href: assign-I_dont_get_it.html
+        - text: "Statistical vocab"
+          href: assign-vocab.html
+        - text: "Quiz questions"
+          href: assign-quiz_questions.html
+        - text: "READING MINI-PROJECTS"
+        - text: "Web resource write up"
+          href: assign-annobib-web.html
+        - text: "Journal tutorial write up"
+          href: assign-annobib-journal.html
+        - text: "Independent project"
+    - text: "Recommended resources"
+      icon: fa-gear
+      menu:
+        - text: "Websites"
           href: page-a.html
-        - text: "Page B"
+        - text: "Videos"
           href: page-b.html
-        - text: "---------"
-        - text: "Heading 2"
-        - text: "Page C"
-          href: page-c.html
-        - text: "Page D"
-          href: page-d.html
+        - text: "Blogs"
+          href: blogs.html
+        - text: "Podcasts"
+          href: podcasts.html
   right:
     - icon: fa-question fa-lg
       href: https://example.com
