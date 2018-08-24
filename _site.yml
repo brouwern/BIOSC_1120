@@ -20,17 +20,23 @@ navbar:
       icon: fa-gear
       menu:
         - text: "READING ASSIGNMENTS"
-        - text: "`I dont get it get`"
-          href: assign-I_dont_get_it.html
-        - text: "Statistical vocab"
-          href: assign-vocab.html
-        - text: "Quiz questions"
-          href: assign-quiz_questions.html
-        - text: "READING MINI-PROJECTS"
+        - text: "Summary"
+          href: assign-type-reading.html
+        - text: "Reading assignment log"
+          href: assign-log-RRA.html
         - text: "Web resource write up"
           href: assign-annobib-web.html
         - text: "Journal tutorial write up"
           href: assign-annobib-journal.html
+        - text: "Statistical vocab"
+          href: assign-vocab.html
+        - text: "`I dont get it get`"
+          href: assign-I_dont_get_it.html
+        - text: "Quiz questions"
+          href: assign-quiz_questions.html
+        - text: "OTHER ASSIGNMENTS"
+        - text: "Twitter Assignment"
+          href: assign-twitter.html
         - text: "Independent project"
     - text: "Recommended resources"
       icon: fa-gear

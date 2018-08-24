@@ -1,0 +1,374 @@
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={Twitter assignment},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\newcommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+
+  \title{Twitter assignment}
+    \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+    \author{}
+    \preauthor{}\postauthor{}
+    \date{}
+    \predate{}\postdate{}
+  
+
+\begin{document}
+\maketitle
+
+\subsection{Introduction}\label{introduction}
+
+Scientists frequently use Twitter to communicate about their research to
+the public, discuss problems they are having with their work, and
+interact with each other socially (Bombaci et al 2015, English 2014).
+This is especially true among R-users, and a vibrant, inclusive
+community as been built. As part of this course you will be using
+Twitter to find resources for solving problems in R, as well as asking
+and answering questions about your work. In this class we will use the
+hashtags \#learnR and \#learnstats to flag our tweets related to the
+course. I will regularly tweet items with these hashtags that I think
+are relevant to the class, your interests, or to science in general.
+
+As part of this course you will be required to use Twitter at least once
+each week during the semester; this can easily be accomplished during
+class. Yes, I am asking you to use social media \emph{during} class.
+
+\subsection{Assignment tasks}\label{assignment-tasks}
+
+There are 6 specific tasks you must complete for this ongoing
+assignment.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  {[} {]} Create a Twitter account for this course (You are free to use
+  a personal account; I can show you how to make a parallel account
+  using your existing email address if you want. You can also create
+  email account using gmail just for this class.)
+\item
+  {[} {]} Identify at least 1 member of the R twitter community, follow
+  them, and re-tweet at least 1 of their tweets to the class using the
+  tag \#learnR, including me @lobrowR
+\item
+  {[} {]} Tweet out the link to your ``Reading reinforcement - journal
+  article'' assignment
+\item
+  {[} {]} Tweet out the link to your ``Reading reinforcement - web
+  source'' assignment
+\item
+  {[} {]} Tweet at least 1 question about R to me @lobrowR and include
+  \#rstats and \#learnR so the rest of the class can see it
+\item
+  {[} {]} Respond to or answer at least 1 question from another student
+  to the class.
+\end{enumerate}
+
+In addition to the 5 tweets listed above, you need to tweet something
+\#rstats related at least once a week each week during the semester;
+basically, do one of the things on the list at least once each week.
+
+Probably the easiest way to accomplish this is to to open Twitter during
+class and tweet out any web resources you find while working. Another
+way to complete the tasks would be to open up Twitter while reading the
+book and Tweet out questions or vocab related to your work on other
+assignments you are working on.
+
+\subsection{Learning Goals \& Outcomes}\label{learning-goals-outcomes}
+
+The goal of this set of assignments is to expose students to the Twitter
+R community and the diveristy of resources that can be found there.
+Students will gain practice ain how to locate and share useful online
+resources using twitter and ask appropriate questions. The hope is that
+this assignment will also foster an online learning community for this
+course.
+
+\subsection{References}\label{references}
+
+Bombaci et al 2015. Using Twitter to communicate conservation science
+from a professional conference. Conservation Biology.
+
+English 2014. Why you should be on Twitter.
+\href{https://www.britishecologicalsociety.org/wp-content/uploads/Twitter-Article.pdf}{Bulletin
+of the British Ecological Society.}
+
+O'Mahony 2014.
+\href{http://www.conservationecology.org/news/twitter-as-a-tool-for-science-communication}{Twitter
+As A Tool For Science Communication}
+
+\subsection{Twitter Assigment Details}\label{twitter-assigment-details}
+
+To complete this assignment you must carry out the following 6 tasks on
+twitter. Once you have completed
+
+\subsubsection{{[} {]} Twitter assignment Part 1: Getting
+started}\label{twitter-assignment-part-1-getting-started}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  {[} {]} Establish an account on twitter.\\
+\item
+  {[} {]} Follow your instructor @lobrowR
+\item
+  {[} {]} Send a tweet to me saying ``Hi, its XXXXX, I'm on twitter!''
+\end{enumerate}
+
+You can use a personal twitter account if you already have one or make
+one just for this class. If you want to make a new twitter account for
+the class separate from your personal one you
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  can use your university email address
+\item
+  make a new gmail account to use
+\item
+  If you already use gmail, you can have twitter associate 2 separate
+  accounts with the same email address by simply adding extra periods
+  within the address. For example, I have accounts associate with my raw
+  email address
+  (\href{mailto:brouwern@gmail.com}{\nolinkurl{brouwern@gmail.com}}) and
+  also a modified address
+  (\href{mailto:brouwer.n@gmail.com}{\nolinkurl{brouwer.n@gmail.com}};
+  note the ``r.n''). This works because twitter sees ``brouwern'' and
+  ``brouwer.n'' as 2 seperate addresses, while Google treats them the
+  same; nothing has to be done to gmail to get this to work.
+\end{enumerate}
+
+\subsubsection{{[} {]} Twitter assignment Part 2: Be a
+follower}\label{twitter-assignment-part-2-be-a-follower}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  {[} {]} Find and follow at least 1 scientist, R user, or R or
+  stats-related twitter account
+\item
+  {[} {]} Monitor this person and when they tweet something cool, send
+  it to me and the rest of the class by including @lobrowR and at least
+  one applicable tag: \#learnR, \#learnstats or, \#rstats.
+\item
+  {[} {]} You can continue to re-tweet material from interesting people
+  throughout the semester to fulfill ``tweet-a-week'' aspect of the
+  assignment
+\end{enumerate}
+
+Recommended accounts include
+
+\begin{itemize}
+\tightlist
+\item
+  Mara Averick: @dataandme
+\item
+  R4DS online learning community: @R4DScommunity ``Twitter home of the
+  \#R4DS Online Learning Community (inspired by the R for Data Science
+  text). 😍 \#rstats \& \#DataScience. Join us:
+  \url{https://bit.ly/2qIxlUo}
+\item
+  R-Ladies Global: @RLadiesGlobal ``\ldots{}Promoting diversity in the
+  \#rstats community via meetups, mentorship \& global collaboration!
+  90+ groups worldwide. \#RLadies''
+\item
+  @rstatsbot1234 ``I retweet \#rstats stuff. Made by @shahronak47''"
+\item
+  Dr Andrew MacDonald: @polesasunder ``What determines where organisms
+  are found \& what do they do once present?''
+\item
+  Carl Boettiger: @cboettig ``Professor, UC Berkeley. Theoretical
+  ecology \& evolution, data science, open science. Co-founder
+  @rOpenSci''
+\end{itemize}
+
+\subsubsection{{[} {]} Twitter assignment Parts 3 \& 4: Sharing your web
+*and\& peer reviewed article
+resources}\label{twitter-assignment-parts-3-4-sharing-your-web-and-peer-reviewed-article-resources}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  {[} {]} Complete the web resource and journal article Reading
+  Reinforcement assignments
+\item
+  {[} {]} Tweet to me @lobrowR and include applicable tags so the rest
+  of the class can find it (\#learnR, \#learnstats, \#rstats)
+\end{enumerate}
+
+Your tweet could look something like
+
+\begin{quote}
+``Found this interesting article in Animal Behavior on the use of
+p-values. `Are significance thresholds appropriate for the study of
+animal behavior' by Andrew Soehr 1999.
+\url{https://www.sciencedirect.com/science/article/pii/S0003347298910168?via\%3Dihub}''
+\end{quote}
+
+\subsubsection{{[} {]} Twitter assignment Part 5: Ask a
+question}\label{twitter-assignment-part-5-ask-a-question}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  {[} {]} Find something in R, statistics, the book, etc you don't
+  understand
+\item
+  {[} {]} Tweet me @lobrowR; include applicable tags (\#learnr,
+  \#learnstats, \#rstats, \#ecology)
+\item
+  {[} {]} You can continue to tweet questions to me (or other people in
+  the class) throughout the semester to fulfill ``tweet-a-week'' aspect
+  of the assignment, just include applicable tags (\#learnr,
+  \#learnstats, \#rstats, \#ecology)
+\end{enumerate}
+
+A really good thing to tweet would be a screen grab \#rstats code that
+isn't working and write something like
+
+\begin{quote}
+``hey @lobrowr, HELP!! This isn't working \#learnR.'' {[} include screen
+grab; ideally circle the thing that is particularly broken{]}
+\end{quote}
+
+or another good one would be
+
+\begin{quote}
+``Um, @lobrowr the code for this week's assignment totally isn't
+working. Can u fix it?''
+\end{quote}
+
+You can also ask me something stats related from a paper or work in
+another class; include a screen shot of relevant text or graphs; eg
+
+\begin{quote}
+``hey @lobrowr is there something goofy about this graph? {[}paste
+screen clip{]} shouldn't the error bars be asymmetric? \#learnstats
+\#ecology''
+\end{quote}
+
+\subsubsection{{[} {]} Twitter assignment part 6: answer a
+question}\label{twitter-assignment-part-6-answer-a-question}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  {[} {]} Respond using to at least one question someone in the class
+  has posted. You don't even need to be right, just give you best guess!
+\item
+  {[} {]} You can continue to respond to questions to meet the
+  ``tweet-a-week'' goal.
+\end{enumerate}
+
+A response could be
+
+\begin{quote}
+``hey {[}handle of person in class{]} I think you code doesn't work b/c
+you are missing a comma after data = df. LOL''
+\end{quote}
+
+\subsubsection{{[} {]} Twitter assignment parts 7-15: other
+contributions}\label{twitter-assignment-parts-7-15-other-contributions}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Each week tweet out something related to your class assignments,
+  readings, work in class, stats, stats related to your work outside of
+  class, etc.
+\end{enumerate}
+
+Your tweets could look something like
+
+\begin{quote}
+``Found this really cool ggplot code for {[}something cool{]}. check it
+out at {[}website{]}. Was made by {[}twitter handle of creater, if they
+use twitter{]} \#rstats \#learnr''
+\end{quote}
+
+or if you read something cool in a paper
+
+\begin{quote}
+``Read this cool paper where they made cool graphs in ggplot and shared
+all the code online {[}link to paper and code{]} \#rstats \#learnr''
+\end{quote}
+
+If you aren't sure, just tweet it out - it probably would be ok.
+
+
+\end{document}

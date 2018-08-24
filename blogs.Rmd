@@ -8,9 +8,10 @@ knitr::opts_chunk$set(cache = TRUE)
 
 There are a large number of blogs about statistics (or which frequently discuss statistics) that you can scan or search, such as
 
-* http://andrewgelman.com/
+* http://andrewgelman.com
 * https://medium.com/@jamesheathers
-* http://datacolada.org/
+* http://datacolada.org
 * https://medium.com/@dsquintana
+* http://daniellakens.blogspot.com
 
 There are also podcasts, such as

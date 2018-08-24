@@ -28,12 +28,11 @@ OR email me at nlb24@pitt.edu to request an appointment
 
 ### Class Meeting Times & Location
 Thursdays 9:30AM - 12:00PM
-08/27/2018 - 12/07/2018
-
-170 Crawford Hall
+<br>08/27/2018 - 12/07/2018
+<br>170 Crawford Hall
 
 ### Pre-requisites
-The general pre-requities for this course are: completion of 1 year of intro biology, 1 upper divion bio course, and an intro stats course.  Specifically: 
+The general pre-requisites for this course are: completion of 1 year of intro biology, 1 upper division bio course, and an intro stats course.  Specifically: 
 
 * Completion of the 2nd semester of Foundation of Biology, eg BIOSC 0160 (Foundations of Bio. 2), 0716 (Foundations 2 - Honors), 0191, 0180, BIOL 0102 or 0120 (General Biology 2)
 * 1 advanced biology course, eg BIOSC 0350-Genetics, 0355, 0370-Ecology, 0371, 1000-Biochem, 1810-Macromolecular Structure & Function, 0203, 1430-Ecophysiology, 1515.
@@ -45,13 +44,13 @@ Check the [course catalog](https://psmobile.pitt.edu/app/catalog/listCoursesBySu
 
 ### Catalog Description
 
-Biostatistics is the application of statistical principals to the design and analysis of biological studies.  This course covers the methods, software, theory, and philosophy used in contemporary biostatistics.  Examples will be drawn from across biological disciplines, including ecology, physiology, genomics, cell, and molecular biology.  Topics covered include basic data science and visualization, hypothesis testing and model building, analysis of variance (ANOVA), linear regression, multivariate statistics, power analysis, and experimental design.  Emphasis is placed on actively using the software R to apply these methods to real biological data.  (Class Number: 30894)
+Biostatistics is the application of statistical principals to the design and analysis of biological studies.  This course covers the methods, software, theory, and philosophy used in contemporary biostatistics.  Examples will be drawn from across biological disciplines, including ecology, physiology, genomics, cell, and molecular biology.  Topics covered include basic data science and visualization, hypothesis testing and model building, analysis of variance (ANOVA), linear regression, multivariate statistics (PCA, MANOVA), power analysis, generalized linear models (GLM), basic random effects models, and experimental design.  Emphasis is placed on actively using the software R to apply these methods to real biological data.  (Class Number: 30894)
 
 ### Course description 
 
-The purpose of this course will be to provide advanced undergraduate and graduate students a solid background in the core concepts of applied biological statistics, the use of the software R for data analysis, and the use of RMarkdown for documenting reproducible analyses.  The course will review basic statistical concepts, thoroughly cover contemporary linear regression and analysis of variance (ANOVA), and introduce the advanced concepts of generalized linear models (GLMs) such as logistic regression and mixed effect models.  Students will develop an independnet project to practice these methods or to begin using more advanced appraoches.
+The purpose of this course will be to provide advanced undergraduate and graduate students a solid background in the core concepts of applied biological statistics, the use of the software R for data analysis, and the use of RMarkdown for documenting reproducible analyses.  The course will review basic statistical concepts, thoroughly cover contemporary linear regression and analysis of variance (ANOVA), and introduce the advanced concepts of generalized linear models (GLMs) such as logistic regression and mixed effect models.  Students will work together on small group projects, and also develop an independent project to practice these methods or to begin using more advanced approaches.
 
-R is the current lingua franca of many users and developers of statistical techniques and its use will therefore play a central role in the course from the first day of class.  Basic statistical concepts will be reviewed by carrying out mathematical calculations step-by-step both visually in Excel and using code R.  Moreover, the application and interpretation of all techniques will be presented with direct reference to the necessary R code and the resulting R output.  Each class will be a mix of lecture, discussion and guided R exercises.  Throughout the course important aspects of experimental design will be emphasized, such as true replication vs. pseudoreplication, random sampling, and blocking.  The course will also teach the skills necessary to manage, summarize, and graphically display data.  
+*R* is the current *lingua franca* of many users and developers of statistical techniques and its use will therefore play a central role in the course from the first day of class.  Basic statistical concepts will be reviewed by carrying out mathematical calculations step-by-step both visually in Excel and using code *R*.  Moreover, the application and interpretation of all techniques will be presented with direct reference to the necessary R code and the resulting R output.  Each class will be a mix of lecture, discussion and guided *R* exercises, with an emphasizes on hands-on interactions with simulation exercises and and interactive tutorials  Throughout the course important aspects of experimental design will be emphasized, such as true replication vs. pseudoreplication, random sampling, and blocking.  These topics will be used to introduce the basics of mixed models.  The course will also teach the skills necessary to manage, summarize, and graphically display data.  
 
 ### Course Objectives
 
@@ -87,7 +86,7 @@ I am developing a [**reading guide**](https://brouwern.github.io/IBSguide/) for 
 * provide ideas, suggestions and hints for the completion of the Reading Reinforcement assignments
 * briefly introduce the R code used to analyze the datasets Motulsky discusses
 
-Reading the *Reading Guide* is not required but is highly recommended.  Content from yor reading assignments will be integrated into the Guide and suggestions for making it a useful resource are highly welcome.
+Reading the *Reading Guide* is not required but is highly recommended.  Content from your reading assignments will be integrated into the Guide and suggestions for making it a useful resource are highly welcome.
 
 #### Required papers
 
@@ -99,16 +98,16 @@ The following books will be referred to at times in the course or are highly rec
 
 **Whitlock, C. & Schluter, D. 2014.** The analysis of biological data, 2nd Edition. Roberts and Company Publishers. ISBN 978-1936221486.  [Book websiteL whitlockschluter.zoology.ubc.ca/](http://whitlockschluter.zoology.ubc.ca/) [Amazon](https://www.amazon.com/Analysis-Biological-Data-Michael-Whitlock/dp/1936221489/ref=sr_1_1?s=books&ie=UTF8&qid=1534781220&sr=1-1&keywords=The+analysis+of+biological+data)
 
-* I will be using some sections from this is an excellent undergraduate text.  A copy will be on reserve in the library.  Used copies of the 1st edition can be found on amazon.com for <$40.
+* I will be using some sections from this excellent undergraduate text.  A copy will be on reserve in the library.  Used copies of the 1st edition can be found on amazon.com for <$40.
 
 
 **Beckerman, Childs & Petchey 2017.** [Getting started with R: An introduction for biologists, 2nd ed](https://global.oup.com/academic/product/getting-started-with-r-9780198787846?cc=us&lang=en&).  
 
 * This is a highly readable guide to the basics for R which emphasizes the use of ggplot2 and dplyr.  I would use this for the course if the book was longer.  The 1st edition is available online via the library and I am trying to get the 2nd edition.    Available on amazon.com for $30.  **Don't get the 1st edition - its outdated.**
 
-**Crawley, M.*** The R Book 2nd Edition.  
+**Crawley, M.** The R Book 2nd Edition.  
 
-* This is probably the most comprehensive R book out there (also probably the biggest).  Crawley is an ecologist and uses many biological examples.  I wish I had bought this when I first started learning R.  However, the book is not up to date with regards to graphcs.  You should be able to find the pdf online. (Don't buy/print the pdf of the 1st edition ed,  its layout is supposed to be horrible!)  
+* This is probably the most comprehensive R book out there (also probably the thickest).  Crawley is an ecologist and uses many biological examples.  I wish I had bought this when I first started learning R.  However, the book is not up to date with regards to graphics.  You should be able to find the pdf online. (Don't buy/print the pdf of the 1st edition ed,  its layout is supposed to be horrible!)  
 
 
 **Gelman & Hill.** Data Analysis Using Regression and Multilevel/Hierarchical Models 
@@ -118,11 +117,11 @@ The following books will be referred to at times in the course or are highly rec
 
 #### Supplemental papers
 
-Optional readings that highlight or expand upon course concepts will occasionally be referenced or handed out.  These readings may be useful for review but understanding of their content will not be explicitly assessed.  I will make it clear if the content of a reading is required or optional.   A bibliography containing many of these papers appears at the end of the syllabus.
+Optional readings that highlight or expand upon course concepts will occasionally be referenced or handed out.  These readings may be useful for review but understanding of their content will not be explicitly assessed.  They can also be used to complete the Reading Reinforcement Assignments (RRAs).  I will make it clear if the content of a reading is required or optional.   A bibliography containing many of these papers appears at the end of the syllabus.
 
-### Online materials
+### Online materials & Social media.
 
-This course will rely heaving on online materials, including online open-access materials I have written for the course, online R communities, and social media.  Use of Twitter will be required for some assignments.
+This course will rely heavily on online materials, including online open-access materials I have written for the course, online R communities, and social media.  Use of Twitter will be required for some assignments.  I prefer to keep all online discussion on Twitter but would be happy to make a Facebook group for the class also.
 
 #### Course website
 
@@ -132,49 +131,49 @@ The [course webiste](https://brouwern.github.io/BIOSC_1120/index.html) at https:
 
 I am developing several online resources for this course.  This are all hosted via my GitHub account at https://github.com/brouwern
 
-* [R for Ecological Data Science](https://github.com/brouwern/BOOK_R_Ecological_Data_Science): https://github.com/brouwern/BOOK_R_Ecological_Data_Science
-  - This is the primary workbook and lab manual for the R exercies
-* A [Reading Guide to Motulsky's Intuitive Biostatistics](https://brouwern.github.io/IBSguide/): https://brouwern.github.io/IBSguide/
+* [R for Ecological Data Science](https://github.com/brouwern/BOOK_R_Ecological_Data_Science): github.com/brouwern/BOOK_R_Ecological_Data_Science
+  + This is the primary workbook and lab manual for the R exercises used in this course
+* A [Reading Guide to Motulsky's Intuitive Biostatistics](https://brouwern.github.io/IBSguide/):brouwern.github.io/IBSguide/
 * A Reading Guide to Whitlock & Schluter's Analysis of Biological Data
 
 #### R Packages & Interactive Tutorials
 
 I am developing several R packages that contain datasets, interactive tutorials, and useful code.
 
-* wildlifeR: https://brouwern.github.io/wildlifeR/
-  - datasets & exercies related to wildlife ecology
-* abdcompanion: https://github.com/brouwern/abdcompanion
-  - datasets & interactive tutorials related to Whitlock and Schulters Analysis of Biological Data
+* wildlifeR: brouwern.github.io/wildlifeR/
+  + datasets & exercises related to wildlife ecology
+* abdcompanion: github.com/brouwern/abdcompanion
+  + datasets & interactive tutorials related to Whitlock and Schulters Analysis of Biological Data
 * ibscompanion
-  - datasets & interactive tutorials related to Motulsky's Intuitive Biostatistics
+  + datasets & interactive tutorials related to Motulsky's Intuitive Biostatistics
 
 ### Methods of Evaluation & Assessment
 
 **NOTE: Method of evaluation and points are subject to revision.**  Students will be notified verbally and via email if there are any changes to the syllabus.
 
-Students will be evaluated through participation, weekly pre-class assignments, problem sets, group projects, and an independent project related to their own work.  Each element is summarized below.  See the attached table for a breakdown of the points and the individual assignment handouts for further details.
+Students will be evaluated through participation, weekly pre-class assignments, problem sets, group assignments, and an independent project related to their own work.  Each element is summarized below.  See the attached table for a breakdown of the points and the individual assignment handouts for further details.
 
 #### In-class Participation
 
-Attendance is required for all class sessions and students are required to stay for the entire session.  Attendance will be recorded.  If you cannot attend a class or must leave early due to special circumstances please contact me in advance if possible so we can make plans for you to complete the necessary work.
+**Attendance is required for all class sessions** and students are required to stay for the entire session.  Attendance will be recorded and participation (eg asking or answering questions during discussion, asking questions about your R work etc) will be scored each session.  If you cannot attend a class or must leave early due to special circumstances please contact me in advance if possible so we can make plans for you to complete the necessary work.
 
 #### Required office hours
 
-Students are required to meet with the professor at least twice to discuss their progress in the course and/or how the course relates to other aspects of their studies or research.  This can be done during office hours or over lunch or coffee.  If necessary it can be done over the phone or Skype.  Upon approval extensive email conversation can substitute for one meeting.
+Students are required to meet with the professor at least twice to discuss their progress in the course and/or how the course relates to other aspects of their studies or research.  This can be done during office hours or over lunch or coffee; a good conservation in the hallway will likely also suffice.  If necessary it can be done over the phone or Skype.  Upon approval extensive email conversation can substitute for one meeting.
 
 #### Weekly pre-class assignments
 
-Coming prepared is essential for making class time as productive as possible.  **Students must read all assigned readings.**  Additinally, pre-class assignments will typically be assigned.  Assignments will be typically be based on chapters from the assigned text, *Intuitive Biostatistics.*  These assignments are summarized below.  See the individuals handouts for further details.
+Coming prepared is essential for making class time as productive as possible.  **Students must read all assigned readings.**  Additionally, pre-class assignments will be due each week  Assignments will be typically be based on chapters from the assigned text, *Intuitive Biostatistics.*  These assignments are summarized below.  See the individuals handouts for each assignment for complete details.
 
 ##### Reading-reinforcement assignments (RRAs)
 
-Most weeks students will be required to complete an assignment to help you engage with and extend the concepts discussed in the course text *Intutive Biostatistics*.  These assignments should generally be easy to complete while reading the book and students will be able to select from different options that best suit their interests.  Two of these assignments, however, will require some research and writing.  See the **Reading reinforcement assignments** handout.  
+Most weeks students will be required to complete an assignment to help you engage with and extend the concepts discussed in the course text *Intutive Biostatistics*.  These assignments should generally be easy to complete while reading the book and students will be able to select from different options that best suit their interests.  Two of these assignments, however, will require some research and writing.  See the **"Reading Reinforcement Assignments (RRAs)"** handout for a full outline of all the assignments and the individual handouts for each assignment.  
 
 ##### Pre-lab Computation Tutorials & Computation Challenges
 
-For several chapters of *Intuitive Biostatistics* I will create a visual walthrough which demonstrates how to carry out the major computations in a spreadsheet program and/or R.  I will also create a short spreadsheet-based computation exercise similar to the example in the book.  Students must complete the computation tutorials prior to class and ideally begin the computation challenges.  A **pre-lab computation worksheet** will be provided that must be turned in prior to the begining of class.  Students can  chose to finish the computation exercises in class and complete them on their own time.  A **post-lab computation worksheet** will then be turned in.  Computation exercises will cover:
+For several chapters of *Intuitive Biostatistics* I will create a visual walkthrough which demonstrates how to carry out the major computations in a spreadsheet program and/or R.  Students will be required to complete these tutorials prior to class and complete a worksheet while they work on the tutorials which is due at the beginning of class each week.  Computation exercises will cover:
 
-* Bionomial confidence intervals (IBS: Ch 4)
+* Binomial confidence intervals (IBS: Ch 4)
 * Binomial sampling distributions (ABD: Ch6; IBS: Ch 27)
 * 2-sample t-tests (IBS: Ch 30)
 * Chi-squared test (IBS: Ch 28)
@@ -183,24 +182,29 @@ For several chapters of *Intuitive Biostatistics* I will create a visual walthro
 
 ##### Prelab "waRmup""  exercises
 
-During weeks with no pre-lab computation tutorials/challenges. I will assign short "prelab" exercises which emphasize R code and the interpretation of R output.  These prelabs will be due at the beginning of class.
+During weeks with no pre-lab computation tutorials/challenges, I will assign short "prelab" exercises which emphasize R code and the interpretation of R output.  These prelabs will be due at the beginning of class.
 
 #### In-class worksheet
 
-Most weeks extensive time will be spent in-class working on tutorials in R.  Each tutorial will have an accompanying worksheet.  Students will have one week from when it was begun to complete these worksheets.
+Most weeks extensive time will be spent in-class working through simulations and tutorials in R.  Each simulation or tutorial will have an accompanying worksheet.  Students will have one week from when it was begun to complete these worksheets.
 
-#### Social media assignment
+#### Twitter assignment
 
-Be a follower
-Tweet useful material (eg, your assignments)
-Ask a question
-Answer a question
+Twitter will be used for communication in the course.  Students will be required to create an account and tweet out questions and other info relevant to the course.
 
 #### Independent project
 
-Each student will identify a dataset and carry out an independent investigation, culminating in a draft of short scientific paper focused on the methods and results section, and appropriate graphs, tables and appendices.  The project will be split into 3 parts.  Early in the semester students will be required to submit a proposal outlining the dataset they wish to use and the scientific question of interest.  By mid-term students will submit an outline of the introduction, a methods section, and initial descriptive statistics and exploratory graphs of their data.  The final paper will consists of a complete scientific manuscript, though the introduction and discussion need only to briefly outline the biological questions and conclusions.  Students are encouraged to use data from their own research or obtain data from their advisor.  I can also discuss with students data sets that I have from my forest ecology and avian ecology work.  Students are encouraged to work collaboratively in determining the appropriate analysis approaches and to help each other with their R code, but each student must analyze a separate data set.
+Each student will identify a dataset and carry out an independent investigation, culminating in a draft of short scientific paper focused on the methods and results section, and appropriate graphs, tables and appendices.  The project will be split into 3 parts.  
 
-Key to this assignment will be that students work on dataset that allows them to use the focal methods of this class and can be completed.  I will work with students to determine if their datasets are approprorpiate and if necessary we will focus the analysis or datset to facilitate this.  For example, if your dataset only requries a t-test to complete then we will likely find a way to extend or augment the data, question, or analysis (HOW??).  In contrast, if the data requires a generalized linear mixed model with repated measures, we wilwel likley find a way to simplify it.
+1. Early in the semester students will be required to submit a proposal outlining the dataset they wish to use and the scientific question of interest.  
+1. By mid-term students will submit an outline of the introduction, a methods section, and initial descriptive statistics and exploratory graphs of their data. 
+1. The final paper will consists of a complete scientific manuscript and annotated R code for all analyses.
+
+Though the paper needs to have all of the relevant parts, the introduction and discussion need only briefly outline the biological questions and conclusions.  
+
+Students are encouraged to use data from their own research or obtain data from their adviser.  I can also discuss with students data sets that I have from my forest ecology and avian ecology work.  Students are encouraged to work collaboratively in determining the appropriate analysis approaches and to help each other with their R code, but each student must analyze a separate data set.
+
+Key to this assignment will be that students work on dataset that allows them to use the focal methods of this class and can be completed.  I will work with students to determine if their datasets are appropriate;  if necessary we will focus the analysis or datset to facilitate this.  For example, if your dataset only requires a t-test to complete then we will likely find a way to extend or augment the data, question, or analysis so you practice using the full breadth of methods used in the course.  In contrast, if the data requires a generalized linear mixed model with repeated measures, we will likely find a way to simplify it.
 
 
 
@@ -224,7 +228,7 @@ Key to this assignment will be that students work on dataset that allows them to
 
 Email will be the primary, official form of communication outside of class.
 
-* Email from me to you:  You must check your email regularly.  If you use a personal email address please arrange to have your univeristy emails forwarded there.  For example, I have my University email forwarded to my main email address, brouwern@gmail.com.  I will try to include BIOSTATSS in the subject.
+* Email from me to you:  You must check your email regularly.  If you use a personal email address please arrange to have your university emails forwarded there.  For example, I have my University email forwarded to my main email address, brouwern@gmail.com.  I will try to include BIOSTATSS in the subject.
 * Email from you to me:  In the subject line please remember to include BIOSTASTS-[your name]-[what its about]  For exampleBIOSTAT-Jude Brouwer-birthweight outliers.  During the week I will try to answer emails the day they are received.  On weekends my responses may be delayed.
 
 Please note that the University of Pittsburgh Email Communications Policy states:
@@ -254,7 +258,7 @@ If an exam is missed it is the responsibility of the student to notify the instr
 
 Students are expected to do all assigned work and stay current in their studies. If circumstances arise that prevent a student from staying current with the material, the student should consider withdrawing from the course.
 
-Please consult the University calendar for withdrawl dates.
+Please consult the University calendar for withdrawal dates.
 
 #### Academic Integrity
 
@@ -279,7 +283,7 @@ For each major category of assignment your lowest score will be dropped.
 
 #### Extra credit & Make up assignments  
 
-There will be no extra credit offered in this class and now make-up assignemnts.  If you did poorly on assignment you can improve your grade by doing better on subsequent ones, which will replace your poor scores since you lowest scores will be dropped.
+There will be no extra credit offered in this class and now make-up assignments.  If you did poorly on assignment you can improve your grade by doing better on subsequent ones, which will replace your poor scores since you lowest scores will be dropped.
 
 #### Statement on classroom recording
 

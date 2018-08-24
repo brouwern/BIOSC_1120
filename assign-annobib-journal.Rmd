@@ -4,7 +4,7 @@ title: "Read Reinforcement Assignment (RRA): Annotated Bibliography Entry on Jou
 
 ## Assignment Introduction
 
-Statistics is a dynamic and complicated topic, with new techniques constantly being developed and almost ubiquitous debate on the nuances of different procedures.  Learning about statistics also is much easier when it draws on examples that are personally interesting  Like most textbooks, *Intutitive Biostatistics* points readers to techniques that are generally considered most useful and for which there is consensus that they work, using a few focal example to demonstate them.  Usually these examples are medical-related.
+Statistics is a dynamic and complicated topic, with new techniques constantly being developed and almost ubiquitous debate on the nuances of different procedures.  Learning about statistics also is much easier when it draws on examples that are personally interesting  Like most textbooks, *Intutitive Biostatistics* points readers to techniques that are generally considered most useful and for which there is consensus that they work, using a few focal example to demonstrate them.  Usually these examples are medical-related.
 
 The goal of this assignment is to expand upon the book's content by identifying and summarizing **peer-reviewed papers** or similar content from an academic journal that discuss statistical ideas from a different perspective.  For a topic or method in a given chapter this could include papers which
 
@@ -26,7 +26,7 @@ After completing this assignment students should have a firm understanding of th
 
 Students will be able to 
 * identify  important ideas and topics in their assigned reading and briefly summarize one of the main ideas or topics
-* Be able to articulate the basic details of a statistical method or topic as presented in the assgined reading
+* Be able to articulate the basic details of a statistical method or topic as presented in the assigned reading
 * identify another published resources related to the same topic and summarize it
 * describe how the book chapter and their selected resources are related, similar, and different.
 * Be able to highlight a complementary or alternative perspective on the on the topic as presented in a paper they have identified.
@@ -47,42 +47,42 @@ To complete this assignment, carry out the following steps:
   + Discusses how the presentations are related or similar
   + Points out any differences between them, or how the paper you selected is an extension.
 
-Note that a key part of assignment is demonstrating understanding of the material - at least enough to be able to summarize what is said in the book and how it compares to another source.  If you get lost during this process we can chat, and feel free to discuss with others in the class too.  Your writing howeever must be your own.
+Note that a key part of assignment is demonstrating understanding of the material - at least enough to be able to summarize what is said in the book and how it compares to another source.  If you get lost during this process we can chat, and feel free to discuss with others in the class too.  Your writing however must be your own.
   
 
 The assignment can be submitted in 2 parts. 
 
-* First, a "drough draft" comprising the relevant citation information for yoru selected paper and the summary of Motulsky's (or another author's) presentation of the topic is due the week the reading was assigned.  This can be hand written.
-* Second, a final draft is due the following week at the begining of class.  Please submit the completed assignment and a print out of your selected paper in hard copy and via email by the beginning of class.
+* First, a "rough draft" comprising the relevant citation information for your selected paper and the summary of Motulsky's (or another author's) presentation of the topic is due the week the reading was assigned.  This can be hand written.
+* Second, a final draft is due the following week at the beginning of class.  Please submit the completed assignment and a print out of your selected paper in hard copy and via email by the beginning of class.
 
 ## Characteristics of selected paper
 
-There are no restrictions on the article you can use for your RRA annotated bibliography entry.  However, in general the goal is to provide an additional, short-ish (2-7 page) resources which expands upon the content of the chapter.  (One reason for the paper to be short is so that its easy for you to read and digest for the assignment).  Many journals publish tutorials, opinions and commentary on statistical and methodologial issues.  I find these often in medical-related journals because many medical doctors (MD) get invovled in research, but usually their statistical training is very poor (these folks are in many ways the target audience for Motulsky's book!).  I also see them frequently in ecology and psychology journals.
+There are no restrictions on the article you can use for your RRA annotated bibliography entry.  However, in general the goal is to provide an additional, short-ish (2-7 page) resources which expands upon the content of the chapter.  (One reason for the paper to be short is so that its easy for you to read and digest for the assignment).  Many journals publish tutorials, opinions and commentary on statistical and methodological issues.  I find these often in medical-related journals because many medical doctors (MD) get involved in research, but usually their statistical training is very poor (these folks are in many ways the target audience for Motulsky's book!).  I also see them frequently in ecology and psychology journals.
 
 ## How to find a paper
 
 I will provide a reference list for the course that will contain papers that could be used for this assignment.  If you go through this list (or search the pdf version for keywords) you will probably find something relevant.
 
-Frequently in the reading guide I will indicate if a topic is debated, if there are other methods available, etc.  This is low-hanging fruit for completing the assignment because when things are debated, people publish papers saying why its controversial, explianing the controversy, explainign why its not actually controversial, saying why the people who said it wasn't controversial are wrong, etc.
+Frequently in the reading guide I will indicate if a topic is debated, if there are other methods available, etc.  This is low-hanging fruit for completing the assignment because when things are debated, people publish papers saying why its controversial, explaining the controversy, explaining why its not actually controversial, saying why the people who said it wasn't controversial are wrong, etc.
 
 For example, searching Google Scholar for "p-value controversy debate" immediately yields two results:
 "Toward evidence-based medical statistics. 1: The P value fallacy" in the Annals of internal medicine, and "p Values, Hypothesis Tests, and Likelihood: Implications for Epidemiology of a Neglected Historical Debate" in the American Journal of Epidemiology.
 
-Also, if you use google scholar and search for the name of method and add key words such as "tutorial", "guide", "confused","idiot" (as in "Idiots guide to statistics"), "practical", "doctor", "medical" etc you'll probably find something.  Restricting just to the keywords being in the title (using *"allintitle:..."*) will help.
+Also, if you use Google scholar and search for the name of method and add key words such as "tutorial", "guide", "confused","idiot" (as in "Idiots guide to statistics"), "practical", "doctor", "medical" etc you'll probably find something.  Restricting just to the keywords being in the title (using *"allintitle:..."*) will help.
 
-For example the Google Scholar search *"allintitle:t-test guide*" shows some interesting possibilites:
+For example the Google Scholar search *"allintitle:t-test guide*" shows some interesting possibilities:
 "A user's guide to the T-test" in The Journal of Urology, and "Wilderness Survival Guide to the T-Test" in Journal of Therapeutic Schools and Programs. The search *"allintitle:t-test medical"* turns up
 "Statistics in medical research--IV. Sampling distribution, statistical testing of hypothesis and student's t-test." in the Journal of Postgraduate Medicine.  
 
 Alternatively, you can search a particular journal and use keywords like "statistics" or "statistical" and often papers on basic stats topics will pop up.  Again, restricting to the term to the title helps.
 
-If you don't find something in about 30 minutes of searching, though, contact me and I can either help you find something or proide recommendations.
+If you don't find something in about 30 minutes of searching, though, contact me and I can either help you find something or provide recommendations.
 
 ## Alternatives to papers
 
 The focus of this assignment is on published papers because they are generally easily and freely accessible to anyone associated with a university.  However, if you know of a book (eg, a stats book from a previous class) with a relevant chapter or section we can adapt the assignment.
 
-If you find another resource such as a blog or web app, you can probably use it for the sibling assignment to this one; see "Read Reinforcement Assignment (RRA): Annotated Bibliography Entry on Web Resrouce"
+If you find another resource such as a blog or web app, you can probably use it for the sibling assignment to this one; see "Read Reinforcement Assignment (RRA): Annotated Bibliography Entry on Web Resource"
 
 ## Examples of completed assignments
 
