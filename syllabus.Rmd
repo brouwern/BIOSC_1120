@@ -40,6 +40,9 @@ The general pre-requities for this course are: completion of 1 year of intro bio
 * Intro stats: STAT 1000
 * Minimum of a "C" for all courses
 
+Check the [course catalog](https://psmobile.pitt.edu/app/catalog/listCoursesBySubject/UPITT/B/BIOSC) for further details: https://psmobile.pitt.edu/app/catalog/listCatalog
+
+
 ### Catalog Description
 
 Biostatistics is the application of statistical principals to the design and analysis of biological studies.  This course covers the methods, software, theory, and philosophy used in contemporary biostatistics.  Examples will be drawn from across biological disciplines, including ecology, physiology, genomics, cell, and molecular biology.  Topics covered include basic data science and visualization, hypothesis testing and model building, analysis of variance (ANOVA), linear regression, multivariate statistics, power analysis, and experimental design.  Emphasis is placed on actively using the software R to apply these methods to real biological data.  (Class Number: 30894)
