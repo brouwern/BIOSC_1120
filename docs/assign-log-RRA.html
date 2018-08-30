@@ -302,6 +302,10 @@ $(document).ready(function () {
 <h2>Name: ____________________</h2>
 <p>Use this table to keep track of the 10 <strong>Reading reinforcement assignments</strong> you must complete over the course of the semester. To be counted for full credit a <strong>draft</strong> of the assignment must be turned in the week the reading was assigned.</p>
 <p><br></p>
+<pre class="r"><code>df &lt;- data.frame(dt)
+kable(dt[-1,],
+      col.names = dt[1,])%&gt;%
+  kable_styling(bootstrap_options = c(&quot;striped&quot;, &quot;hover&quot;))</code></pre>
 
 </div>
 
