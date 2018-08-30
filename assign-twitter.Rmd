@@ -9,26 +9,33 @@ Scientists frequently use Twitter to communicate about their research to the pub
 
 As part of this course you will be required to use Twitter at least once each week during the semester; this can easily be accomplished during class.  Yes, I am asking you to use social media *during* class.  
 
+<br>
+<br>
+
 ## Assignment tasks
 
 There are 6 specific tasks you must complete for this ongoing assignment.
 
-1. [  ] Create a Twitter account for this course (You are free to use a personal account; I can show you how to make a parallel account using your existing email address if you want.  You can also create email account using gmail just for this class.)
-1. [  ] Identify at least 1 member of the R twitter community, follow them, and re-tweet at least 1 of their tweets to the class using the tag #learnR, including me @lobrowR
-1. [  ] Tweet out the link to your "Reading reinforcement - journal article" assignment
-1. [  ] Tweet out the link to your "Reading reinforcement - web source" assignment
-1. [  ] Tweet at least 1 question about R to me @lobrowR and include #rstats and #learnR so the rest of the class can see it
-1. [  ] Respond to or answer at least 1 question from another student to the class.
+1. [___] Create a Twitter account for this course (You are free to use a personal account; I can show you how to make a parallel account using your existing email address if you want.  You can also create email account using gmail just for this class.)
+1. [___] Identify at least 1 member of the R twitter community, follow them, and re-tweet at least 1 of their tweets to the class using the tag #learnR, including me @lobrowR
+1. [___] Tweet out the link to your "Reading reinforcement - journal article" assignment
+1. [___] Tweet out the link to your "Reading reinforcement - web source" assignment
+1. [___] Tweet at least 1 question about R to me @lobrowR and include #rstats and #learnR so the rest of the class can see it
+1. [___] Respond to or answer at least 1 question from another student to the class.
 
 In addition to the 5 tweets listed above, you need to tweet something #rstats related at least once a week each week during the semester; basically, do one of the things on the list at least once each week.
 
 Probably the easiest way to accomplish this is to to open Twitter during class and tweet out any web resources you find while working.  Another way to complete the tasks would be to open up Twitter while reading the book and Tweet out questions or vocab related to your work on other assignments you are working on.
 
-## Learning Goals & Outcomes
 
+<br><br>
+
+## Learning Goals & Outcomes
 
 The goal of this set of assignments is to expose students to the Twitter R community and the diveristy of resources that can be found there.  Students will gain practice 
 ain how to locate and share useful online resources using twitter and ask appropriate questions.  The hope is that this assignment will also foster an online learning community for this course.
+
+<br><br>
 
 ## References
 
@@ -41,16 +48,19 @@ English 2014.  Why you should be on Twitter.  [Bulletin of the British Ecologica
 O'Mahony 2014.  [Twitter As A Tool For Science Communication](http://www.conservationecology.org/news/twitter-as-a-tool-for-science-communication)
 
 
+<br><br>
 
 ## Twitter Assigment Details
 
-To complete this assignment you must carry out the following 6 tasks on twitter.  Once you have completed
+To complete this assignment you must carry out the following 6 tasks on twitter.  After these initial task, the assignment is completed by Tweeting out relevant content at least once a week.
 
-### [  ] Twitter assignment Part 1: Getting started
+<br>
 
-1. [  ] Establish an account on twitter.  
-1. [  ] Follow your instructor @lobrowR
-1. [  ] Send a tweet to me saying "Hi, its XXXXX, I'm on twitter!"
+### [___] Twitter assignment Part 1: Getting started
+
+1. [___] Establish an account on twitter.  
+1. [___] Follow your instructor @lobrowR
+1. [___] Send a tweet to me saying "Hi, its XXXXX, I'm on twitter!"
   
 You can use a personal twitter account if you already have one or make one just for this class.  If you want to make a new twitter account for the class separate from your personal one you 
 
@@ -58,15 +68,16 @@ You can use a personal twitter account if you already have one or make one just 
 2. make a new gmail account to use 
 3. If you already use gmail, you can have twitter associate 2 separate accounts with the same email address by simply adding extra periods within the address.  For example, I have accounts associate with my raw email address (brouwern@gmail.com) and also a modified address (brouwer.n@gmail.com; note the "r.n").  This works because twitter sees "brouwern" and "brouwer.n" as 2 seperate addresses, while Google treats them the same; nothing has to be done to gmail to get this to work.
 
+<br>
 
-### [  ] Twitter assignment Part 2: Be a follower
+### [___] Twitter assignment Part 2: Be a follower
   
 
-1. [  ] Find and follow at least 1 scientist, R user, or R or stats-related twitter account
-1. [  ] Monitor this person and when they tweet something cool, send it to me and the rest of the class by including @lobrowR and at least one applicable tag: #learnR, #learnstats or, #rstats.
-1. [  ] You can continue to re-tweet material from interesting people throughout the semester to fulfill "tweet-a-week" aspect of the assignment
+1. [___] Find and follow at least 1 scientist, R user, or R or stats-related twitter account
+1. [___] Monitor this person and when they tweet something cool, send it to me and the rest of the class by including @lobrowR and at least one applicable tag: #learnR, #learnstats or, #rstats.
+1. [___] You can continue to re-tweet material from interesting people throughout the semester to fulfill "tweet-a-week" aspect of the assignment
 
-Recommended accounts include
+Recommended accounts include:
 
 * Mara Averick: @dataandme
 * R4DS online learning community: @R4DScommunity  "Twitter home of the #R4DS Online Learning Community (inspired by the R for Data Science text).  😍 #rstats & #DataScience. Join us: https://bit.ly/2qIxlUo
@@ -74,6 +85,8 @@ Recommended accounts include
 * @rstatsbot1234  "I retweet #rstats stuff. Made by @shahronak47""
 * Dr Andrew MacDonald: @polesasunder  "What determines where organisms are found & what do they do once present?"
 * Carl Boettiger: @cboettig "Professor, UC Berkeley. Theoretical ecology & evolution, data science, open science. Co-founder @rOpenSci"
+
+<br>
 
 ### [  ] Twitter assignment Parts 3 & 4: Sharing your web *and& peer reviewed article resources
 
@@ -84,12 +97,13 @@ Your tweet could look something like
 
 >"Found this interesting article in Animal Behavior on the use of p-values.  'Are significance thresholds appropriate for the study of animal behavior' by Andrew Soehr 1999.  https://www.sciencedirect.com/science/article/pii/S0003347298910168?via%3Dihub"
 
+<br>
 
 ### [  ] Twitter assignment Part 5: Ask a question
 
-1. [  ] Find something in R, statistics, the book, etc you don't understand
-1. [  ] Tweet me @lobrowR; include applicable tags (#learnr, #learnstats, #rstats, #ecology)
-1. [  ] You can continue to tweet questions to me (or other people in the class) throughout the semester to fulfill "tweet-a-week" aspect of the assignment, just include applicable tags (#learnr, #learnstats, #rstats, #ecology)
+1. [___] Find something in R, statistics, the book, etc you don't understand
+1. [___] Tweet me @lobrowR; include applicable tags (#learnr, #learnstats, #rstats, #ecology)
+1. [___] You can continue to tweet questions to me (or other people in the class) throughout the semester to fulfill "tweet-a-week" aspect of the assignment, just include applicable tags (#learnr, #learnstats, #rstats, #ecology)
 
 A really good thing to tweet would be a screen grab #rstats code that isn't working and write something like 
 
@@ -103,17 +117,19 @@ You can also ask me something stats related from a paper or work in another clas
 
 >"hey @lobrowr is there something goofy about this graph?  [paste screen clip]  shouldn't the error bars be asymmetric?  #learnstats #ecology"
 
-### [  ] Twitter assignment part 6: answer a question
+<br>
 
-1. [  ] Respond using to at least one question someone in the class has posted. You don't even need to be right, just give you best guess!
-1. [  ] You can continue to respond to questions to meet the "tweet-a-week" goal.
+### [___] Twitter assignment part 6: answer a question
+
+1. [___] Respond using to at least one question someone in the class has posted. You don't even need to be right, just give you best guess!
+1. [___] You can continue to respond to questions to meet the "tweet-a-week" goal.
 
 A response could be 
 
 >"hey [handle of person in class] I think you code doesn't work b/c you are missing a comma after data = df.  LOL"
 
 
-### [  ] Twitter assignment parts 7-15: other contributions
+### [___] Twitter assignment parts 7-15: other contributions
 
 1. Each week tweet out something related to your class assignments, readings, work in class, stats, stats related to your work outside of class, etc.
 

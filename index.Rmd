@@ -7,12 +7,15 @@ knitr::opts_chunk$set(cache = TRUE)
 ```
 
 ## Biostatistics Meeting times
+
 Thursdays 9:30AM - 12:00PM
 08/27/2018 - 12/07/2018
 
 170 Crawford Hall
 
+<br><br>
 
 ## University calendar
+
 The offical [university calendar](https://www.registrar.pitt.edu/calendars.html)  can be found at
 www.registrar.pitt.edu/calendars.html 

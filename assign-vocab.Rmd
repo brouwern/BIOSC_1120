@@ -10,10 +10,14 @@ Most statistical concepts are complex and layered, with subtlties and implicatio
 
 For the **Statistical vocabulary RRA** you will pick out 3 important vocab terms from an assigned reading and identify another source that provides a defintion for that term or that expounds on the meaning of the term.
 
+<br>
+
 ## Goals & Objectives
 
 
 The overall goal of this assignment is for students to see how statistical concepts can be unpacked verbally in different ways.
+
+<br>
 
 
 ## Assignment details
@@ -22,20 +26,30 @@ The overall goal of this assignment is for students to see how statistical conce
 
 Type out Motulsky's definitions for the terms as they are given as well as any associated explanation.   Provide the chapter and page number.
 
+<br>
+
 **Second**, locate a definition for, commentary on, illustration of, or even cartoon about the terms from a resource such as another stats book, a science text book, a website or even a blog post.  Write our their definition or provide a relevant picture, any associated commentary and the full reference.
 
-**Third**, write a sentence or two  comparing the 2 defintions or reflecting on them.  For example, you could say "Motulsky's defintion of p-values is exactly the same as that on Wikipedia" or "I totally didn't understand what Motulsky meant, but this defintion from Gotelli & Ellison makes it clearer" or even "These 2 definitions are different, and I don't understand either."
+<br>
+
+**Third**, write a sentence or 2  comparing the 2 defintions or reflecting on them.  For example, you could say *"Motulsky's defintion of p-values is exactly the same as that on Wikipedia"* or *"I totally didn't understand what Motulsky meant, but this defintion from Gotelli & Ellison makes it clearer"* or even *"These 2 definitions are different, and I don't understand either."*
 
 A hand-written rough draft of the assignemnt is due at the begining of class the week of the assigned reading.  A typed version is due the following week.
 
-## Suitable types of "definition"
+<br>
+
+## Suitable types of "definitions"
 
 You can locate your "defintions"" from a variety of sources; you can also be very broad in what you use as a defintion.  You could use a 
+
+<br>
 
 * formal defintion from a glossary or text book.  
 * You could also fine a more general comment, quote, quip or even joke
 * A concise graphical illustration of the concept (a classic is [accuracy vs. precision](https://en.wikipedia.org/wiki/Accuracy_and_precision) wikipedia.org/wiki/Accuracy_and_precision).
 * A cartoon, such as from XKCD or PhD comics; I there's a book called the "Cartoon Guide to Statistics" that could be a great source.  You cannot use a cartoon that appears in the text book or which I have shown.
+
+<br>
 
 
 ## References

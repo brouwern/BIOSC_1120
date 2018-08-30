@@ -1,10 +1,12 @@
 ---
-title: "Reading Reinforcement Assignments (RRAs)"
+title: "Reading Reinforcement Assignments (RRAs) Summary"
 ---
 
 In-class time for this course will be focused on actively engaging with data. This will invovle writing and executing R code to carry out analysis, and also applying statistical concepts and theory to assess the structure of the data and implications and interpretation of the output.  
 
 Class instructional time will be heavily biased towards the intricacies of R; it is therefore extermely important that students come to class primed to think conceptually about what they will be producing in R.  Actively enaging each week with the assigned readings will therefore be essential in order for class time to be most productive.
+
+<br>
 
 Depending on the week preparation will occur through a combination of four things:
 
@@ -13,13 +15,19 @@ Depending on the week preparation will occur through a combination of four thing
 1. Watching any **Assigned video lectures**
 1. Working through any **Computational tutorials** and starting **computational challenges**
 
+<br>
+
 ## Weekly readings
 
 Each week one or more of the chapters of Motulsky's *Intutivie Biostatistcs* will be assigned.  Additional papers or scanned book chapters may also be assigned; optional supplemental readings may also be provided.  The conceptual content of these readings will be the basis for the **Reading Reinforcement Assignments**, and the datasets and analyses will be the basis for the **Computational tutorials**.
 
+<br>
+
 ## Reading reinforcement assignments (RRAs)
 
-Readings will be assigned weekly.  Each week students must complete a short assignment called a  **Reading Reinforcement Assignment (RRAs)**.  The goal of the RRAs is to i) motivate the completion of the reading, ii) facilitate active engagement with the readings, and iii) help students see connections to other statistical and scientific topics.  
+Readings will be assigned weekly.  Each week students must complete a short assignment called a  **Reading Reinforcement Assignment (RRAs)**.  The goal of the RRAs is to i) motivate the completion of the reading, ii) facilitate active engagement with the readings, and iii) help students see connections to other statistical and scientific topics. 
+
+<br>
 
 There are 6 standard types of RRAs: 
 
@@ -31,11 +39,24 @@ There are 6 standard types of RRAs:
 1. Statistical quiz worksheet (up to 5)
 1. Other (up to 5)
 
-Students will turn in 14 Reading Reinforcement Assignments (RRA), 1 for each week, though they can chose each which one to complete.  **The number in parentheses in the bulleted list above is the number that must be or can be submitted**.  Students are allowed to skip turning in an RRA 3 weeks (equivalently, the 3 assignments with the lowest score will be dropped).  Two of the RRAs must be  annotated bibliography entires (summarized below; full details in sperate handouts).  For the remaining RRAs students can complete an **"I don't get it" journal entry** worksheet, a **Statistical vocabulary worksheet** based on important terms in the chapter, a **Statistical quiz worksheet** where they write multiple-choice quiz questions based on the reading, or complete one of several miscellanous RRA tasks outlined below.
+<br>
 
-Each week students will have the choice of whether and what type of RRA to complete, **and it is each student's responsiblity to actively keep track of track what they have completed**.  I have provided a sheet for this.
+Students will turn in 14 Reading Reinforcement Assignments (RRA), 1 for each week, though they can chose each which one to complete.  **The number in parentheses in the bulleted list above is the number that must be or can be submitted**.  
+
+Students are allowed to skip turning in an RRA 3 weeks (equivalently, the 3 assignments with the lowest score will be dropped).  Two of the RRAs must be  annotated bibliography entires (summarized below; full details in sperate handouts).  For the remaining RRAs students can complete up to the indicate number of 
+
+* **"I don't get it" journal entry** worksheet
+* **Statistical vocabulary worksheet** based on important terms in the chapter, 
+* **Statistical quiz worksheet** where they write multiple-choice quiz questions based on the reading, 
+* or complete one of several miscellanous RRA tasks outlined below.
+
+<br>
+
+Each week students will have the choice of whether and what type of RRA to complete, **and it is each student's responsiblity to actively keep track of track what they have completed**.  I will provided a sheet for this.
 
 Article and links I discuss in class can be used to complete RRA but must highlight somethign other than what I highlight or dig beyond what I discuss.  For example, if I provide a quote from a blog about p-values, you can't use that same quote for one of your assignments.
+
+<br>
 
 ## Reading Reinforcement Assignment (RRA) summaries
 
@@ -43,13 +64,19 @@ Article and links I discuss in class can be used to complete RRA but must highli
 
 This is a free pass, no questions asked.  All you have to do is come to class and turn in a "free pass" paper, or in case of sickness or emergency contact the professor about missing class.  You will be expect to complete the reading and keep up with the content though you do not need to turn in anything.
 
-Equivalently, your three lowest scores on an RRA will be dropped.  
+Equivalently, your 3 lowest scores on an RRA will be dropped.  
+
+<br>
 
 ### Annotated bibliograhy entries (2)
 
-Over the course of the semester students must complete 2 **mini-writing projecT** (about 150-200 words).  Each assignment amounts to an **annotated bibliography entry** about a resource the complements or extends an assigned readings.  The assignment will briefly introduce the resource and discuss how it relates to the chapter.  One mini-writing assignment must be written on a paper that appears in an academic journal (though it doesn't have to be a research article) and the other must be written on a web-based resource (eg blog).  See the sperate handouts for full details.
+Over the course of the semester students must complete 2 **mini-writing projecT** (about 150-200 words).  Each assignment amounts to an **annotated bibliography entry** about a resource the complements or extends an assigned readings.  
+
+The assignment will briefly introduce the resource and discuss how it relates to the chapter.  One mini-writing assignment must be written on a paper that appears in an academic journal (though it doesn't have to be a research article) and the other must be written on a web-based resource (eg blog).  See the sperate handouts for full details.
 
 A key part of this assignment is that it is handed in **the week of an assigned reading**; it cannot be completed retrospectively on a previous chapter.  The goal is for students to dig a bit deeper into a current reading.  **A draft of the assignment will be due in-class the week of the assigned reading, and the final draft the following week.**  The the appropriate handouts for full details.
+
+<br>
 
 
 ### "I don't get it..." or "Wow, now I get!" journal entry (up to 3)
@@ -60,18 +87,25 @@ Alternatively, students can describe how somethign that previously had been conf
 
 See the sperate handout for full details.
 
+<br>
+
 ### Statistical vocabulary & definitions worksheets (up to 5) 
 
 This assignment involves identifying 3 terms from a week's readings, writing out Motulsky's definitions, and then comparing those definitions to definitions or commentary from other sources.  See the handout for further details.  A handwritten copy is due at the begining of class each week and a digital copy the following week.  You can tweet our the a definition to complete your weekly twitter assignment.  You can search for definitions anywhere; I will provide scans of glossaries from other stats books for reference.
+
+<br>
 
 ### Statistical quiz worksheet (up to 5) 
 
 This assignment involves writing 3 potential multiple-choice quiz questions with reasonable answers.  See the sperate handouts for full details.
 
+<br>
 
 ### Other (up to 5)
 
 I am open to other ways for you to engage with the weekly readings.  Below are some additional ideas; I am open to other suggestions.
+
+<br>
 
 * Copy editing assignment: Print out and proof-read the reading guide for the assigned chapter, indicating any typos, mistakes, or elements you think should be added
 * Data parasite assignment: Find a published example of the type of analysis, plot or table being discussed in the chapter which has an open-access dataset (or which can be extacted from the original paper.  Write up the reference and obtain the data.  (In principle you must be able to replicate what was done in the paper, though you don't actually have to).
