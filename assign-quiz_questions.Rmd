@@ -8,7 +8,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Quiz questions
 
-This assignment involves writing 3 potential multiple-choice quiz questions with reasonable answers.  Please indicate the chapter the question relates to and the page where the answer can be found.
+This assignment involves writing 3 potential multiple-choice quiz questions with reasonable answers.  Please indicate the **chapter** the question relates to, the **page(s)** where the answer can be found, and what the correct answer is.
 
 
 ## Example quiz
