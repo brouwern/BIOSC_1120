@@ -23,6 +23,7 @@ Use this table to keep track of the 10 **Reading reinforcement assignments** you
 ```{r, echo = F}
 library(knitr)
 library(kableExtra)
+library(pander)
 ```
 
 ```{r echo = F}
@@ -49,10 +50,13 @@ rbind(c("","Type",          "Assignment title",                      "Chapter nu
 
 
 
-```{r echo=TRUE}
+```{r}
 df <- data.frame(dt)
-kable(dt[-1,],
-      col.names = dt[1,])%>%
-  kable_styling(bootstrap_options = c("striped", "hover"))
+
+pander(dt[-1,])
+       
+  
+ #     col.names = dt[1,])%>%
+ # kable_styling(bootstrap_options = c("striped", "hover"))
 ```
 

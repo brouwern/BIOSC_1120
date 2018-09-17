@@ -9,15 +9,25 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## "I don't get it" Journal Entry
 
-This could be somewhat like a journal entry
+This assignment is a short (1/2 page, hand written) journal-entry like statement about something in the assigned reading which does not make sense.  Students should state what it is that is problematic, where is occurs (page number, figure, equation), and provide some details about *why* it doesn't make sense, at what point you get lost, or what might make it clearer.  
 
-Write out aspect/issue/topic you don't get and a focused on questio
-"What does it mean..."
-"Does this apply to..."
-"Doesn't this contradict..."
-"Does this apply to a biological situation such as ..."
-"This seems totally impractical if..."
-"I though x mean y, but then it says z, now I'm totally confused."
-"In another course I remember my professor saying z, but the book sayz q; what's up?"
-"The book says x, but everyone I know does z; what's up?"
-"The book say x is bad, but eveyrone does it; what's up?"
+Alternatively, students can describe how something that previously had been confusing was made clear by a particular passage.  Briefly introduce the concept (eg, p-values), what the problem was ("I never knew that they were a probability"), what Motulsky or the author of the papers says and where (you can quote directly) and describe how it helped.
+
+This could be somewhat like a conventional journal entry; all you really need to do is convey the fact that something doesn't make sense and you know it doesn't make sense.
+
+You can use this journal entry to complete your **social coding** assignment for the week by communicating what the core of your question is.  For example, distill down your journal entry to tweet-length. 
+
+
+Types of phrases that could occur in or motivdate this type of RRA might be:
+
+* "What does it mean..."
+* "Does this apply to..."
+* "Doesn't this contradict..."
+* "Does this apply to a biological situation such as ..."
+* "This seems totally impractical if..."
+* "I thought x meant y, but then it says z, now I'm totally confused."
+* "In another course I remember my professor saying z, but the book sayz q; what's up?"
+* "The book says x, but everyone I know does z; what's up?"
+* "The book say x is bad, but eveyrone does it; what's up?"
+* "I was following the logic up until page x paragraph y, but then what follows totally doesn't make sense."
+* "What is writtten on page x makes sense, but figure x.x doesn't seem to relate"

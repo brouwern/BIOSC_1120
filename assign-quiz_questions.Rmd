@@ -8,4 +8,34 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Quiz questions
 
-Write out potential quiz questions
+This assignment involves writing 3 potential multiple-choice quiz questions with reasonable answers.  Please indicate the chapter the question relates to and the page where the answer can be found.
+
+
+## Example quiz
+
+It would be appropriate to evaluate the ratio of bar heights in a bar graph for which of the following:
+
+1. Temperature in Celsius
+1. Years
+1. Temperature in Fahrenheit 
+1. Enzyme activity
+
+<br>
+
+The mean plus or minus one SD represents what percentage of values in a Gaussian population:
+
+1. 95.4%
+1. 33.33%
+1. 45%
+1. 68.3%
+
+<br>
+
+For what type of variable is it meaningful to compute the coefficient of variation:
+
+1. Nominal
+1. Ratio
+1. Interval
+1. Ordinal
+
+

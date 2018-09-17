@@ -11,7 +11,7 @@ Class instructional time will be heavily biased towards the intricacies of R; it
 Depending on the week preparation will occur through a combination of four things:
 
 1. Reading the **assigned textbook chapters** and/or papers
-1. Engaging with the readings through **Reading Reinforcement Assignments**
+1. Engaging with the readings through **Reading Reinforcement Assignments (RRAs)**
 1. Watching any **Assigned video lectures**
 1. Working through any **Computational tutorials** and starting **computational challenges**
 
@@ -43,7 +43,7 @@ There are 6 standard types of RRAs:
 
 Students will turn in 14 Reading Reinforcement Assignments (RRA), 1 for each week, though they can chose each which one to complete.  **The number in parentheses in the bulleted list above is the number that must be or can be submitted**.  
 
-Students are allowed to skip turning in an RRA 3 weeks (equivalently, the 3 assignments with the lowest score will be dropped).  Two of the RRAs must be  annotated bibliography entires (summarized below; full details in sperate handouts).  For the remaining RRAs students can complete up to the indicate number of 
+Students are allowed to skip turning in an RRA 3 weeks (equivalently, the 3 assignments with the lowest score will be dropped).  Two of the RRAs must be  annotated bibliography entires (summarized below; full details in sperate handouts).  For the remaining RRAs students can complete up to the indicated number of 
 
 * **"I don't get it" journal entry** worksheet
 * **Statistical vocabulary worksheet** based on important terms in the chapter, 
@@ -81,7 +81,7 @@ A key part of this assignment is that it is handed in **the week of an assigned 
 
 ### "I don't get it..." or "Wow, now I get!" journal entry (up to 3)
 
-This assignment is a short (1/2 page hand written) jounral-entry like statement about something in the assigned reading which does not make sense.  Students should state what it is that is problematic, where is occurs (page number, figure, equation), and provide some details about why it doesn't make sense, at what point you get lost, or what would make it clearer.  You can also use part of this journal entry to complete your twitter assignment for the week.  
+This assignment is a short (1/2 page, hand written) jounral-entry like statement about something in the assigned reading which does not make sense.  Students should state what it is that is problematic, where is occurs (page number, figure, equation), and provide some details about why it doesn't make sense, at what point you get lost, or what would make it clearer.  You can also use part of this journal entry to complete your twitter assignment for the week.  
 
 Alternatively, students can describe how somethign that previously had been confusing was made clear by a particular passage.  Briefly introduce the concept (eg, p-values), what the problem was ("I never knew that they were a probability"), what Motulsky says and where (you can quote directly) and describe how it helped.
 

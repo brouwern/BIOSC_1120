@@ -1,0 +1,19 @@
+---
+title: 'Reading assignment: stats cartoon or illustration'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+Find a cartoon or comics that relates to that week's readings and write a short explanation as to why it is relevant (note: you cannot use one of the cartoons that already appear in the book are which I show in class).
+
+## Cartoons in Motulsky
+
+* "Significant" XKCD https://xkcd.com/882/
+
+
+## Cartoons found by students
+
+* "S.A.T. Prep"  Rhymes With Orange http://rhymeswithorange.com/comics/november-9-2013/

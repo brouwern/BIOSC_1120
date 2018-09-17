@@ -16,7 +16,7 @@ library(icon)
 ### Instructor 
 
 **Dr. Nathan Brouwer**					
-<br> `r icon::fa("building")` Office: Frich Hall 208					
+<br> `r icon::fa("building")` Office: Crawford Hall A351 ("Bridge")		
 <br> `r icon::fa("envelope-square")` E-mail: nlb24@pitt.edu
 <br> `r icon::fa("chrome")` Website: https://brouwern.github.io/BIOSC_1120/index.html
 <br> `r icon::fa("twitter")` Twitter: @lobrowR

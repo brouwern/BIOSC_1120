@@ -2,58 +2,65 @@
 title: "Recomended Podcasts"
 ---
 
+## Specific Podcasts
 
-## Recomended G/PG Podcasts
+### On the history of R
+Stats and Stories.  "Episode 63: R R R R R ... not just for pirates anymore" http://www.cas.miamioh.edu/statsandstories/archives63.html
 
-The Effort Report, 
+### Hadley Whickham on data science. 
 
-[Not So Standard Deviations](http://nssdeviations.com/)
+Stats and Stories  "Episode 62: R R R R R ... not just for pirates anymore" http://www.cas.miamioh.edu/statsandstories/archives62.html
 
-Stats+Stories
+>"To me, R is kind of like a tool, for like expressing your thought. Like to me it's kind of like the language side of the programming language. ... it gives you this kind of language, this tool to kind of get your thoughts about how to tackle the data analysis part of it out of your head and into the computer, because the computer has to do it for you these days, because you can't do statistics on pencil and paper. So how can you like describe to the computer what you want to do and how you can help the computer do it as efficiently as possible." (Hadley Whickham)
 
-crediblycurious
+>On how to define data science:"...I kind of like this sort of broad idea that it's like turning ... data ... into knowledge... I like this sort of broader definition, the one thing that I do believe in pretty strongly that to be ... a data scientist or to do data science as opposed to ... doing data analysis, you have to be programming. You can't be ... pointing and clicking you've got to be writing programming language. ... one of the distinguishing features of data science, it's about using a programming language." (Hadley Whickham)
 
-Rationally Speaking
+### Biases in Observational studies
 
-Data Skeptic
+Pleanry Session: "1.06 RELEVANCE, Jenny Gill, and Dr. Catherine Livingston of the Oregon Health Authority"
 
-The Bayes Factor
-
-The Skeptics Guide
-
-* The Skeptics Guide to the Universe covers a wide range of topics in each episode, and only occassinally do they touch upon issues related to statistics.  They do however frequently critique the evidence and logic of studies that are being discussed in the media.
+Discussion of Gilla and Prasad 2018.  Improving observational studies in the era of big data.  The Lancet.  https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(18)31619-2/abstract
 
 
+## General podcast recommendats
 
-## Recomended PG-13 Podcasts
-Two Psychologists Four Beers
+### Recomended G/PG Podcasts
 
-The Black Goat
+* The Effort Report
+* [Plenary Session](https://soundcloud.com/plenarysession)
+* [Not So Standard Deviations](http://nssdeviations.com/)
+* Stats+Stories
+* crediblycurious
+* Rationally Speaking
+* Data Skeptic
+* The Bayes Factor
+* The Skeptics Guide
+  + The Skeptics Guide to the Universe covers a wide range of topics in each episode, and only occassinally do they touch upon issues related to statistics.  They do however frequently critique the evidence and logic of studies that are being discussed in the media.
 
-Everything Hertz
 
-* Note: this podcast is sometimes PG-13 and the host's humore at times juvenille.
+
+### Recomended PG-13 Podcasts
+
+* Two Psychologists Four Beers
+* The Black Goat
+* Everything Hertz
+  + Note: this podcast is sometimes PG-13 and the host's humore at times juvenille. 
 
 ## Recommended R-rated podcasts
 
-Very Bad Wizards
-
-* Note: this podcast is generally R-rated and many people are likely to find the host's humor juvenille at best, offensive at worst.  That said, these are are very very smart and very funny.
-
+* Very Bad Wizards
+  + Note: this podcast is generally R-rated and many people are likely to find the hosts' humor juvenille at best, offensive at worst.  That said, these guys are are very very smart and often very funny.
 
 
-## Potentially interesting
 
-Data Science Imposters
+### Potentially interesting
 
-I have not vetted these
+I have not vetted these but they look interesting or have been recommneded to me
 
-Ologies
-
-Adversarial learning
-
-The R-podcast
-
-Data Science Storytime
+* Data Science Imposters
+* Ologies
+* Adversarial learning
+* The R-podcast
+* Data Science Storytime
 
 

@@ -222,9 +222,9 @@ $(document).ready(function () {
     <span class="caret"></span>
   </a>
   <ul class="dropdown-menu" role="menu">
-    <li class="dropdown-header">READING ASSIGNMENTS</li>
+    <li class="dropdown-header">READING ASSIGNMENTS (RRA)</li>
     <li>
-      <a href="assign-type-reading.html">Summary</a>
+      <a href="assign-type-reading.html">RRA Summary</a>
     </li>
     <li>
       <a href="assign-log-RRA.html">Reading assignment log</a>
@@ -236,13 +236,16 @@ $(document).ready(function () {
       <a href="assign-annobib-journal.html">Journal tutorial write up</a>
     </li>
     <li>
-      <a href="assign-vocab.html">Statistical vocab</a>
+      <a href="assign-vocab.html">Statistical vocab RRA</a>
     </li>
     <li>
-      <a href="assign-I_dont_get_it.html">`I dont get it get`</a>
+      <a href="assign-I_dont_get_it.html">`I dont get it get` RRA</a>
     </li>
     <li>
-      <a href="assign-quiz_questions.html">Quiz questions</a>
+      <a href="assign-quiz_questions.html">Quiz questions RRA</a>
+    </li>
+    <li>
+      <a href="assign-cartoons.html">Cartoons RRA</a>
     </li>
     <li class="dropdown-header">OTHER ASSIGNMENTS</li>
     <li>
@@ -303,10 +306,199 @@ $(document).ready(function () {
 <p>Use this table to keep track of the 10 <strong>Reading reinforcement assignments</strong> you must complete over the course of the semester. To be counted for full credit a <strong>draft</strong> of the assignment must be turned in the week the reading was assigned.</p>
 <p><br></p>
 <pre class="r"><code>df &lt;- data.frame(dt)
-kable(dt[-1,],
-      col.names = dt[1,])%&gt;%
-  kable_styling(bootstrap_options = c(&quot;striped&quot;, &quot;hover&quot;))</code></pre>
 
+pander(dt[-1,])</code></pre>
+<table>
+<caption>Table continues below</caption>
+<colgroup>
+<col width="6%" />
+<col width="20%" />
+<col width="41%" />
+<col width="23%" />
+<col width="8%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td align="center">1</td>
+<td align="center">Mini-project</td>
+<td align="center">Annotated biblio - web resource</td>
+<td align="center">________________</td>
+<td align="center">_____</td>
+</tr>
+<tr class="even">
+<td align="center">2</td>
+<td align="center">Mini-project</td>
+<td align="center">Annotated biblio. - journal</td>
+<td align="center">________________</td>
+<td align="center">_____</td>
+</tr>
+<tr class="odd">
+<td align="center">1</td>
+<td align="center">Reading notes</td>
+<td align="center">Vocab &amp; Definitions</td>
+<td align="center">________________</td>
+<td align="center">_____</td>
+</tr>
+<tr class="even">
+<td align="center">2</td>
+<td align="center">Reading notes</td>
+<td align="center">Quiz questions</td>
+<td align="center">________________</td>
+<td align="center">_____</td>
+</tr>
+<tr class="odd">
+<td align="center">3</td>
+<td align="center">Reading notes</td>
+<td align="center">______________________________</td>
+<td align="center">________________</td>
+<td align="center">_____</td>
+</tr>
+<tr class="even">
+<td align="center">4</td>
+<td align="center">Reading notes</td>
+<td align="center">______________________________</td>
+<td align="center">________________</td>
+<td align="center">_____</td>
+</tr>
+<tr class="odd">
+<td align="center">5</td>
+<td align="center">Reading notes</td>
+<td align="center">______________________________</td>
+<td align="center">________________</td>
+<td align="center">_____</td>
+</tr>
+<tr class="even">
+<td align="center">6</td>
+<td align="center">Reading notes</td>
+<td align="center">______________________________</td>
+<td align="center">________________</td>
+<td align="center">_____</td>
+</tr>
+<tr class="odd">
+<td align="center">7</td>
+<td align="center">Reading notes</td>
+<td align="center">______________________________</td>
+<td align="center">________________</td>
+<td align="center">_____</td>
+</tr>
+<tr class="even">
+<td align="center">8</td>
+<td align="center">Reading notes</td>
+<td align="center">______________________________</td>
+<td align="center">________________</td>
+<td align="center">_____</td>
+</tr>
+<tr class="odd">
+<td align="center">9</td>
+<td align="center">Reading notes</td>
+<td align="center">______________________________</td>
+<td align="center">________________</td>
+<td align="center">_____</td>
+</tr>
+<tr class="even">
+<td align="center">10</td>
+<td align="center">Reading notes</td>
+<td align="center">______________________________</td>
+<td align="center">________________</td>
+<td align="center">_____</td>
+</tr>
+<tr class="odd">
+<td align="center">11</td>
+<td align="center">Reading notes</td>
+<td align="center">______________________________</td>
+<td align="center">________________</td>
+<td align="center">_____</td>
+</tr>
+<tr class="even">
+<td align="center">12</td>
+<td align="center">Reading notes</td>
+<td align="center">______________________________</td>
+<td align="center">________________</td>
+<td align="center">_____</td>
+</tr>
+<tr class="odd">
+<td align="center">13</td>
+<td align="center">Reading notes</td>
+<td align="center">______________________________</td>
+<td align="center">________________</td>
+<td align="center">_____</td>
+</tr>
+<tr class="even">
+<td align="center">14</td>
+<td align="center">Reading notes</td>
+<td align="center">______________________________</td>
+<td align="center">________________</td>
+<td align="center">_____</td>
+</tr>
+<tr class="odd">
+<td align="center">15</td>
+<td align="center">Reading notes</td>
+<td align="center">______________________________</td>
+<td align="center">________________</td>
+<td align="center">_____</td>
+</tr>
+</tbody>
+</table>
+<table style="width:10%;">
+<colgroup>
+<col width="9%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td align="center">_____</td>
+</tr>
+<tr class="even">
+<td align="center">_____</td>
+</tr>
+<tr class="odd">
+<td align="center">_____</td>
+</tr>
+<tr class="even">
+<td align="center">_____</td>
+</tr>
+<tr class="odd">
+<td align="center">_____</td>
+</tr>
+<tr class="even">
+<td align="center">_____</td>
+</tr>
+<tr class="odd">
+<td align="center">_____</td>
+</tr>
+<tr class="even">
+<td align="center">_____</td>
+</tr>
+<tr class="odd">
+<td align="center">_____</td>
+</tr>
+<tr class="even">
+<td align="center">_____</td>
+</tr>
+<tr class="odd">
+<td align="center">_____</td>
+</tr>
+<tr class="even">
+<td align="center">_____</td>
+</tr>
+<tr class="odd">
+<td align="center">_____</td>
+</tr>
+<tr class="even">
+<td align="center">_____</td>
+</tr>
+<tr class="odd">
+<td align="center">_____</td>
+</tr>
+<tr class="even">
+<td align="center">_____</td>
+</tr>
+<tr class="odd">
+<td align="center">_____</td>
+</tr>
+</tbody>
+</table>
+<pre class="r"><code> #     col.names = dt[1,])%&gt;%
+ # kable_styling(bootstrap_options = c(&quot;striped&quot;, &quot;hover&quot;))</code></pre>
 </div>
 
 

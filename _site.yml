@@ -19,8 +19,8 @@ navbar:
     - text: "Assignments"
       icon: fa-gear
       menu:
-        - text: "READING ASSIGNMENTS"
-        - text: "Summary"
+        - text: "READING ASSIGNMENTS (RRA)"
+        - text: "RRA Summary"
           href: assign-type-reading.html
         - text: "Reading assignment log"
           href: assign-log-RRA.html
@@ -28,12 +28,14 @@ navbar:
           href: assign-annobib-web.html
         - text: "Journal tutorial write up"
           href: assign-annobib-journal.html
-        - text: "Statistical vocab"
+        - text: "Statistical vocab RRA"
           href: assign-vocab.html
-        - text: "`I dont get it get`"
+        - text: "`I dont get it get` RRA"
           href: assign-I_dont_get_it.html
-        - text: "Quiz questions"
+        - text: "Quiz questions RRA"
           href: assign-quiz_questions.html
+        - text: "Cartoons RRA"
+          href: assign-cartoons.html
         - text: "OTHER ASSIGNMENTS"
         - text: "Twitter Assignment"
           href: assign-twitter.html
