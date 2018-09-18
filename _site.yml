@@ -19,6 +19,22 @@ navbar:
     - text: "Assignments"
       icon: fa-gear
       menu:
+        - text: "INDEPENDENT PROJECT (IP)"
+        - text: "IP 0 - Overview"
+          href: indproj_00-overview.html
+        - text: "IP 1 - Initial description"
+          href: indproj_01-initial_email.html
+        - text: "IP 2 - Initial description"
+          href: indproj_02-data_description.html
+        - text: "IP 3 - Focal Question/Analysis description"
+          href: indproj_03-question_analysis_description.html
+        - text: "IP 4 - Original data"
+          href: indproj_04-orig_data.html
+        - text: "IP 5 - Analysis data"
+          href: indproj_05-analysis_data.html
+        - text: "IP 6 - Introduction/Methods"
+          href: indproj_06-intro_meth.html
+        - text: ""
         - text: "READING ASSIGNMENTS (RRA)"
         - text: "RRA Summary"
           href: assign-type-reading.html
@@ -44,9 +60,9 @@ navbar:
       icon: fa-gear
       menu:
         - text: "Websites"
-          href: page-a.html
+          href: resources-websites.html
         - text: "Videos"
-          href: page-b.html
+          href: resources-videos.html
         - text: "Blogs"
           href: blogs.html
         - text: "Podcasts"

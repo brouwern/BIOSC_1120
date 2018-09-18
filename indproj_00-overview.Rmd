@@ -1,0 +1,74 @@
+---
+title: "Biostatistics Independent Project"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+|BIOSC 1120: Biostatistics - Fall 2018
+|Independent Research Project 
+
+## Overview of Independent Project
+
+The overall goal of the independent research project is to have each student carry out a new line of inquiry on  existing data or lead an independent scientific investigation on data they have collected themselves.  Using their selected data, students will analyze and report the results of their study using the data science and statistics skills learned in this class.  Students are encouraged to use existing data and potential datasets will be recommended and supplied; however, they do need carry out **novel lines of inquiry** and carry out analyses that no one else has done. 
+
+A key aspect of the project will be to create a fully reproducible **computational workflow** in R beginning with raw data and ending with finished graphs.  (Tables and text do not need to be created in R).  Key steps during this work flow (eg raw data, finalized data, data dictionary exploratory graphs, model diagnostics, final analysis code) will be worked up over the course of the semester and compiled into appendices for the final paper.
+
+<br>
+
+## Learning objectives & Outcomes
+
+### Objectives
+
+Students will understand the full life cycle of an analysis, including obtaining data, carrying out quality control, exploring data, writing up the analysis, and documenting the entire workflow.
+
+### Outcomes
+
+After completing this project students will be able to
+
+* Carry out a contemporary form of statistical analysis in R
+* Correctly interpret their analysis and present the results graphically and in writing
+* Identify important features of a dataset that determine how it should be analyzed, as well as what are its limits with regard to appropriate methods, inference, and interpretation.
+* Create a reproducible workflow which documents all the steps in a data analysis project, from documenting the raw data to providing an annotated analysis script.
+
+<br>
+
+## Key aspects of project
+
+Each student will
+
+1. **Identify a dataset** with a sufficient sample size (N) to carryout meaningful statistical analyses.  In most cases a dataset should have >90 observations, with observations on at least 3 different groups of interest (ie 30 from treatment A in an experiment, 30 from treatment B, 30 from treatment C).  OR with 3 different predictor variables (eg how does microbiome species richness depend on organism body size, generation time, and body temperature).  Datasets with fewer observations, treatments or predictors can be used after discussion with me 
+1. **Identify a scientifically relevant research question** related to the data.  Ideally the research question will be generated before exploration of the data begins, but this is not a requirement as long as the  exploratory nature of the analysis is indicated in the final report.
+1. **Critique the data & study design**: For both data quality controland to understand the limits of what can be learned from the data you should critically evaluate the raw data, experimental design, approach to randomization and/or sampling design, and appropriateness of the controls.
+1. **Carry out a graphical exploration** of the data using boxplots, histograms, scatter plots, or other graphical tools to understand the nature of the data. These graphical explorations will be summarized in an appendix with the relevant code and plots.
+1. **Identify an appropriate statistical model** (aka statistical test) for the analysis of the data and implement the analysis independently in R.  This will most likely be multiple linear regression (including ANCOVA),  1-way ANOVA with post-hoc comparisons, 2-way ANOVA with evaluation of interactions, logistic regression, or a simple mixed-effects model to accommodate nesting or blocking.  Other methods can be used upon approval.  If a dataset requires significant preparation and exploration before analysis simpler methods might be approved.
+1. **Carry out a full analysis**: Carry out an analysis in R, generate all figures in R, and provide an annotated R script to reproduce the final analysis.
+1.  As part of the analysis, **determine if the data meet the assumptions of the model**, carry out appropriate data transformations, and assess appropriate model diagnostics.  Model diagnostics will be reported in an appendix.
+1. Represent the results of the experiment or study in the form of a short but complete scientific paper that includes appropriate figures made in R, tables as needed (any format), and additional information (Raw data, R code, diagnostic plots) in an appendix.  This paper focus on written and graphical reporting of the methods and results, but also include a brief abstract, introduction, and discussion.
+
+<br>
+
+## Acceptable data soruce
+
+The main criteria is that the data 1) has approximately 100 observations, 2) requires analysis with more than just a t-test, and 3)  anlaysis has not been done before. 
+
+Acceptable data sources / projects include:
+
+* Unanalyzed Data from a recent experiment you conducted
+* Unanalyzed data provided by an advisor or senior scientist
+* Continuation and extension of analysis of data from a graduate rotation project
+* Data from an online database
+* Re-analysis of published data to explore new questions and apply new methods
+* ... and probably many others
+
+An unacceptable project would involve converting a previously done analysis to R, replicating a previous analysis to determine if it is correct, or writing up an analysis that has already been completed or is near completion.
+
+<br>
+
+## Collaboration
+
+Students are encouraged to discuss with each other during all phases of this project – science is a communal activity!  Up to 2 students (more upon approval) can also collaborate directly with each other to carry out a study.  However, a collaborative study must have 2 independent sub-sets of data that each student will analyze and report on seperately  For example, multiple students can work with data from the same online database, but must work on distinct subsets of the data.
+
+
+

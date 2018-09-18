@@ -1,0 +1,17 @@
+---
+title: "Independent Project - Assignment 5 - Analysis data & Data Dictionary"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+|BioSCI 1120
+|Independent Research Project 
+
+* xx Points (10% of total points for paper)
+* Assigned: 
+* Due:
+
+Proposals can be turned in earlier if you want to receive feedback sooner.
+

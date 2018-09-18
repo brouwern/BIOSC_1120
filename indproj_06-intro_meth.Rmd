@@ -1,0 +1,27 @@
+---
+title: "Independent Project - Assignment 6 - Introduction & Lab/Field Methods"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+|BioSCI 1120
+|Independent Research Project 
+
+* xx Points (10% of total points for paper)
+* Assigned: 
+* Due:
+
+Proposals can be turned in earlier if you want to receive feedback sooner.
+
+
+## Assignment 6: 
+
+Assignment X is to write the introduction and methods related to data collection of the paper.
+The introduction should be brief and plainly state the scientific background or motivation for the project and question being asked, and any specific hypotheses being tested.  The methods only have to cover experimental or sampling methods; does not have to contain specification of statistical model.  The format should be as for a typical scientific paper in a journal such as Ecology or The Journal of Wildlife Management.  The Methods should contain enough detail so that another ecologists or environmental scientists could re-do the study if they wanted.  For example, they should be able to re-locate the general area where the study was conducted or purchase the materials used, carry out the study, and measure things in the same manner.  Assignment 2 should contain 5 citations.  At least 3 must occur in the introduction and be related to the scientific background.  Other citations can be in the intro or be in the methods.  Citations in the methods can be from other studies that were conducted at the same field site or provide information on the methods being used.
+
+Assessment for Assignment 6 will focus on whether students have i) structured their intro and methods in the format of a standard scientific paper, including properly formatted in text citations and a works cited list; ii) provided sufficient details regarding the experimental/survey design.
+
+
+

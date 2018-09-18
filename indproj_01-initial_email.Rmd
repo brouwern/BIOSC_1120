@@ -1,0 +1,20 @@
+---
+title: "Biostatistics Independent Project - Assignment 1 - Data Availability Email"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+|BioSCI 1120
+|Independent Research Project 
+
+Read the independent project summary and then indicate via email into which of the 3 following categories you think you fall:
+
+1. You currently are in possession of a dataset which you think could be used for the independent project
+1. You think you can obtain data but don't yet have it.  The data are either currently being generated or you believe you know where you can access relevant data (an adviser has told you about a dataset, you know of a database with relevant data, etc)
+1. You don't have data or any leads.  
+
+Please provide a 1-2 sentence description of the data and, if relevant when/how you will obtain it.  
+
+**If you do not have a dataset in mind please indicate what type of biological or statistical questions most interest you and what biological/medical fields most interest you.**  We should also talk soon about how to find you data.

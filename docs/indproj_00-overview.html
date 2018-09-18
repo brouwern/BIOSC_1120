@@ -11,7 +11,7 @@
 
 
 
-<title>Page C</title>
+<title>Biostatistics Independent Project</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -315,20 +315,70 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Page C</h1>
+<h1 class="title toc-ignore">Biostatistics Independent Project</h1>
 
 </div>
 
 
-<p>There are a large number of blogs about statistics (or which frequently discuss statistics) that you can scan or search, such as</p>
+<p>|BIOSC 1120: Biostatistics - Fall 2018 |Independent Research Project</p>
+<div id="overview-of-independent-project" class="section level2">
+<h2>Overview of Independent Project</h2>
+<p>The overall goal of the independent research project is to have each student carry out a new line of inquiry on existing data or lead an independent scientific investigation on data they have collected themselves. Using their selected data, students will analyze and report the results of their study using the data science and statistics skills learned in this class. Students are encouraged to use existing data and potential datasets will be recommended and supplied; however, they do need carry out <strong>novel lines of inquiry</strong> and carry out analyses that no one else has done.</p>
+<p>A key aspect of the project will be to create a fully reproducible <strong>computational workflow</strong> in R beginning with raw data and ending with finished graphs. (Tables and text do not need to be created in R). Key steps during this work flow (eg raw data, finalized data, data dictionary exploratory graphs, model diagnostics, final analysis code) will be worked up over the course of the semester and compiled into appendices for the final paper.</p>
+<p><br></p>
+</div>
+<div id="learning-objectives-outcomes" class="section level2">
+<h2>Learning objectives &amp; Outcomes</h2>
+<div id="objectives" class="section level3">
+<h3>Objectives</h3>
+<p>Students will understand the full life cycle of an analysis, including obtaining data, carrying out quality control, exploring data, writing up the analysis, and documenting the entire workflow.</p>
+</div>
+<div id="outcomes" class="section level3">
+<h3>Outcomes</h3>
+<p>After completing this project students will be able to</p>
 <ul>
-<li><a href="http://andrewgelman.com" class="uri">http://andrewgelman.com</a></li>
-<li><a href="https://medium.com/@jamesheathers" class="uri">https://medium.com/@jamesheathers</a></li>
-<li><a href="http://datacolada.org" class="uri">http://datacolada.org</a></li>
-<li><a href="https://medium.com/@dsquintana" class="uri">https://medium.com/@dsquintana</a></li>
-<li><a href="http://daniellakens.blogspot.com" class="uri">http://daniellakens.blogspot.com</a></li>
+<li>Carry out a contemporary form of statistical analysis in R</li>
+<li>Correctly interpret their analysis and present the results graphically and in writing</li>
+<li>Identify important features of a dataset that determine how it should be analyzed, as well as what are its limits with regard to appropriate methods, inference, and interpretation.</li>
+<li>Create a reproducible workflow which documents all the steps in a data analysis project, from documenting the raw data to providing an annotated analysis script.</li>
 </ul>
-<p>There are also podcasts, such as</p>
+<p><br></p>
+</div>
+</div>
+<div id="key-aspects-of-project" class="section level2">
+<h2>Key aspects of project</h2>
+<p>Each student will</p>
+<ol style="list-style-type: decimal">
+<li><strong>Identify a dataset</strong> with a sufficient sample size (N) to carryout meaningful statistical analyses. In most cases a dataset should have &gt;90 observations, with observations on at least 3 different groups of interest (ie 30 from treatment A in an experiment, 30 from treatment B, 30 from treatment C). OR with 3 different predictor variables (eg how does microbiome species richness depend on organism body size, generation time, and body temperature). Datasets with fewer observations, treatments or predictors can be used after discussion with me</li>
+<li><strong>Identify a scientifically relevant research question</strong> related to the data. Ideally the research question will be generated before exploration of the data begins, but this is not a requirement as long as the exploratory nature of the analysis is indicated in the final report.</li>
+<li><strong>Critique the data &amp; study design</strong>: For both data quality controland to understand the limits of what can be learned from the data you should critically evaluate the raw data, experimental design, approach to randomization and/or sampling design, and appropriateness of the controls.</li>
+<li><strong>Carry out a graphical exploration</strong> of the data using boxplots, histograms, scatter plots, or other graphical tools to understand the nature of the data. These graphical explorations will be summarized in an appendix with the relevant code and plots.</li>
+<li><strong>Identify an appropriate statistical model</strong> (aka statistical test) for the analysis of the data and implement the analysis independently in R. This will most likely be multiple linear regression (including ANCOVA), 1-way ANOVA with post-hoc comparisons, 2-way ANOVA with evaluation of interactions, logistic regression, or a simple mixed-effects model to accommodate nesting or blocking. Other methods can be used upon approval. If a dataset requires significant preparation and exploration before analysis simpler methods might be approved.</li>
+<li><strong>Carry out a full analysis</strong>: Carry out an analysis in R, generate all figures in R, and provide an annotated R script to reproduce the final analysis.</li>
+<li>As part of the analysis, <strong>determine if the data meet the assumptions of the model</strong>, carry out appropriate data transformations, and assess appropriate model diagnostics. Model diagnostics will be reported in an appendix.</li>
+<li>Represent the results of the experiment or study in the form of a short but complete scientific paper that includes appropriate figures made in R, tables as needed (any format), and additional information (Raw data, R code, diagnostic plots) in an appendix. This paper focus on written and graphical reporting of the methods and results, but also include a brief abstract, introduction, and discussion.</li>
+</ol>
+<p><br></p>
+</div>
+<div id="acceptable-data-soruce" class="section level2">
+<h2>Acceptable data soruce</h2>
+<p>The main criteria is that the data 1) has approximately 100 observations, 2) requires analysis with more than just a t-test, and 3) anlaysis has not been done before.</p>
+<p>Acceptable data sources / projects include:</p>
+<ul>
+<li>Unanalyzed Data from a recent experiment you conducted</li>
+<li>Unanalyzed data provided by an advisor or senior scientist</li>
+<li>Continuation and extension of analysis of data from a graduate rotation project</li>
+<li>Data from an online database</li>
+<li>Re-analysis of published data to explore new questions and apply new methods</li>
+<li>… and probably many others</li>
+</ul>
+<p>An unacceptable project would involve converting a previously done analysis to R, replicating a previous analysis to determine if it is correct, or writing up an analysis that has already been completed or is near completion.</p>
+<p><br></p>
+</div>
+<div id="collaboration" class="section level2">
+<h2>Collaboration</h2>
+<p>Students are encouraged to discuss with each other during all phases of this project – science is a communal activity! Up to 2 students (more upon approval) can also collaborate directly with each other to carry out a study. However, a collaborative study must have 2 independent sub-sets of data that each student will analyze and report on seperately For example, multiple students can work with data from the same online database, but must work on distinct subsets of the data.</p>
+</div>
 
 
 
