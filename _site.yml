@@ -24,7 +24,7 @@ navbar:
           href: indproj_00-overview.html
         - text: "IP 1 - Initial description"
           href: indproj_01-initial_email.html
-        - text: "IP 2 - Initial description"
+        - text: "IP 2 - Data description"
           href: indproj_02-data_description.html
         - text: "IP 3 - Focal Question/Analysis description"
           href: indproj_03-question_analysis_description.html
