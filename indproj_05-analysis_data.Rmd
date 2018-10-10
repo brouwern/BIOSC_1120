@@ -9,29 +9,36 @@ knitr::opts_chunk$set(echo = TRUE)
 |BioSCI 1120
 |Independent Research Project 
 
-* xx Points (10% of total points for paper)
-* Assigned: 
-* Due:
+* 10 Points (~3% of total points for paper)
+* Assigned: Week 7
+* Due: Week 9 
 
 
 ## Introduction
 
 The goal of this assignment is to demonstrate that you have a data set that is "analysis-ready"; that is, you can actually load it in to R and it contains the data you want to do your analysis on in the format it needs to be in.  
 
-You can think of this as the data you would share with someone who want to look at the "raw data" used for you analysis or paper.  However, in my opinion, the raw data for an analysis is usually no longer very raw, but has been cleaned up and processed so it can even enter the analysis workflow.  Since this data is ready for analysis, I call it **analysis data**. 
+You can think of this as the data you would actually share with someone who want to look at the "raw data" you used for the final analysis or paper.  However, in my opinion, the raw data for an analysis is usually no longer very raw, but has been cleaned up and processed so it can even enter your analysis workflow.  Since the data we are concerned with here  is ready for analysis, I call it **analysis data**.  Again, this is the public face of your data that you'll share with collaborators and potentially with the public.
 
 Additionally, you should create a draft of a **data dictionary** aka a **code book** that provides details of what each variable is.  This includes the name of the column of data and what the name mean (since we shorten the names).  I prefer data dictionary since we write code, and a code book evokes the code we write, not the data we analyse with the code.
 
 
 ## Tasks
 
-1. **Data preparation** Get your raw data into the proper format for getting it in to R.  
+1. **Data preparation** Get your raw data into the proper "tidy" format for getting it in to R.  
     + You can do this however you want; I am happy to help you do it in R.
-1. **Load it!**: Create a script that loads the analysis data into R using read.csv() and calls summary() on it.
+    + See Broman and Woo (2018) for a summary of "tidy" data
+1. **Data provenance** Above your row of column names include a header with information on the provenance of the data answer important who-what-where-when-why-how questions
+    + Who collected the data? Who formatted the data
+    + Where did the data come from (geographic location, webiste)
+    + What has been done to clean the data?  Why?
+    + When was the data obtained, downloaded, or accessed?
+1. **Load it!**: Create a script that loads the analysis data into R using read.csv() and calls summary() on it.  Use skip.lines = ... to skip the data provenance header.
 1. **Data dictionary**: Create a spreadsheet with details about all of your data
     + A row for each variable in your analysis 
     + The name of the variable as it appears in R, eg "cell.count"
     + The fully written out name / meaning of the name, eg "count of recombinant cells using hemocytometer"
+    + See Broman and Woo (2018) for a suggestions on what to include in a data dictionary
 
 
 Submit these three things via email.
