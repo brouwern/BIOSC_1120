@@ -11,9 +11,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Overview of Independent Project
 
-The overall goal of the independent research project is to have each student carry out a new line of inquiry on  existing data or lead an independent scientific investigation on data they have collected themselves.  Using their selected data, students will analyze and report the results of their study using the data science and statistics skills learned in this class.  Students are encouraged to use existing data and potential datasets will be recommended and supplied; however, they do need carry out **novel lines of inquiry** and carry out analyses that no one else has done. 
+The overall goal of the independent research project is to have each student carry out a new line of inquiry on  existing data or lead an independent scientific investigation on data they have collected themselves.  Using their selected data, students will analyze and report the results of their study using the data science and statistics skills learned in this class.  Students are encouraged to use existing data and potential datasets will be recommended and supplied; however, they do need carry out **novel lines of inquiry** and carry out analyses that no one else has done.  In some cases exceptions might be made to this but only after discussion.
 
-A key aspect of the project will be to create a fully reproducible **computational workflow** in R beginning with raw data and ending with finished graphs.  (Tables and text do not need to be created in R).  Key steps during this work flow (eg raw data, finalized data, data dictionary exploratory graphs, model diagnostics, final analysis code) will be worked up over the course of the semester and compiled into appendices for the final paper.
+A key aspect of the project will be to create a fully reproducible **computational workflow** in R beginning with raw data and ending with finished graphs.  (Tables and text do not need to be created in R).  Key steps during this work flow (eg raw data, finalized data, data dictionary, exploratory graphs, model diagnostics, final analysis code) will be worked up over the course of the semester and compiled into appendices for the final paper.
 
 <br>
 
@@ -38,9 +38,9 @@ After completing this project students will be able to
 
 Each student will
 
-1. **Identify a dataset** with a sufficient sample size (N) to carryout meaningful statistical analyses.  In most cases a dataset should have >90 observations, with observations on at least 3 different groups of interest (ie 30 from treatment A in an experiment, 30 from treatment B, 30 from treatment C).  OR with 3 different predictor variables (eg how does microbiome species richness depend on organism body size, generation time, and body temperature).  Datasets with fewer observations, treatments or predictors can be used after discussion with me 
+1. **Identify a dataset** with a sufficient sample size (N) to carryout meaningful statistical analyses.  In most cases a dataset should have >90 observations, with observations on at least 3 different groups of interest (ie 30 from treatment A in an experiment, 30 from treatment B, 30 from treatment C) OR with 3 different predictor variables (eg how does microbiome species richness depend on organism body size, generation time, AND/OR body temperature).  Datasets with fewer observations, treatments or predictors can be used after discussion with me.
 1. **Identify a scientifically relevant research question** related to the data.  Ideally the research question will be generated before exploration of the data begins, but this is not a requirement as long as the  exploratory nature of the analysis is indicated in the final report.
-1. **Critique the data & study design**: For both data quality controland to understand the limits of what can be learned from the data you should critically evaluate the raw data, experimental design, approach to randomization and/or sampling design, and appropriateness of the controls.
+1. **Critique the data & study design**: For both data quality control and to understand the limits of what can be learned from the data you should critically evaluate the raw data, experimental design, approach to randomization and/or sampling design, and appropriateness of the controls.
 1. **Carry out a graphical exploration** of the data using boxplots, histograms, scatter plots, or other graphical tools to understand the nature of the data. These graphical explorations will be summarized in an appendix with the relevant code and plots.
 1. **Identify an appropriate statistical model** (aka statistical test) for the analysis of the data and implement the analysis independently in R.  This will most likely be multiple linear regression (including ANCOVA),  1-way ANOVA with post-hoc comparisons, 2-way ANOVA with evaluation of interactions, logistic regression, or a simple mixed-effects model to accommodate nesting or blocking.  Other methods can be used upon approval.  If a dataset requires significant preparation and exploration before analysis simpler methods might be approved.
 1. **Carry out a full analysis**: Carry out an analysis in R, generate all figures in R, and provide an annotated R script to reproduce the final analysis.
@@ -49,7 +49,7 @@ Each student will
 
 <br>
 
-## Acceptable data soruce
+## Acceptable data sources
 
 The main criteria is that the data 1) has approximately 100 observations, 2) requires analysis with more than just a t-test, and 3)  anlaysis has not been done before. 
 

@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Proposals can be turned in earlier if you want to receive feedback sooner.
 
-
+ 
 ## Assignment 6: 
 
 Assignment X is to write the introduction and methods related to data collection of the paper.

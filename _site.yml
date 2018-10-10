@@ -20,10 +20,10 @@ navbar:
       icon: fa-gear
       menu:
         - text: "INDEPENDENT PROJECT (IP)"
-        - text: "IP 0 - Overview"
+        - text: "IP Overview"
           href: indproj_00-overview.html
-        - text: "IP 1 - Initial description"
-          href: indproj_01-initial_email.html
+        - text: "IP 1 - Data availablity / project idea"
+          href: indproj_01-data_availability_email.html
         - text: "IP 2 - Data description"
           href: indproj_02-data_description.html
         - text: "IP 3 - Focal Question/Analysis description"

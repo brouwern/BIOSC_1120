@@ -11,7 +11,7 @@
 
 
 
-<title>Independent Project - Assignment 5 - Analysis data &amp; Data Dictionary</title>
+<title>Independent Project - Assignment 5 - Analysis data &amp; Draft Data Dictionary</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -222,10 +222,10 @@ $(document).ready(function () {
   <ul class="dropdown-menu" role="menu">
     <li class="dropdown-header">INDEPENDENT PROJECT (IP)</li>
     <li>
-      <a href="indproj_00-overview.html">IP 0 - Overview</a>
+      <a href="indproj_00-overview.html">IP Overview</a>
     </li>
     <li>
-      <a href="indproj_01-initial_email.html">IP 1 - Initial description</a>
+      <a href="indproj_01-data_availability_email.html">IP 1 - Data availablity / project idea</a>
     </li>
     <li>
       <a href="indproj_02-data_description.html">IP 2 - Data description</a>
@@ -315,7 +315,7 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Independent Project - Assignment 5 - Analysis data &amp; Data Dictionary</h1>
+<h1 class="title toc-ignore">Independent Project - Assignment 5 - Analysis data &amp; Draft Data Dictionary</h1>
 
 </div>
 
@@ -326,7 +326,34 @@ $(document).ready(function () {
 <li>Assigned:</li>
 <li>Due:</li>
 </ul>
-<p>Proposals can be turned in earlier if you want to receive feedback sooner.</p>
+<div id="introduction" class="section level2">
+<h2>Introduction</h2>
+<p>The goal of this assignment is to demonstrate that you have a data set that is “analysis-ready”; that is, you can actually load it in to R and it contains the data you want to do your analysis on in the format it needs to be in.</p>
+<p>You can think of this as the data you would share with someone who want to look at the “raw data” used for you analysis or paper. However, in my opinion, the raw data for an analysis is usually no longer very raw, but has been cleaned up and processed so it can even enter the analysis workflow. Since this data is ready for analysis, I call it <strong>analysis data</strong>.</p>
+<p>Additionally, you should create a draft of a <strong>data dictionary</strong> aka a <strong>code book</strong> that provides details of what each variable is. This includes the name of the column of data and what the name mean (since we shorten the names). I prefer data dictionary since we write code, and a code book evokes the code we write, not the data we analyse with the code.</p>
+</div>
+<div id="tasks" class="section level2">
+<h2>Tasks</h2>
+<ol style="list-style-type: decimal">
+<li><strong>Data preparation</strong> Get your raw data into the proper format for getting it in to R.
+<ul>
+<li>You can do this however you want; I am happy to help you do it in R.</li>
+</ul></li>
+<li><strong>Load it!</strong>: Create a script that loads the analysis data into R using read.csv() and calls summary() on it.</li>
+<li><strong>Data dictionary</strong>: Create a spreadsheet with details about all of your data
+<ul>
+<li>A row for each variable in your analysis</li>
+<li>The name of the variable as it appears in R, eg “cell.count”</li>
+<li>The fully written out name / meaning of the name, eg “count of recombinant cells using hemocytometer”</li>
+</ul></li>
+</ol>
+<p>Submit these three things via email.</p>
+<p>For general information on a data dictionary see section 8 of</p>
+<p>Broman, KW and K Woo. 2018. Data organization in spreadsheet. The American Statistician. <a href="https://doi.org/10.1080/00031305.2017.1375989" class="uri">https://doi.org/10.1080/00031305.2017.1375989</a></p>
+<p>Also see: “Codebook cookbook: A guide to writing a good codebook for data analysis projects in medicine” <a href="http://www.medicine.mcgill.ca/epidemiology/joseph/pbelisle/CodebookCookbook/CodebookCookbook.pdf" class="uri">http://www.medicine.mcgill.ca/epidemiology/joseph/pbelisle/CodebookCookbook/CodebookCookbook.pdf</a></p>
+<p>Other relevant information can be found in</p>
+<p>Wilson, G, J Kitzes, et al. 2018. Good enough practices in scientific computing. PLoS Computational Biology. <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510" class="uri">https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510</a></p>
+</div>
 
 
 

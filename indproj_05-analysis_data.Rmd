@@ -1,5 +1,5 @@
 ---
-title: "Independent Project - Assignment 5 - Analysis data & Data Dictionary"
+title: "Independent Project - Assignment 5 - Analysis data & Draft Data Dictionary"
 ---
 
 ```{r setup, include=FALSE}
@@ -13,5 +13,40 @@ knitr::opts_chunk$set(echo = TRUE)
 * Assigned: 
 * Due:
 
-Proposals can be turned in earlier if you want to receive feedback sooner.
+
+## Introduction
+
+The goal of this assignment is to demonstrate that you have a data set that is "analysis-ready"; that is, you can actually load it in to R and it contains the data you want to do your analysis on in the format it needs to be in.  
+
+You can think of this as the data you would share with someone who want to look at the "raw data" used for you analysis or paper.  However, in my opinion, the raw data for an analysis is usually no longer very raw, but has been cleaned up and processed so it can even enter the analysis workflow.  Since this data is ready for analysis, I call it **analysis data**. 
+
+Additionally, you should create a draft of a **data dictionary** aka a **code book** that provides details of what each variable is.  This includes the name of the column of data and what the name mean (since we shorten the names).  I prefer data dictionary since we write code, and a code book evokes the code we write, not the data we analyse with the code.
+
+
+## Tasks
+
+1. **Data preparation** Get your raw data into the proper format for getting it in to R.  
+    + You can do this however you want; I am happy to help you do it in R.
+1. **Load it!**: Create a script that loads the analysis data into R using read.csv() and calls summary() on it.
+1. **Data dictionary**: Create a spreadsheet with details about all of your data
+    + A row for each variable in your analysis 
+    + The name of the variable as it appears in R, eg "cell.count"
+    + The fully written out name / meaning of the name, eg "count of recombinant cells using hemocytometer"
+
+
+Submit these three things via email.
+
+
+For general information on a data dictionary see section 8 of 
+
+Broman, KW and K Woo.  2018. Data organization in spreadsheet.  The American Statistician. https://doi.org/10.1080/00031305.2017.1375989
+
+Also see: 
+"Codebook cookbook: A guide to writing a good codebook for data analysis projects in medicine"
+http://www.medicine.mcgill.ca/epidemiology/joseph/pbelisle/CodebookCookbook/CodebookCookbook.pdf
+
+Other relevant information can be found in
+
+Wilson, G, J Kitzes, et al.  2018. Good enough practices in scientific computing.  PLoS Computational Biology.
+https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510
 
