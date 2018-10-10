@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Independent Project - Assignment 4 - Original data</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet" />
+<script src="site_libs/pagedtable-1.1/js/pagedtable.js"></script>
+<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
+<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
+<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">BIOSC 1120: Biostatistics</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Home
+  </a>
+</li>
+<li>
+  <a href="syllabus.html">
+    <span class="fa fa-file"></span>
+     
+    Syllabus
+  </a>
+</li>
+<li>
+  <a href="bibliography.html">
+    <span class="fa fa-newspaper"></span>
+     
+    Bibliography
+  </a>
+</li>
+<li>
+  <a href="about.html">
+    <span class="fa fa-info"></span>
+     
+    About this class
+  </a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fa fa-gear"></span>
+     
+    Assignments
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li class="dropdown-header">INDEPENDENT PROJECT (IP)</li>
+    <li>
+      <a href="indproj_00-overview.html">IP Overview</a>
+    </li>
+    <li>
+      <a href="indproj_01-data_availability_email.html">IP 1 - Data availablity / project idea</a>
+    </li>
+    <li>
+      <a href="indproj_02-data_description.html">IP 2 - Data description</a>
+    </li>
+    <li>
+      <a href="indproj_03-question_analysis_description.html">IP 3 - Focal Question/Analysis description</a>
+    </li>
+    <li>
+      <a href="indproj_04-orig_data.html">IP 4 - Original data</a>
+    </li>
+    <li>
+      <a href="indproj_05-analysis_data.html">IP 5 - Analysis data</a>
+    </li>
+    <li>
+      <a href="indproj_06-intro_meth.html">IP 6 - Introduction/Methods</a>
+    </li>
+    <li class="dropdown-header"></li>
+    <li class="dropdown-header">READING ASSIGNMENTS (RRA)</li>
+    <li>
+      <a href="assign-type-reading.html">RRA Summary</a>
+    </li>
+    <li>
+      <a href="assign-log-RRA.html">Reading assignment log</a>
+    </li>
+    <li>
+      <a href="assign-annobib-web.html">Web resource write up</a>
+    </li>
+    <li>
+      <a href="assign-annobib-journal.html">Journal tutorial write up</a>
+    </li>
+    <li>
+      <a href="assign-vocab.html">Statistical vocab RRA</a>
+    </li>
+    <li>
+      <a href="assign-I_dont_get_it.html">`I dont get it get` RRA</a>
+    </li>
+    <li>
+      <a href="assign-quiz_questions.html">Quiz questions RRA</a>
+    </li>
+    <li>
+      <a href="assign-cartoons.html">Cartoons RRA</a>
+    </li>
+    <li class="dropdown-header">OTHER ASSIGNMENTS</li>
+    <li>
+      <a href="assign-twitter.html">Twitter Assignment</a>
+    </li>
+    <li class="dropdown-header">Independent project</li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fa fa-gear"></span>
+     
+    Recommended resources
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="resources-websites.html">Websites</a>
+    </li>
+    <li>
+      <a href="resources-videos.html">Videos</a>
+    </li>
+    <li>
+      <a href="blogs.html">Blogs</a>
+    </li>
+    <li>
+      <a href="podcasts.html">Podcasts</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://example.com">
+    <span class="fa fa-question fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Independent Project - Assignment 4 - Original data</h1>
+
+</div>
+
+
+<p>|BioSCI 1120 |Independent Research Project</p>
+<ul>
+<li>xx Points (y% of total points for paper)</li>
+<li>Assigned:</li>
+<li>Due:</li>
+</ul>
+<div id="introduction" class="section level2">
+<h2>Introduction</h2>
+<p>The goal of this assignment is confirm that you have obtained a copy of your raw data and to provide basic descriptions of what needs to be done to this data in order for it to be moved in to R. This assignment should also help you identify if you need to reformat the data so that you can do your analysis in R.</p>
+</div>
+<div id="tasks" class="section level2">
+<h2>Tasks</h2>
+<p>Share a copy of the raw data or at least a screen grab of the spreadsheet. Then answer the following questions about your data set. Some of these questions might have very short answers (“No” or “does not apply”). Feel free to say “I don’t know” but follow up on this with your best guess.</p>
+<ol style="list-style-type: decimal">
+<li><strong>Merging</strong>: Is all of the data on a single worksheet, or is it spread across multiple worksheets/spreadsheets.</li>
+<li><strong>Layout</strong>: What is the layout of the data: wide, long, or unknown? What layout should it be in for analysis in R?
+<ul>
+<li>Is any data encoded in the column names?</li>
+<li>Does each row contain data on a single observation, eg data for a single animal that provides a single data point?</li>
+</ul></li>
+<li><strong>Filtering</strong>: Do you need all of the columns in the dataset or are some not needed?</li>
+<li><strong>Subsetting</strong>: Do you need all of the rows in the dataset or are some not needed?</li>
+<li><strong>Reshaping</strong>: What needs to be done to reshape the data to be used in R (such as switch from long to wide format)? Do you know how to make these changes or are you unsure?</li>
+</ol>
+<p>If you are unsure about your answers to any of these we can discuss them. You should also consult these papers (We can talk first, but I’ll direct you to them also)</p>
+<p>Broman, KW and K Woo. 2018. Data organization in spreadsheet. The American Statistician. <a href="https://doi.org/10.1080/00031305.2017.1375989" class="uri">https://doi.org/10.1080/00031305.2017.1375989</a></p>
+<p>Goodman et al. 2014. Ten Simple Rules for the Care and Feeding of Scientific Data. PLoS Computational Biology. <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003542" class="uri">https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003542</a></p>
+<p>Ellis, SE and JT Leek. 2018. How to share data for collaboration. The American Statistician. <a href="https://doi.org/10.1080/00031305.2017.1375987" class="uri">https://doi.org/10.1080/00031305.2017.1375987</a></p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
