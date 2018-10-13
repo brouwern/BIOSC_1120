@@ -10,47 +10,63 @@ This bibliography is a compiliation of some papers that extend ideas covered in 
 
 Week listed is the one when it was assigned or mentioned.
 
-** = required reading for the following week.
-
-* = Strongly suggested reading for independent project.
-
-No asterisk: suggested, or mentioned in class.
-
+Bullet points under articles indicate if that are required or recommended.
 
 ### Week 7: T-tests & effect sizes
 
-* Anon.  Codebook cookbook: A guide to writing a good codebook for data analysis projects in medicine.  [McGill University.](http://www.medicine.mcgill.ca/epidemiology/joseph/pbelisle/CodebookCookbook/CodebookCookbook.pdf)
-    + Contains information on how to make a data dictionary
+**Anon.  N.D.**  Codebook cookbook: A guide to writing a good codebook for data analysis projects in medicine.  [McGill University.](http://www.medicine.mcgill.ca/epidemiology/joseph/pbelisle/CodebookCookbook/CodebookCookbook.pdf)
 
-* *Broman, KW and K Woo.  2018. Data organization in spreadsheet.  [The American Statistician.](https://doi.org/10.1080/00031305.2017.1375989)
-    + Highly recommended reading for understanding tidy data and data dictionaries
+* Contains information on how to make a data dictionary
 
-* Ellis, SE and JT Leek.  2018.  How to share data for collaboration.  [The American Statistician.](https://doi.org/10.1080/00031305.2017.1375987)
+**Broman, KW and K Woo.  2018.** Data organization in spreadsheet.  [The American Statistician.](https://doi.org/10.1080/00031305.2017.1375989)
 
-* Goodman et al.  2014.   Ten Simple Rules for the Care and Feeding of Scientific Data.  [PLoS Computational Biology.](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003542)
-
-* Harrel (nd)[STATISTICAL GRAPHICS: Chapter 1](http://ubio.bioinfo.cnio.es/Cursos/CEU_MDA07_practicals/Further%20reading/Guidelines%20for%20quantitative%20presentations/Statistical%20graphics%20course%20Harrell.pdf)
-
-* **Ruxton.  2006.  The unequal variance t-test is an underused alternative to Student's t-test and the Mann–Whitney U test.  [Behavioral Ecology.](https://academic.oup.com/beheco/article/17/4/688/215960)
-
-* **Savik.  Reporting P Values.[Journal of Wound, Ostomy and Continence Nursing](https://journals.lww.com/jwocnonline/fulltext/2006/05000/reporting_p_values.4.aspx?casa_token=2K9qcWiHw54AAAAA:GON4YfUcd7ZDmAj8jR1cmIYbnKlv_KXKGMzpZccvh_ozkbFtSHdm1NH5aUqSv6n2I7Iqenez3X_Ar8iptDu2bA)
+* Recommended
+* **Excellent article for for understanding tidy data and data dictionaries**
 
 
 
-* **Walker, J.  2018a.  [Combining data, distribution summary, model effects, and uncertainty in a single plot.](www.middleprofessor.com/files/quasipubs/harrell_plot_intro.html)  
-    + Excellent discussion about why we should think in terms of effect sizes.
-    + Fig. 2 in the blog currently isn't shown, but can be seen at Walker (2018b) and page 6 of Harrel(nd)
+**Ellis, SE and JT Leek.  2018.**  How to share data for collaboration.  [The American Statistician.](https://doi.org/10.1080/00031305.2017.1375987)
 
-* Walker, J.  2018b.  When do we introduce best statistical practices to undergraduate biology majors?  [Rapid Ecology.](https://rapidecology.com/2018/04/09/when-do-we-introduce-best-statistical-practices-to-undergraduate-biology-majors/)
+* Recommended
 
-* *Wilson, G, J Kitzes, et al.  2018. Good enough practices in scientific computing.  [PLoS Computational Biology.](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510)
-    + Section 1 "Data management" of Box 1 is an excellent overview of key tasks in setting up and preserving your raw and analysis data.
 
+
+**Goodman et al.  2014.**   Ten Simple Rules for the Care and Feeding of Scientific Data.  [PLoS Computational Biology.](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003542)
+
+**Harrel (nd)**.[STATISTICAL GRAPHICS: Chapter 1](http://ubio.bioinfo.cnio.es/Cursos/CEU_MDA07_practicals/Further%20reading/Guidelines%20for%20quantitative%20presentations/Statistical%20graphics%20course%20Harrell.pdf)
+
+**Ruxton.  2006.**  The unequal variance t-test is an underused alternative to Student's t-test and the Mann–Whitney U test.  [Behavioral Ecology.](https://academic.oup.com/beheco/article/17/4/688/215960)
+
+* **Required**
+* **Assigned reading on unequal variance t-tests**
+
+**Savik.**  Reporting P Values.[Journal of Wound, Ostomy and Continence Nursing](https://journals.lww.com/jwocnonline/fulltext/2006/05000/reporting_p_values.4.aspx?casa_token=2K9qcWiHw54AAAAA:GON4YfUcd7ZDmAj8jR1cmIYbnKlv_KXKGMzpZccvh_ozkbFtSHdm1NH5aUqSv6n2I7Iqenez3X_Ar8iptDu2bA)
+
+* **Required**
+* **Assigned reading on how to report p-values**
+
+
+**Walker, J.  2018a.**  [Combining data, distribution summary, model effects, and uncertainty in a single plot.](www.middleprofessor.com/files/quasipubs/harrell_plot_intro.html)  
+
+* **Required**
+* **Assigned reading; Excellent discussion about why we should think in terms of effect sizes.**  Fig. 2 in the blog currently isn't shown, but can be seen at Walker (2018b) and page 6 of Harrel(nd)
+
+**Walker, J.  2018b.**  When do we introduce best statistical practices to undergraduate biology majors?  [Rapid Ecology.](https://rapidecology.com/2018/04/09/when-do-we-introduce-best-statistical-practices-to-undergraduate-biology-majors/)
+
+* A nice abstract on Walker, J.  2018a
+
+
+**Wilson, G, J Kitzes, et al.  2018.** Good enough practices in scientific computing.  [PLoS Computational Biology.](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510)
+
+* Section 1 "Data management" of Box 1 is an excellent overview of key tasks in setting up and preserving your raw and analysis data.
+
+
+<br>
 
 ### On deck
 
 Brinny, K.  The Rule of 3.  http://dataabinitio.com/?p=320
-    + Store your digital data in at least 3 places (plus raw data sheets)!  Eg,  your hard drive, an external hard drive, and on the cloud (Box, Dropbox, private GitHub repository)
+* Store your digital data in at least 3 places (plus raw data sheets)!  Eg,  your hard drive, an external hard drive, and on the cloud (Box, Dropbox, private GitHub repository)
 
 Bryan, J.  Naming Files. [Speakerdeck](https://speakerdeck.com/jennybc/how-to-name-files)
 
