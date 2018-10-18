@@ -119,6 +119,8 @@ Ram, K. (2013). Git can facilitate greater reproducibility and increased transpa
 * Very thorough and readable intro
 
 
+<br>
+
 #### Reshaping data (dplyr, etc)
 
 Richmond, Jenny.  2018.  ["gather spread unite separate"](http://jenrichmond.rbind.io/post/gather-spread-unite-separate/) 
