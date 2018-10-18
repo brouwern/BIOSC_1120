@@ -67,13 +67,17 @@ Bullet points under articles indicate if that are required or recommended.
 
 ### On deck
 
-**Brinny, K.**  The Rule of 3.  http://dataabinitio.com/?p=320
+**Brinny, K.**  The Rule of 3. http://dataabinitio.com/?p=320
+
 * Store your digital data in at least 3 places (plus raw data sheets)!  Eg,  your hard drive, an external hard drive, and on the cloud (Box, Dropbox, private GitHub repository)
 
 **Bryan, J.**  Naming Files. [Speakerdeck](https://speakerdeck.com/jennybc/how-to-name-files)
+
 * Excellent advice on naming files to facilitate downstream organization
 
 **Bryan, J.  2018.** Happy Git for the userR.  http://happygitwithr.com/
+
+* One stop source for Git for R users
 
 **Colegrave and Ruxton 2017.**  Using Biological Insight and Pragmatism When Thinking about Pseudoreplication.  [Trends in Ecology & Evolution.](https://www.sciencedirect.com/science/article/pii/S0169534717302690)
 
@@ -85,6 +89,33 @@ Bullet points under articles indicate if that are required or recommended.
 
 
 <br>
+
+#### GitHub, Git & Version Control
+
+
+Blischak, J. D., Davenport, E. R., & Wilson, G. (2016). A Quick Introduction to Version Control with Git and GitHub. PLoS Computational Biology, 12(1), 1–18.
+https://doi.org/10.1371/journal.pcbi.1004668
+
+**Bryan, J.  2018a** Happy Git for the userR.  http://happygitwithr.com/
+
+* One stop source for Git for R users
+
+**Bryan, J. 2018b.** Excuse me, do you have a moment to talk about version control? Why Git? [American Stat.](www.tandfonline.com/doi/abs/10.1080/00031305.2017.1399928?journalCode=utas20)
+
+* Good quick overivew of GitHub, especially if you will use it for collaboration, by the author of "Happy Git for the UserR."
+
+Perez-Riverol et al. (2016). Ten Simple Rules for Taking Advantage of Git and GitHub. PLoS Computational Biology, 12(7), 1–11. https://doi.org/10.1371/journal.pcbi.1004947
+
+Ram, K. (2013). Git can facilitate greater reproducibility and increased transparency in science. [Source Code for Biology and Medicine, 8](https://doi.org/10.1186/1751-0473-8-7)
+
+**Vuorre, M., & Curley, J. P. (2018).** Curating Research Assets in Behavioral Sciences: A Tutorial on the Git Version Control System. [Advances in Methods and Practices in Psychological Science, 1–33.](http://journals.sagepub.com/doi/abs/10.1177/2515245918754826)
+
+* Very thorough and readable intro
+
+
+#### Reshaping data (dplyr, etc)
+
+Richmond, Jenny.  2018.  ["gather spread unite separate"](http://jenrichmond.rbind.io/post/gather-spread-unite-separate/) 
 
 
 #### Case studies 
