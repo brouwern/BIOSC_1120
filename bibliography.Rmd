@@ -72,9 +72,9 @@ Nakagawa & Cuthill.  2007.  Effect size, confidence interval and statistical sig
 
 ### On deck
 
-<<<<<<< HEAD
-**Brinny, K.**  The Rule of 3. http://dataabinitio.com/?p=320
+**Boldina & Beninger.  2016,  Strengthening statistical usage in marine ecology: Linear regression.  [Journal of Experimental Marine Biology & Ecology](https://www.sciencedirect.com/science/article/pii/S002209811530023X)
 
+**Brinny, K.**  The Rule of 3.  http://dataabinitio.com/?p=320
 * Store your digital data in at least 3 places (plus raw data sheets)!  Eg,  your hard drive, an external hard drive, and on the cloud (Box, Dropbox, private GitHub repository)
 
 **Bryan, J.**  Naming Files. [Speakerdeck](https://speakerdeck.com/jennybc/how-to-name-files)
@@ -124,24 +124,6 @@ Ram, K. (2013). Git can facilitate greater reproducibility and increased transpa
 #### Reshaping data (dplyr, etc)
 
 Richmond, Jenny.  2018.  ["gather spread unite separate"](http://jenrichmond.rbind.io/post/gather-spread-unite-separate/) 
-=======
-**Boldina & Beninger.  2016,  Strengthening statistical usage in marine ecology: Linear regression.  [Journal of Experimental Marine Biology & Ecology](https://www.sciencedirect.com/science/article/pii/S002209811530023X)
-
-**Brinny, K.**  The Rule of 3.  http://dataabinitio.com/?p=320
-* Store your digital data in at least 3 places (plus raw data sheets)!  Eg,  your hard drive, an external hard drive, and on the cloud (Box, Dropbox, private GitHub repository)
-
-**Bryan, J.**  Naming Files. [Speakerdeck](https://speakerdeck.com/jennybc/how-to-name-files)
-
-**Bryan, J.**  2018. Happy Git for the userR.  http://happygitwithr.com/
-
-**Colegrave and Ruxton.** 2017.  Using Biological Insight and Pragmatism When Thinking about Pseudoreplication.  [Trends in Ecology & Evolution.](https://www.sciencedirect.com/science/article/pii/S0169534717302690)
-
-**Hart et al.**  2016.  Ten Simple Rules for Digital Data Storage.  [PLoS Comp Bio](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005097)
-
-**Marwick et al.**  2018.  Packaging Data Analytical Work Reproducibly Using R (and Friends).  [Am Stat](https://www.tandfonline.com/doi/abs/10.1080/00031305.2017.1375986?casa_token=8soraoxwghMAAAAA:ksE_8SV3DB68ak4pDQ1LB8u6doQH5EPpmY6LfDKFfJOPlFAMGRS6ri6DmMuODYM-zLW8dhQcfRI)
-
-**Parker et al. ** 2019.  Empowering peer reviewers with a checklist to improve transparency.  [Nature Ecology & Evolution.](https://www.nature.com/articles/s41559-018-0545-z)
->>>>>>> 5cb4325bee32b565d9ac39936d83af283fd9ab76
 
 
 #### Case studies 
