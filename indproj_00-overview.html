@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Biostatistics Independent Project</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
+<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
+<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">BIOSC 1120: Biostatistics</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Home
+  </a>
+</li>
+<li>
+  <a href="syllabus.html">
+    <span class="fa fa-file"></span>
+     
+    Syllabus
+  </a>
+</li>
+<li>
+  <a href="bibliography.html">
+    <span class="fa fa-newspaper"></span>
+     
+    Bibliography
+  </a>
+</li>
+<li>
+  <a href="about.html">
+    <span class="fa fa-info"></span>
+     
+    About this class
+  </a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fa fa-gear"></span>
+     
+    Assignments
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li class="dropdown-header">INDEPENDENT PROJECT (IP)</li>
+    <li>
+      <a href="indproj_00-overview.html">IP Overview</a>
+    </li>
+    <li>
+      <a href="indproj_01-data_availability_email.html">IP 1 - Data availablity / project idea</a>
+    </li>
+    <li>
+      <a href="indproj_02-data_description.html">IP 2 - Data description</a>
+    </li>
+    <li>
+      <a href="indproj_03-question_analysis_description.html">IP 3 - Focal Question/Analysis description</a>
+    </li>
+    <li>
+      <a href="indproj_04-orig_data.html">IP 4 - Original data</a>
+    </li>
+    <li>
+      <a href="indproj_05-analysis_data.html">IP 5 - Analysis data</a>
+    </li>
+    <li>
+      <a href="indproj_06-intro_meth.html">IP 6 - Introduction/Methods</a>
+    </li>
+    <li class="dropdown-header"></li>
+    <li class="dropdown-header">READING ASSIGNMENTS (RRA)</li>
+    <li>
+      <a href="assign-type-reading.html">RRA Summary</a>
+    </li>
+    <li>
+      <a href="assign-log-RRA.html">Reading assignment log</a>
+    </li>
+    <li>
+      <a href="assign-annobib-web.html">Web resource write up</a>
+    </li>
+    <li>
+      <a href="assign-annobib-journal.html">Journal tutorial write up</a>
+    </li>
+    <li>
+      <a href="assign-vocab.html">Statistical vocab RRA</a>
+    </li>
+    <li>
+      <a href="assign-I_dont_get_it.html">`I dont get it get` RRA</a>
+    </li>
+    <li>
+      <a href="assign-quiz_questions.html">Quiz questions RRA</a>
+    </li>
+    <li>
+      <a href="assign-cartoons.html">Cartoons RRA</a>
+    </li>
+    <li class="dropdown-header">OTHER ASSIGNMENTS</li>
+    <li>
+      <a href="assign-twitter.html">Twitter Assignment</a>
+    </li>
+    <li class="dropdown-header">Independent project</li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fa fa-gear"></span>
+     
+    Recommended resources
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="resources-websites.html">Websites</a>
+    </li>
+    <li>
+      <a href="resources-videos.html">Videos</a>
+    </li>
+    <li>
+      <a href="blogs.html">Blogs</a>
+    </li>
+    <li>
+      <a href="podcasts.html">Podcasts</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://example.com">
+    <span class="fa fa-question fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Biostatistics Independent Project</h1>
+
+</div>
+
+
+<p>|BIOSC 1120: Biostatistics - Fall 2018 |Independent Research Project</p>
+<div id="overview-of-independent-project" class="section level2">
+<h2>Overview of Independent Project</h2>
+<p>The overall goal of the independent research project is to have each student carry out a new line of inquiry on existing data or lead an independent scientific investigation on data they have collected themselves. Using their selected data, students will analyze and report the results of their study using the data science and statistics skills learned in this class. Students are encouraged to use existing data and potential datasets will be recommended and supplied; however, they do need carry out <strong>novel lines of inquiry</strong> and carry out analyses that no one else has done. In some cases exceptions might be made to this but only after discussion.</p>
+<p>A key aspect of the project will be to create a fully reproducible <strong>computational workflow</strong> in R beginning with raw data and ending with finished graphs. (Tables and text do not need to be created in R). Key steps during this work flow (eg raw data, finalized data, data dictionary, exploratory graphs, model diagnostics, final analysis code) will be worked up over the course of the semester and compiled into appendices for the final paper.</p>
+<p><br></p>
+</div>
+<div id="learning-objectives-outcomes" class="section level2">
+<h2>Learning objectives &amp; Outcomes</h2>
+<div id="objectives" class="section level3">
+<h3>Objectives</h3>
+<p>Students will understand the full life cycle of an analysis, including obtaining data, carrying out quality control, exploring data, writing up the analysis, and documenting the entire workflow.</p>
+</div>
+<div id="outcomes" class="section level3">
+<h3>Outcomes</h3>
+<p>After completing this project students will be able to</p>
+<ul>
+<li>Carry out a contemporary form of statistical analysis in R</li>
+<li>Correctly interpret their analysis and present the results graphically and in writing</li>
+<li>Identify important features of a dataset that determine how it should be analyzed, as well as what are its limits with regard to appropriate methods, inference, and interpretation.</li>
+<li>Create a reproducible workflow which documents all the steps in a data analysis project, from documenting the raw data to providing an annotated analysis script.</li>
+</ul>
+<p><br></p>
+</div>
+</div>
+<div id="key-aspects-of-project" class="section level2">
+<h2>Key aspects of project</h2>
+<p>Each student will</p>
+<ol style="list-style-type: decimal">
+<li><strong>Identify a dataset</strong> with a sufficient sample size (N) to carryout meaningful statistical analyses. In most cases a dataset should have &gt;90 observations, with observations on at least 3 different groups of interest (ie 30 from treatment A in an experiment, 30 from treatment B, 30 from treatment C) OR with 3 different predictor variables (eg how does microbiome species richness depend on organism body size, generation time, AND/OR body temperature). Datasets with fewer observations, treatments or predictors can be used after discussion with me.</li>
+<li><strong>Identify a scientifically relevant research question</strong> related to the data. Ideally the research question will be generated before exploration of the data begins, but this is not a requirement as long as the exploratory nature of the analysis is indicated in the final report.</li>
+<li><strong>Critique the data &amp; study design</strong>: For both data quality control and to understand the limits of what can be learned from the data you should critically evaluate the raw data, experimental design, approach to randomization and/or sampling design, and appropriateness of the controls.</li>
+<li><strong>Carry out a graphical exploration</strong> of the data using boxplots, histograms, scatter plots, or other graphical tools to understand the nature of the data. These graphical explorations will be summarized in an appendix with the relevant code and plots.</li>
+<li><strong>Identify an appropriate statistical model</strong> (aka statistical test) for the analysis of the data and implement the analysis independently in R. This will most likely be multiple linear regression (including ANCOVA), 1-way ANOVA with post-hoc comparisons, 2-way ANOVA with evaluation of interactions, logistic regression, or a simple mixed-effects model to accommodate nesting or blocking. Other methods can be used upon approval. If a dataset requires significant preparation and exploration before analysis simpler methods might be approved.</li>
+<li><strong>Carry out a full analysis</strong>: Carry out an analysis in R, generate all figures in R, and provide an annotated R script to reproduce the final analysis.</li>
+<li>As part of the analysis, <strong>determine if the data meet the assumptions of the model</strong>, carry out appropriate data transformations, and assess appropriate model diagnostics. Model diagnostics will be reported in an appendix.</li>
+<li>Represent the results of the experiment or study in the form of a short but complete scientific paper that includes appropriate figures made in R, tables as needed (any format), and additional information (Raw data, R code, diagnostic plots) in an appendix. This paper focus on written and graphical reporting of the methods and results, but also include a brief abstract, introduction, and discussion.</li>
+</ol>
+<p><br></p>
+</div>
+<div id="acceptable-data-sources" class="section level2">
+<h2>Acceptable data sources</h2>
+<p>The main criteria is that the data 1) has approximately 100 observations, 2) requires analysis with more than just a t-test, and 3) anlaysis has not been done before.</p>
+<p>Acceptable data sources / projects include:</p>
+<ul>
+<li>Unanalyzed Data from a recent experiment you conducted</li>
+<li>Unanalyzed data provided by an advisor or senior scientist</li>
+<li>Continuation and extension of analysis of data from a graduate rotation project</li>
+<li>Data from an online database</li>
+<li>Re-analysis of published data to explore new questions and apply new methods</li>
+<li>… and probably many others</li>
+</ul>
+<p>An unacceptable project would involve converting a previously done analysis to R, replicating a previous analysis to determine if it is correct, or writing up an analysis that has already been completed or is near completion.</p>
+<p><br></p>
+</div>
+<div id="collaboration" class="section level2">
+<h2>Collaboration</h2>
+<p>Students are encouraged to discuss with each other during all phases of this project – science is a communal activity! Up to 2 students (more upon approval) can also collaborate directly with each other to carry out a study. However, a collaborative study must have 2 independent sub-sets of data that each student will analyze and report on seperately For example, multiple students can work with data from the same online database, but must work on distinct subsets of the data.</p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

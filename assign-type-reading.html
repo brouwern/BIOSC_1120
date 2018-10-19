@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Reading Reinforcement Assignments (RRAs) Summary</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
+<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
+<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">BIOSC 1120: Biostatistics</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Home
+  </a>
+</li>
+<li>
+  <a href="syllabus.html">
+    <span class="fa fa-file"></span>
+     
+    Syllabus
+  </a>
+</li>
+<li>
+  <a href="bibliography.html">
+    <span class="fa fa-newspaper"></span>
+     
+    Bibliography
+  </a>
+</li>
+<li>
+  <a href="about.html">
+    <span class="fa fa-info"></span>
+     
+    About this class
+  </a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fa fa-gear"></span>
+     
+    Assignments
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li class="dropdown-header">INDEPENDENT PROJECT (IP)</li>
+    <li>
+      <a href="indproj_00-overview.html">IP Overview</a>
+    </li>
+    <li>
+      <a href="indproj_01-data_availability_email.html">IP 1 - Data availablity / project idea</a>
+    </li>
+    <li>
+      <a href="indproj_02-data_description.html">IP 2 - Data description</a>
+    </li>
+    <li>
+      <a href="indproj_03-question_analysis_description.html">IP 3 - Focal Question/Analysis description</a>
+    </li>
+    <li>
+      <a href="indproj_04-orig_data.html">IP 4 - Original data</a>
+    </li>
+    <li>
+      <a href="indproj_05-analysis_data.html">IP 5 - Analysis data</a>
+    </li>
+    <li>
+      <a href="indproj_06-intro_meth.html">IP 6 - Introduction/Methods</a>
+    </li>
+    <li class="dropdown-header"></li>
+    <li class="dropdown-header">READING ASSIGNMENTS (RRA)</li>
+    <li>
+      <a href="assign-type-reading.html">RRA Summary</a>
+    </li>
+    <li>
+      <a href="assign-log-RRA.html">Reading assignment log</a>
+    </li>
+    <li>
+      <a href="assign-annobib-web.html">Web resource write up</a>
+    </li>
+    <li>
+      <a href="assign-annobib-journal.html">Journal tutorial write up</a>
+    </li>
+    <li>
+      <a href="assign-vocab.html">Statistical vocab RRA</a>
+    </li>
+    <li>
+      <a href="assign-I_dont_get_it.html">`I dont get it get` RRA</a>
+    </li>
+    <li>
+      <a href="assign-quiz_questions.html">Quiz questions RRA</a>
+    </li>
+    <li>
+      <a href="assign-cartoons.html">Cartoons RRA</a>
+    </li>
+    <li class="dropdown-header">OTHER ASSIGNMENTS</li>
+    <li>
+      <a href="assign-twitter.html">Twitter Assignment</a>
+    </li>
+    <li class="dropdown-header">Independent project</li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fa fa-gear"></span>
+     
+    Recommended resources
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="resources-websites.html">Websites</a>
+    </li>
+    <li>
+      <a href="resources-videos.html">Videos</a>
+    </li>
+    <li>
+      <a href="blogs.html">Blogs</a>
+    </li>
+    <li>
+      <a href="podcasts.html">Podcasts</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://example.com">
+    <span class="fa fa-question fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Reading Reinforcement Assignments (RRAs) Summary</h1>
+
+</div>
+
+
+<p>In-class time for this course will be focused on actively engaging with data. This will invovle writing and executing R code to carry out analysis, and also applying statistical concepts and theory to assess the structure of the data and implications and interpretation of the output.</p>
+<p>Class instructional time will be heavily biased towards the intricacies of R; it is therefore extermely important that students come to class primed to think conceptually about what they will be producing in R. Actively enaging each week with the assigned readings will therefore be essential in order for class time to be most productive.</p>
+<p><br></p>
+<p>Depending on the week preparation will occur through a combination of four things:</p>
+<ol style="list-style-type: decimal">
+<li>Reading the <strong>assigned textbook chapters</strong> and/or papers</li>
+<li>Engaging with the readings through <strong>Reading Reinforcement Assignments (RRAs)</strong></li>
+<li>Watching any <strong>Assigned video lectures</strong></li>
+<li>Working through any <strong>Computational tutorials</strong> and starting <strong>computational challenges</strong></li>
+</ol>
+<p><br></p>
+<div id="weekly-readings" class="section level2">
+<h2>Weekly readings</h2>
+<p>Each week one or more of the chapters of Motulsky’s <em>Intutivie Biostatistcs</em> will be assigned. Additional papers or scanned book chapters may also be assigned; optional supplemental readings may also be provided. The conceptual content of these readings will be the basis for the <strong>Reading Reinforcement Assignments</strong>, and the datasets and analyses will be the basis for the <strong>Computational tutorials</strong>.</p>
+<p><br></p>
+</div>
+<div id="reading-reinforcement-assignments-rras" class="section level2">
+<h2>Reading reinforcement assignments (RRAs)</h2>
+<p>Readings will be assigned weekly. Each week students must complete a short assignment called a <strong>Reading Reinforcement Assignment (RRAs)</strong>. The goal of the RRAs is to i) motivate the completion of the reading, ii) facilitate active engagement with the readings, and iii) help students see connections to other statistical and scientific topics.</p>
+<p><br></p>
+<p>There are 6 standard types of RRAs:</p>
+<ol style="list-style-type: decimal">
+<li>Free pass (up to 3)</li>
+<li>Annotated bibliograpy entry: journal article (1 required)</li>
+<li>Annotated bibliography entry: web resource (1 required)</li>
+<li>“I don’t get it” journal entry (up to 3)</li>
+<li>Statistical vocabulary &amp; definitions worksheet (up to 5)</li>
+<li>Statistical quiz worksheet (up to 5)</li>
+<li>Other (up to 5)</li>
+</ol>
+<p><br></p>
+<p>Students will turn in 14 Reading Reinforcement Assignments (RRA), 1 for each week, though they can chose each which one to complete. <strong>The number in parentheses in the bulleted list above is the number that must be or can be submitted</strong>.</p>
+<p>Students are allowed to skip turning in an RRA 3 weeks (equivalently, the 3 assignments with the lowest score will be dropped). Two of the RRAs must be annotated bibliography entires (summarized below; full details in sperate handouts). For the remaining RRAs students can complete up to the indicated number of</p>
+<ul>
+<li><strong>“I don’t get it” journal entry</strong> worksheet</li>
+<li><strong>Statistical vocabulary worksheet</strong> based on important terms in the chapter,</li>
+<li><strong>Statistical quiz worksheet</strong> where they write multiple-choice quiz questions based on the reading,</li>
+<li>or complete one of several miscellanous RRA tasks outlined below.</li>
+</ul>
+<p><br></p>
+<p>Each week students will have the choice of whether and what type of RRA to complete, <strong>and it is each student’s responsiblity to actively keep track of track what they have completed</strong>. I will provided a sheet for this.</p>
+<p>Article and links I discuss in class can be used to complete RRA but must highlight somethign other than what I highlight or dig beyond what I discuss. For example, if I provide a quote from a blog about p-values, you can’t use that same quote for one of your assignments.</p>
+<p><br></p>
+</div>
+<div id="reading-reinforcement-assignment-rra-summaries" class="section level2">
+<h2>Reading Reinforcement Assignment (RRA) summaries</h2>
+<div id="free-pass-up-to-3" class="section level3">
+<h3>Free pass (up to 3)</h3>
+<p>This is a free pass, no questions asked. All you have to do is come to class and turn in a “free pass” paper, or in case of sickness or emergency contact the professor about missing class. You will be expect to complete the reading and keep up with the content though you do not need to turn in anything.</p>
+<p>Equivalently, your 3 lowest scores on an RRA will be dropped.</p>
+<p><br></p>
+</div>
+<div id="annotated-bibliograhy-entries-2" class="section level3">
+<h3>Annotated bibliograhy entries (2)</h3>
+<p>Over the course of the semester students must complete 2 <strong>mini-writing projecT</strong> (about 150-200 words). Each assignment amounts to an <strong>annotated bibliography entry</strong> about a resource the complements or extends an assigned readings.</p>
+<p>The assignment will briefly introduce the resource and discuss how it relates to the chapter. One mini-writing assignment must be written on a paper that appears in an academic journal (though it doesn’t have to be a research article) and the other must be written on a web-based resource (eg blog). See the sperate handouts for full details.</p>
+<p>A key part of this assignment is that it is handed in <strong>the week of an assigned reading</strong>; it cannot be completed retrospectively on a previous chapter. The goal is for students to dig a bit deeper into a current reading. <strong>A draft of the assignment will be due in-class the week of the assigned reading, and the final draft the following week.</strong> The the appropriate handouts for full details.</p>
+<p><br></p>
+</div>
+<div id="i-dont-get-it-or-wow-now-i-get-journal-entry-up-to-3" class="section level3">
+<h3>“I don’t get it…” or “Wow, now I get!” journal entry (up to 3)</h3>
+<p>This assignment is a short (1/2 page, hand written) jounral-entry like statement about something in the assigned reading which does not make sense. Students should state what it is that is problematic, where is occurs (page number, figure, equation), and provide some details about why it doesn’t make sense, at what point you get lost, or what would make it clearer. You can also use part of this journal entry to complete your twitter assignment for the week.</p>
+<p>Alternatively, students can describe how somethign that previously had been confusing was made clear by a particular passage. Briefly introduce the concept (eg, p-values), what the problem was (“I never knew that they were a probability”), what Motulsky says and where (you can quote directly) and describe how it helped.</p>
+<p>See the sperate handout for full details.</p>
+<p><br></p>
+</div>
+<div id="statistical-vocabulary-definitions-worksheets-up-to-5" class="section level3">
+<h3>Statistical vocabulary &amp; definitions worksheets (up to 5)</h3>
+<p>This assignment involves identifying 3 terms from a week’s readings, writing out Motulsky’s definitions, and then comparing those definitions to definitions or commentary from other sources. See the handout for further details. A handwritten copy is due at the begining of class each week and a digital copy the following week. You can tweet our the a definition to complete your weekly twitter assignment. You can search for definitions anywhere; I will provide scans of glossaries from other stats books for reference.</p>
+<p><br></p>
+</div>
+<div id="statistical-quiz-worksheet-up-to-5" class="section level3">
+<h3>Statistical quiz worksheet (up to 5)</h3>
+<p>This assignment involves writing 3 potential multiple-choice quiz questions with reasonable answers. See the sperate handouts for full details.</p>
+<p><br></p>
+</div>
+<div id="other-up-to-5" class="section level3">
+<h3>Other (up to 5)</h3>
+<p>I am open to other ways for you to engage with the weekly readings. Below are some additional ideas; I am open to other suggestions.</p>
+<p><br></p>
+<ul>
+<li>Copy editing assignment: Print out and proof-read the reading guide for the assigned chapter, indicating any typos, mistakes, or elements you think should be added</li>
+<li>Data parasite assignment: Find a published example of the type of analysis, plot or table being discussed in the chapter which has an open-access dataset (or which can be extacted from the original paper. Write up the reference and obtain the data. (In principle you must be able to replicate what was done in the paper, though you don’t actually have to).</li>
+<li>Write a short tutorial for the analysis done in the chapter for an analysis software other than R or Excel, including: GoogleSheets, OpenOffice, JASP, Jamovi, or SPSS.</li>
+<li>Identify and write out the a relevant equation that has been left out of the book and provide a reference, eg, the equation for how regression slopes are calcualted.</li>
+<li>Print out a Wikipedia entry related to the chapter (eg t-test, regression, normal distribution). Annotate it to note which aspects are similar to Motulsky’s treatment and which sections are not covered.</li>
+<li>Find a cartoon that relates to that week’s readings and write a short explanation as to why it is relevant (note: you cannot use one of the cartoons that already appear in the book are which I show in class)</li>
+<li>Find a relevant news article, blog post, etc and write a short explanation as to why it is relevant. (This is a shorter version of the full annotated bibliography)</li>
+<li>Find a relevant quote from paper, blog or podcast about a concept covered in the readings and write a short explanation as to why it is relevant</li>
+</ul>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

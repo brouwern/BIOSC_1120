@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Twitter assignment</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
+<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
+<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">BIOSC 1120: Biostatistics</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Home
+  </a>
+</li>
+<li>
+  <a href="syllabus.html">
+    <span class="fa fa-file"></span>
+     
+    Syllabus
+  </a>
+</li>
+<li>
+  <a href="bibliography.html">
+    <span class="fa fa-newspaper"></span>
+     
+    Bibliography
+  </a>
+</li>
+<li>
+  <a href="about.html">
+    <span class="fa fa-info"></span>
+     
+    About this class
+  </a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fa fa-gear"></span>
+     
+    Assignments
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li class="dropdown-header">INDEPENDENT PROJECT (IP)</li>
+    <li>
+      <a href="indproj_00-overview.html">IP Overview</a>
+    </li>
+    <li>
+      <a href="indproj_01-data_availability_email.html">IP 1 - Data availablity / project idea</a>
+    </li>
+    <li>
+      <a href="indproj_02-data_description.html">IP 2 - Data description</a>
+    </li>
+    <li>
+      <a href="indproj_03-question_analysis_description.html">IP 3 - Focal Question/Analysis description</a>
+    </li>
+    <li>
+      <a href="indproj_04-orig_data.html">IP 4 - Original data</a>
+    </li>
+    <li>
+      <a href="indproj_05-analysis_data.html">IP 5 - Analysis data</a>
+    </li>
+    <li>
+      <a href="indproj_06-intro_meth.html">IP 6 - Introduction/Methods</a>
+    </li>
+    <li class="dropdown-header"></li>
+    <li class="dropdown-header">READING ASSIGNMENTS (RRA)</li>
+    <li>
+      <a href="assign-type-reading.html">RRA Summary</a>
+    </li>
+    <li>
+      <a href="assign-log-RRA.html">Reading assignment log</a>
+    </li>
+    <li>
+      <a href="assign-annobib-web.html">Web resource write up</a>
+    </li>
+    <li>
+      <a href="assign-annobib-journal.html">Journal tutorial write up</a>
+    </li>
+    <li>
+      <a href="assign-vocab.html">Statistical vocab RRA</a>
+    </li>
+    <li>
+      <a href="assign-I_dont_get_it.html">`I dont get it get` RRA</a>
+    </li>
+    <li>
+      <a href="assign-quiz_questions.html">Quiz questions RRA</a>
+    </li>
+    <li>
+      <a href="assign-cartoons.html">Cartoons RRA</a>
+    </li>
+    <li class="dropdown-header">OTHER ASSIGNMENTS</li>
+    <li>
+      <a href="assign-twitter.html">Twitter Assignment</a>
+    </li>
+    <li class="dropdown-header">Independent project</li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fa fa-gear"></span>
+     
+    Recommended resources
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="resources-websites.html">Websites</a>
+    </li>
+    <li>
+      <a href="resources-videos.html">Videos</a>
+    </li>
+    <li>
+      <a href="blogs.html">Blogs</a>
+    </li>
+    <li>
+      <a href="podcasts.html">Podcasts</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://example.com">
+    <span class="fa fa-question fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Twitter assignment</h1>
+
+</div>
+
+
+<div id="introduction" class="section level2">
+<h2>Introduction</h2>
+<p>Scientists frequently use Twitter to communicate about their research to the public, discuss problems they are having with their work, and interact with each other socially (Bombaci et al 2015, English 2014). This is especially true among R-users, and a vibrant, inclusive community as been built. As part of this course you will be using Twitter to find resources for solving problems in R, as well as asking and answering questions about your work. In this class we will use the hashtags #learnR and #learnstats to flag our tweets related to the course. I will regularly tweet items with these hashtags that I think are relevant to the class, your interests, or to science in general.</p>
+<p>As part of this course you will be required to use Twitter at least once each week during the semester; this can easily be accomplished during class. Yes, I am asking you to use social media <em>during</em> class.</p>
+<p><br> <br></p>
+</div>
+<div id="assignment-tasks" class="section level2">
+<h2>Assignment tasks</h2>
+<p>There are 6 specific tasks you must complete for this ongoing assignment.</p>
+<ol style="list-style-type: decimal">
+<li>[___] Create a Twitter account for this course (You are free to use a personal account; I can show you how to make a parallel account using your existing email address if you want. You can also create email account using gmail just for this class.)</li>
+<li>[___] Identify at least 1 member of the R twitter community, follow them, and re-tweet at least 1 of their tweets to the class using the tag #learnR, including me <span class="citation">@lobrowR</span></li>
+<li>[___] Tweet out the link to your “Reading reinforcement - journal article” assignment</li>
+<li>[___] Tweet out the link to your “Reading reinforcement - web source” assignment</li>
+<li>[___] Tweet at least 1 question about R to me <span class="citation">@lobrowR</span> and include #rstats and #learnR so the rest of the class can see it</li>
+<li>[___] Respond to or answer at least 1 question from another student to the class.</li>
+</ol>
+<p>In addition to the 5 tweets listed above, you need to tweet something #rstats related at least once a week each week during the semester; basically, do one of the things on the list at least once each week.</p>
+<p>Probably the easiest way to accomplish this is to to open Twitter during class and tweet out any web resources you find while working. Another way to complete the tasks would be to open up Twitter while reading the book and Tweet out questions or vocab related to your work on other assignments you are working on.</p>
+<p><br><br></p>
+</div>
+<div id="learning-goals-outcomes" class="section level2">
+<h2>Learning Goals &amp; Outcomes</h2>
+<p>The goal of this set of assignments is to expose students to the Twitter R community and the diveristy of resources that can be found there. Students will gain practice ain how to locate and share useful online resources using twitter and ask appropriate questions. The hope is that this assignment will also foster an online learning community for this course.</p>
+<p><br><br></p>
+</div>
+<div id="references" class="section level2">
+<h2>References</h2>
+<p>Bombaci et al 2015. Using Twitter to communicate conservation science from a professional conference. Conservation Biology.</p>
+<p>English 2014. Why you should be on Twitter. <a href="https://www.britishecologicalsociety.org/wp-content/uploads/Twitter-Article.pdf">Bulletin of the British Ecological Society.</a></p>
+<p>O’Mahony 2014. <a href="http://www.conservationecology.org/news/twitter-as-a-tool-for-science-communication">Twitter As A Tool For Science Communication</a></p>
+<p><br><br></p>
+</div>
+<div id="twitter-assigment-details" class="section level2">
+<h2>Twitter Assigment Details</h2>
+<p>To complete this assignment you must carry out the following 6 tasks on twitter. After these initial task, the assignment is completed by Tweeting out relevant content at least once a week.</p>
+<p><br></p>
+<div id="twitter-assignment-part-1-getting-started" class="section level3">
+<h3>[___] Twitter assignment Part 1: Getting started</h3>
+<ol style="list-style-type: decimal">
+<li>[___] Establish an account on twitter.<br />
+</li>
+<li>[___] Follow your instructor <span class="citation">@lobrowR</span></li>
+<li>[___] Send a tweet to me saying “Hi, its XXXXX, I’m on twitter!”</li>
+</ol>
+<p>You can use a personal twitter account if you already have one or make one just for this class. If you want to make a new twitter account for the class separate from your personal one you</p>
+<ol style="list-style-type: decimal">
+<li>can use your university email address</li>
+<li>make a new gmail account to use</li>
+<li>If you already use gmail, you can have twitter associate 2 separate accounts with the same email address by simply adding extra periods within the address. For example, I have accounts associate with my raw email address (<a href="mailto:brouwern@gmail.com">brouwern@gmail.com</a>) and also a modified address (<a href="mailto:brouwer.n@gmail.com">brouwer.n@gmail.com</a>; note the “r.n”). This works because twitter sees “brouwern” and “brouwer.n” as 2 seperate addresses, while Google treats them the same; nothing has to be done to gmail to get this to work.</li>
+</ol>
+<p><br></p>
+</div>
+<div id="twitter-assignment-part-2-be-a-follower" class="section level3">
+<h3>[___] Twitter assignment Part 2: Be a follower</h3>
+<ol style="list-style-type: decimal">
+<li>[___] Find and follow at least 1 scientist, R user, or R or stats-related twitter account</li>
+<li>[___] Monitor this person and when they tweet something cool, send it to me and the rest of the class by including <span class="citation">@lobrowR</span> and at least one applicable tag: #learnR, #learnstats or, #rstats.</li>
+<li>[___] You can continue to re-tweet material from interesting people throughout the semester to fulfill “tweet-a-week” aspect of the assignment</li>
+</ol>
+<p>Recommended accounts include:</p>
+<ul>
+<li>Mara Averick: <span class="citation">@dataandme</span></li>
+<li>R4DS online learning community: <span class="citation">@R4DScommunity</span> “Twitter home of the #R4DS Online Learning Community (inspired by the R for Data Science text). 😍 #rstats &amp; #DataScience. Join us: <a href="https://bit.ly/2qIxlUo" class="uri">https://bit.ly/2qIxlUo</a></li>
+<li>R-Ladies Global: <span class="citation">@RLadiesGlobal</span> “…Promoting diversity in the #rstats community via meetups, mentorship &amp; global collaboration! 90+ groups worldwide. #RLadies”</li>
+<li><span class="citation">@rstatsbot1234</span> “I retweet #rstats stuff. Made by <span class="citation">@shahronak47</span>”&quot;</li>
+<li>Dr Andrew MacDonald: <span class="citation">@polesasunder</span> “What determines where organisms are found &amp; what do they do once present?”</li>
+<li>Carl Boettiger: <span class="citation">@cboettig</span> “Professor, UC Berkeley. Theoretical ecology &amp; evolution, data science, open science. Co-founder <span class="citation">@rOpenSci</span>”</li>
+</ul>
+<p><br></p>
+</div>
+<div id="twitter-assignment-parts-3-4-sharing-your-web-and-peer-reviewed-article-resources" class="section level3">
+<h3>[ ] Twitter assignment Parts 3 &amp; 4: Sharing your web *and&amp; peer reviewed article resources</h3>
+<ol style="list-style-type: decimal">
+<li>[ ] Complete the web resource and journal article Reading Reinforcement assignments</li>
+<li>[ ] Tweet to me <span class="citation">@lobrowR</span> and include applicable tags so the rest of the class can find it (#learnR, #learnstats, #rstats)</li>
+</ol>
+<p>Your tweet could look something like</p>
+<blockquote>
+<p>“Found this interesting article in Animal Behavior on the use of p-values. ‘Are significance thresholds appropriate for the study of animal behavior’ by Andrew Soehr 1999. <a href="https://www.sciencedirect.com/science/article/pii/S0003347298910168?via%3Dihub">https://www.sciencedirect.com/science/article/pii/S0003347298910168?via%3Dihub</a>”</p>
+</blockquote>
+<p><br></p>
+</div>
+<div id="twitter-assignment-part-5-ask-a-question" class="section level3">
+<h3>[ ] Twitter assignment Part 5: Ask a question</h3>
+<ol style="list-style-type: decimal">
+<li>[___] Find something in R, statistics, the book, etc you don’t understand</li>
+<li>[___] Tweet me <span class="citation">@lobrowR</span>; include applicable tags (#learnr, #learnstats, #rstats, #ecology)</li>
+<li>[___] You can continue to tweet questions to me (or other people in the class) throughout the semester to fulfill “tweet-a-week” aspect of the assignment, just include applicable tags (#learnr, #learnstats, #rstats, #ecology)</li>
+</ol>
+<p>A really good thing to tweet would be a screen grab #rstats code that isn’t working and write something like</p>
+<blockquote>
+<p>“hey <span class="citation">@lobrowr</span>, HELP!! This isn’t working #learnR.” [ include screen grab; ideally circle the thing that is particularly broken]</p>
+</blockquote>
+<p>or another good one would be</p>
+<blockquote>
+<p>“Um, <span class="citation">@lobrowr</span> the code for this week’s assignment totally isn’t working. Can u fix it?”</p>
+</blockquote>
+<p>You can also ask me something stats related from a paper or work in another class; include a screen shot of relevant text or graphs; eg</p>
+<blockquote>
+<p>“hey <span class="citation">@lobrowr</span> is there something goofy about this graph? [paste screen clip] shouldn’t the error bars be asymmetric? #learnstats #ecology”</p>
+</blockquote>
+<p><br></p>
+</div>
+<div id="twitter-assignment-part-6-answer-a-question" class="section level3">
+<h3>[___] Twitter assignment part 6: answer a question</h3>
+<ol style="list-style-type: decimal">
+<li>[___] Respond using to at least one question someone in the class has posted. You don’t even need to be right, just give you best guess!</li>
+<li>[___] You can continue to respond to questions to meet the “tweet-a-week” goal.</li>
+</ol>
+<p>A response could be</p>
+<blockquote>
+<p>“hey [handle of person in class] I think you code doesn’t work b/c you are missing a comma after data = df. LOL”</p>
+</blockquote>
+</div>
+<div id="twitter-assignment-parts-7-15-other-contributions" class="section level3">
+<h3>[___] Twitter assignment parts 7-15: other contributions</h3>
+<ol style="list-style-type: decimal">
+<li>Each week tweet out something related to your class assignments, readings, work in class, stats, stats related to your work outside of class, etc.</li>
+</ol>
+<p>Your tweets could look something like</p>
+<blockquote>
+<p>“Found this really cool ggplot code for [something cool]. check it out at [website]. Was made by [twitter handle of creater, if they use twitter] #rstats #learnr”</p>
+</blockquote>
+<p>or if you read something cool in a paper</p>
+<blockquote>
+<p>“Read this cool paper where they made cool graphs in ggplot and shared all the code online [link to paper and code] #rstats #learnr”</p>
+</blockquote>
+<p>If you aren’t sure, just tweet it out - it probably would be ok.</p>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
